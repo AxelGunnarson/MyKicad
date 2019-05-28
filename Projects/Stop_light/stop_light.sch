@@ -860,4 +860,21 @@ F 7 "865080643008" H 6000 1350 50  0001 L CNN "Manufacturer_Part_Number"
 	1    5650 1900
 	0    1    1    0   
 $EndComp
+$Comp
+L SamacSys_Parts:109159003101916 J1
+U 1 1 5CEDE861
+P 950 4600
+F 0 "J1" H 1350 4865 50  0000 C CNN
+F 1 "109159003101916" H 1350 4774 50  0000 C CNN
+F 2 "SamacSys_Parts:109159003101916" H 1600 4700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/109159003101916.pdf" H 1600 4600 50  0001 L CNN
+F 4 "Board to Board & Mezzanine Connectors 3WAY PLUG" H 1600 4500 50  0001 L CNN "Description"
+F 5 "" H 1600 4400 50  0001 L CNN "Height"
+F 6 "581-109159003101916" H 1600 4300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-109159003101916" H 1600 4200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 1600 4100 50  0001 L CNN "Manufacturer_Name"
+F 9 "109159003101916" H 1600 4000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    950  4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

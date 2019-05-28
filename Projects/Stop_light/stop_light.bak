@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED_Driver_ISSI_ALU-rescue:IS31LT3360-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue U1
+L stop_light-rescue:IS31LT3360-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue U1
 U 1 1 583A11F1
 P 6900 2300
 F 0 "U1" H 6650 2650 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "www.issi.com/WW/pdf/31LT3360.pdf" H 6950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:INDUCTOR-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue L1
+L stop_light-rescue:INDUCTOR-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue L1
 U 1 1 583A1231
 P 7800 2500
 F 0 "L1" V 7750 2500 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 7800 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C3
+L stop_light-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C3
 U 1 1 583A125C
 P 8350 1950
 F 0 "C3" H 8375 2050 50  0000 L CNN
@@ -49,7 +49,7 @@ F 4 "C1206C105K5RACAUTO" H 8350 1950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C2
+L stop_light-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C2
 U 1 1 583A1296
 P 6000 2250
 F 0 "C2" H 6025 2350 50  0000 L CNN
@@ -61,7 +61,7 @@ F 4 "C0603C104K5RECAUTO" H 6000 2250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R1
+L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R1
 U 1 1 583A132A
 P 6900 1350
 F 0 "R1" V 6980 1350 50  0000 C CNN
@@ -72,7 +72,7 @@ F 3 "" H 6900 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR01
+L stop_light-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR01
 U 1 1 583A1608
 P 5650 2500
 F 0 "#PWR01" H 5650 2250 50  0001 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 5650 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR03
+L stop_light-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR03
 U 1 1 583B1C32
 P 5650 1300
 F 0 "#PWR03" H 5650 1150 50  0001 C CNN
@@ -272,7 +272,7 @@ F 3 "~" H 3600 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:PMEG4010EGWX-SamacSys_Parts D1
+L stop_light-rescue:PMEG4010EGWX-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue D1
 U 1 1 5C7C8997
 P 6350 1750
 F 0 "D1" H 6750 2015 50  0000 C CNN
@@ -305,7 +305,7 @@ Wire Wire Line
 	4950 2400 5650 2400
 Connection ~ 4950 2400
 $Comp
-L LED_Driver_ISSI_ALU-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R8
+L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R8
 U 1 1 5C85150E
 P 6250 2750
 F 0 "R8" V 6330 2750 50  0000 C CNN
@@ -320,7 +320,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 2900 5350 2900
 $Comp
-L LED_Driver_ISSI_ALU-rescue:IS31LT3360-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue U2
+L stop_light-rescue:IS31LT3360-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue U2
 U 1 1 5CAFF695
 P 6800 5250
 F 0 "U2" H 6550 5600 50  0000 C CNN
@@ -331,7 +331,7 @@ F 3 "www.issi.com/WW/pdf/31LT3360.pdf" H 6850 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:INDUCTOR-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue L2
+L stop_light-rescue:INDUCTOR-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue L2
 U 1 1 5CAFF69C
 P 7700 5450
 F 0 "L2" V 7650 5450 50  0000 C CNN
@@ -342,7 +342,7 @@ F 3 "" H 7700 5450 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C6
+L stop_light-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C6
 U 1 1 5CAFF6A4
 P 8250 4900
 F 0 "C6" H 8275 5000 50  0000 L CNN
@@ -354,7 +354,7 @@ F 4 "C1206C105K5RACAUTO" H 8250 4900 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C5
+L stop_light-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C5
 U 1 1 5CAFF6AC
 P 5900 5200
 F 0 "C5" H 5925 5300 50  0000 L CNN
@@ -366,7 +366,7 @@ F 4 "C0603C104K5RECAUTO" H 5900 5200 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R3
+L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R3
 U 1 1 5CAFF6B3
 P 6800 4300
 F 0 "R3" V 6880 4300 50  0000 C CNN
@@ -377,7 +377,7 @@ F 3 "" H 6800 4300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR04
+L stop_light-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR04
 U 1 1 5CAFF6BA
 P 5550 5450
 F 0 "#PWR04" H 5550 5200 50  0001 C CNN
@@ -388,7 +388,7 @@ F 3 "" H 5550 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR02
+L stop_light-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR02
 U 1 1 5CAFF6C0
 P 5550 4250
 F 0 "#PWR02" H 5550 4100 50  0001 C CNN
@@ -533,7 +533,7 @@ F 3 "~" H 3500 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:PMEG4010EGWX-SamacSys_Parts D2
+L stop_light-rescue:PMEG4010EGWX-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue D2
 U 1 1 5CAFF74B
 P 6250 4700
 F 0 "D2" H 6650 4965 50  0000 C CNN
@@ -566,7 +566,7 @@ Wire Wire Line
 	4850 5350 5550 5350
 Connection ~ 4850 5350
 $Comp
-L LED_Driver_ISSI_ALU-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R2
+L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R2
 U 1 1 5CAFF75D
 P 6150 5700
 F 0 "R2" V 6230 5700 50  0000 C CNN
@@ -600,7 +600,7 @@ F 3 "~" H 10200 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:IS31LT3360-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue U3
+L stop_light-rescue:IS31LT3360-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue U3
 U 1 1 5CE91534
 P 6800 8000
 F 0 "U3" H 6550 8350 50  0000 C CNN
@@ -611,7 +611,7 @@ F 3 "www.issi.com/WW/pdf/31LT3360.pdf" H 6850 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:INDUCTOR-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue L3
+L stop_light-rescue:INDUCTOR-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue L3
 U 1 1 5CE9153A
 P 7700 8200
 F 0 "L3" V 7650 8200 50  0000 C CNN
@@ -622,7 +622,7 @@ F 3 "" H 7700 8200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C9
+L stop_light-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C9
 U 1 1 5CE91541
 P 8250 7650
 F 0 "C9" H 8275 7750 50  0000 L CNN
@@ -634,7 +634,7 @@ F 4 "C1206C105K5RACAUTO" H 8250 7650 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C8
+L stop_light-rescue:C-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C8
 U 1 1 5CE91548
 P 5900 7950
 F 0 "C8" H 5925 8050 50  0000 L CNN
@@ -646,7 +646,7 @@ F 4 "C0603C104K5RECAUTO" H 5900 7950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R5
+L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R5
 U 1 1 5CE9154E
 P 6800 7050
 F 0 "R5" V 6880 7050 50  0000 C CNN
@@ -657,7 +657,7 @@ F 3 "" H 6800 7050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR06
+L stop_light-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR06
 U 1 1 5CE91554
 P 5550 8200
 F 0 "#PWR06" H 5550 7950 50  0001 C CNN
@@ -668,7 +668,7 @@ F 3 "" H 5550 8200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR05
+L stop_light-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR05
 U 1 1 5CE9155A
 P 5550 7000
 F 0 "#PWR05" H 5550 6850 50  0001 C CNN
@@ -732,7 +732,7 @@ Wire Wire Line
 	5900 7600 5550 7600
 Connection ~ 5900 7800
 $Comp
-L LED_Driver_ISSI_ALU-rescue:865080643008-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue C7
+L stop_light-rescue:865080643008-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C7
 U 1 1 5CE915A8
 P 5550 7600
 F 0 "C7" V 5754 7730 50  0000 L CNN
@@ -770,7 +770,7 @@ F 3 "~" H 3500 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:PMEG4010EGWX-SamacSys_Parts D18
+L stop_light-rescue:PMEG4010EGWX-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue D18
 U 1 1 5CE915C1
 P 6250 7450
 F 0 "D18" H 6650 7715 50  0000 C CNN
@@ -803,7 +803,7 @@ Wire Wire Line
 	4850 8100 5550 8100
 Connection ~ 4850 8100
 $Comp
-L LED_Driver_ISSI_ALU-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R4
+L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R4
 U 1 1 5CE915D0
 P 6150 8450
 F 0 "R4" V 6230 8450 50  0000 C CNN
@@ -831,7 +831,7 @@ Connection ~ 8250 7050
 Wire Wire Line
 	10300 7050 12050 7050
 $Comp
-L LED_Driver_ISSI_ALU-rescue:865080643008-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue C4
+L stop_light-rescue:865080643008-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C4
 U 1 1 5CAFF731
 P 5550 4850
 F 0 "C4" V 5754 4980 50  0000 L CNN
@@ -846,7 +846,7 @@ F 7 "865080643008" H 5900 4300 50  0001 L CNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:865080643008-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue C1
+L stop_light-rescue:865080643008-SamacSys_Parts-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue C1
 U 1 1 5C098AE6
 P 5650 1900
 F 0 "C1" V 5854 2030 50  0000 L CNN
