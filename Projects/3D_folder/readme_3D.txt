@@ -1,1 +1,0 @@
-this folder shall contain 3d files such as PCBA from stepup, *.FCStd adn *step
