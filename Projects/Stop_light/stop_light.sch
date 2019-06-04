@@ -303,7 +303,6 @@ Wire Wire Line
 	4950 2300 4950 2400
 Wire Wire Line
 	4950 2400 5650 2400
-Connection ~ 4950 2400
 $Comp
 L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R8
 U 1 1 5C85150E
@@ -564,7 +563,6 @@ Wire Wire Line
 	4850 5250 4850 5350
 Wire Wire Line
 	4850 5350 5550 5350
-Connection ~ 4850 5350
 $Comp
 L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R2
 U 1 1 5CAFF75D
@@ -580,10 +578,6 @@ Wire Wire Line
 	6150 5550 6150 5450
 Wire Wire Line
 	6150 5850 5250 5850
-Wire Wire Line
-	2300 2400 4950 2400
-Wire Wire Line
-	2200 5350 4850 5350
 Text Label 5350 2900 0    60   ~ 0
 adj
 Text Label 5250 5850 0    60   ~ 0
@@ -651,7 +645,7 @@ U 1 1 5CE9154E
 P 6800 7050
 F 0 "R5" V 6880 7050 50  0000 C CNN
 F 1 "0.22" V 6800 7050 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 6730 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6730 7050 50  0000 C CNN
 F 3 "" H 6800 7050 50  0000 C CNN
 	1    6800 7050
 	0    1    1    0   
@@ -737,7 +731,7 @@ U 1 1 5CE915A8
 P 5550 7600
 F 0 "C7" V 5754 7730 50  0000 L CNN
 F 1 "22uF" V 5950 7650 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPAE660X560N" H 5900 7650 50  0001 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 5900 7650 50  0001 L CNN
 F 3 "" H 5900 7550 50  0001 L CNN
 F 4 "Wurth Elektronik 22F 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 5.35mm" H 5900 7450 50  0001 L CNN "Description"
 F 5 "5.6" H 5900 7350 50  0001 L CNN "Height"
@@ -801,7 +795,6 @@ Wire Wire Line
 	4850 8000 4850 8100
 Wire Wire Line
 	4850 8100 5550 8100
-Connection ~ 4850 8100
 $Comp
 L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue R4
 U 1 1 5CE915D0
@@ -817,8 +810,6 @@ Wire Wire Line
 	6150 8300 6150 8200
 Wire Wire Line
 	6150 8600 5250 8600
-Wire Wire Line
-	2200 8100 4850 8100
 Text Label 5250 8600 0    60   ~ 0
 adj
 Wire Wire Line
@@ -836,7 +827,7 @@ U 1 1 5CAFF731
 P 5550 4850
 F 0 "C4" V 5754 4980 50  0000 L CNN
 F 1 "22uF" V 5950 4900 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPAE660X560N" H 5900 4900 50  0001 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 5900 4900 50  0001 L CNN
 F 3 "" H 5900 4800 50  0001 L CNN
 F 4 "Wurth Elektronik 22F 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 5.35mm" H 5900 4700 50  0001 L CNN "Description"
 F 5 "5.6" H 5900 4600 50  0001 L CNN "Height"
@@ -851,7 +842,7 @@ U 1 1 5C098AE6
 P 5650 1900
 F 0 "C1" V 5854 2030 50  0000 L CNN
 F 1 "22uF" V 6050 1950 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPAE660X560N" H 6000 1950 50  0001 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 6000 1950 50  0001 L CNN
 F 3 "" H 6000 1850 50  0001 L CNN
 F 4 "Wurth Elektronik 22F 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 5.35mm" H 6000 1750 50  0001 L CNN "Description"
 F 5 "5.6" H 6000 1650 50  0001 L CNN "Height"
@@ -861,7 +852,7 @@ F 7 "865080643008" H 6000 1350 50  0001 L CNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L SamacSys_Parts:109159003101916 J1
+L stop_light-rescue:109159003101916-SamacSys_Parts J1
 U 1 1 5CEDE861
 P 950 4600
 F 0 "J1" H 1350 4865 50  0000 C CNN
@@ -877,4 +868,38 @@ F 9 "109159003101916" H 1600 4000 50  0001 L CNN "Manufacturer_Part_Number"
 	1    950  4600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 950  4800
+NoConn ~ 1750 4700
+$Comp
+L stop_light-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR0101
+U 1 1 5CF72751
+P 800 4400
+F 0 "#PWR0101" H 800 4250 50  0001 C CNN
+F 1 "VCC" H 800 4550 50  0000 C CNN
+F 2 "" H 800 4400 50  0000 C CNN
+F 3 "" H 800 4400 50  0000 C CNN
+	1    800  4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4400 800  4600
+Wire Wire Line
+	800  4600 950  4600
+$Comp
+L stop_light-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR0102
+U 1 1 5CF769AC
+P 2150 4700
+F 0 "#PWR0102" H 2150 4450 50  0001 C CNN
+F 1 "GND" H 2150 4550 50  0000 C CNN
+F 2 "" H 2150 4700 50  0000 C CNN
+F 3 "" H 2150 4700 50  0000 C CNN
+	1    2150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4700 2150 4600
+Wire Wire Line
+	2150 4600 1750 4600
+Text Label 950  4700 2    60   ~ 0
+adj
 $EndSCHEMATC

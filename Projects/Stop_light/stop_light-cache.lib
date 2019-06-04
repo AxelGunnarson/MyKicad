@@ -24,11 +24,24 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_109159003101916
+# power_PWR_FLAG
 #
-DEF SamacSys_Parts_109159003101916 J 0 30 Y Y 1 F N
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# stop_light-rescue_109159003101916-SamacSys_Parts
+#
+DEF stop_light-rescue_109159003101916-SamacSys_Parts J 0 30 Y Y 1 F N
 F0 "J" 650 300 50 H V L CNN
-F1 "SamacSys_Parts_109159003101916" 650 200 50 H V L CNN
+F1 "stop_light-rescue_109159003101916-SamacSys_Parts" 650 200 50 H V L CNN
 F2 "109159003101916" 650 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/109159003101916.pdf" 650 0 50 H I L CNN
 F4 "Board to Board & Mezzanine Connectors 3WAY PLUG" 650 -100 50 H I L CNN "Description"
@@ -43,19 +56,6 @@ X 2 2 800 0 200 L 50 50 0 0 B
 X 3 3 0 -100 200 R 50 50 0 0 B
 X 4 4 800 -100 200 L 50 50 0 0 B
 X 5 5 0 -200 200 R 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
