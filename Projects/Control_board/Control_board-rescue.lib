@@ -1,0 +1,221 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue
+#
+DEF 43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue" 650 200 50 H V L CNN
+F2 "43045-0200" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf" 650 0 50 H I L CNN
+F4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "538-43045-0200" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "43045-0200" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue
+#
+DEF 43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue" 650 200 50 H V L CNN
+F2 "430450401" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
+F8 "43045-0401" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# BD1HD500FVM-CTR-SamacSys_Parts
+#
+DEF BD1HD500FVM-CTR-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BD1HD500FVM-CTR-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "SOP65P400X90-8N" 1050 100 50 H I L CNN
+F3 "https://mouser.componentsearchengine.com/Datasheets/1/BD1HD500FVM-CTR.pdf" 1050 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution 1ch High-side swtch 4-18V; TSD slf-rest." 1050 -100 50 H I L CNN "Description"
+F5 "0.9" 1050 -200 50 H I L CNN "Height"
+F6 "ROHM Semiconductor" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F7 "BD1HD500FVM-CTR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 B
+X OUT_1 3 0 -200 200 R 50 50 0 0 B
+X OUT_2 4 0 -300 200 R 50 50 0 0 B
+X VDD_1 5 1200 -300 200 L 50 50 0 0 B
+X VDD_2 6 1200 -200 200 L 50 50 0 0 B
+X NC 7 1200 -100 200 L 50 50 0 0 B
+X ST 8 1200 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# BSP76_E6433-SamacSys_Parts
+#
+DEF BSP76_E6433-SamacSys_Parts Q 0 30 Y Y 1 F N
+F0 "Q" 1250 300 50 H V L CNN
+F1 "BSP76_E6433-SamacSys_Parts" 1250 200 50 H V L CNN
+F2 "SOT230P700X170-4N" 1250 100 50 H I L CNN
+F3 "https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf" 1250 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR" 1250 -100 50 H I L CNN "Description"
+F5 "1.7" 1250 -200 50 H I L CNN "Height"
+F6 "Infineon" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F7 "BSP76 E6433" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 B
+X DRAIN_1 2 0 -100 200 R 50 50 0 0 B
+X SOURCE 3 1400 0 200 L 50 50 0 0 B
+X DRAIN_2 4 1400 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue
+#
+DEF DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -50 300 -450 0 1 0 N
+X IN+ 1 -400 -100 100 R 50 50 1 1 I
+X IN- 2 -400 -400 100 R 50 50 1 1 I
+X OUT- 3 400 -400 100 L 50 50 1 1 I
+X OUT+ 4 400 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ESP8266-12E_ESP-12E-ESP8266-12E_ESP-12E-Control_board-rescue-Control_board-rescue
+#
+DEF ESP8266-12E_ESP-12E-ESP8266-12E_ESP-12E-Control_board-rescue-Control_board-rescue U 0 40 Y Y 1 L N
+F0 "U" -501 721 50 H V L BNN
+F1 "ESP8266-12E_ESP-12E-ESP8266-12E_ESP-12E-Control_board-rescue-Control_board-rescue" -500 -921 50 H V L BNN
+F2 "XCVR_ESP8266-12E/ESP-12E" 0 0 50 H I L BNN
+F3 "AI-Thinker" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "This WiFi module has a 32-bit MCU micro and clock speeds supporting 80 MHz or 160 MHz. Supports the RTOS and integrated Wi-Fi MAC/BB/RF/PA/LNA, and has an on-board antenna." 0 0 50 H I L BNN
+F6 "ESP8266-12E/ESP-12E" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -500 -800 -500 700 N
+P 2 0 0 10 -500 700 500 700 N
+P 2 0 0 10 500 -800 -500 -800 N
+P 2 0 0 10 500 700 500 -800 N
+X RESET 1 -700 600 200 R 40 40 0 0 I
+X MISO 10 -700 0 200 R 40 40 0 0 B
+X IO9 11 -700 -600 200 R 40 40 0 0 B
+X IO10 12 -700 -700 200 R 40 40 0 0 B
+X MOSI 13 -700 100 200 R 40 40 0 0 B
+X SCLK 14 -700 300 200 R 40 40 0 0 I C
+X GND 15 700 -700 200 L 40 40 0 0 W
+X IO15 16 700 -400 200 L 40 40 0 0 B
+X IO2 17 -700 -300 200 R 40 40 0 0 B
+X IO0 18 -700 -200 200 R 40 40 0 0 B
+X IO4 19 -700 -400 200 R 40 40 0 0 B
+X ADC 2 700 100 200 L 40 40 0 0 P
+X IO5 20 -700 -500 200 R 40 40 0 0 B
+X RXD 21 -700 400 200 R 40 40 0 0 I
+X TXD 22 700 300 200 L 40 40 0 0 O
+X EN 3 -700 500 200 R 40 40 0 0 I
+X IO16 4 700 -500 200 L 40 40 0 0 B
+X IO14 5 700 -300 200 L 40 40 0 0 B
+X IO12 6 700 -100 200 L 40 40 0 0 B
+X IO13 7 700 -200 200 L 40 40 0 0 B
+X VCC 8 700 600 200 L 40 40 0 0 W
+X CS0 9 -700 200 200 R 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+# PB114024-SamacSys_Parts-Control_board-rescue-Control_board-rescue
+#
+DEF PB114024-SamacSys_Parts-Control_board-rescue-Control_board-rescue K 0 30 Y Y 1 F N
+F0 "K" 1050 300 50 H V L CNN
+F1 "PB114024-SamacSys_Parts-Control_board-rescue-Control_board-rescue" 1050 200 50 H V L CNN
+F2 "PB114024" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PB114024.pdf" 1050 0 50 H I L CNN
+F4 "Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc" 1050 -100 50 H I L CNN "Description"
+F5 "20" 1050 -200 50 H I L CNN "Height"
+F6 "655-PB114024" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "TE Connectivity" 1050 -400 50 H I L CNN "Manufacturer_Name"
+F8 "PB114024" 1050 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X COM 11 0 0 200 R 50 50 0 0 B
+X NC 12 0 -100 200 R 50 50 0 0 B
+X NO 14 0 -200 200 R 50 50 0 0 B
+X COIL_1 A1 1200 0 200 L 50 50 0 0 B
+X COIL_2 A2 1200 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# PDTD113ET,215-SamacSys_Parts-Control_board-rescue-Control_board-rescue
+#
+DEF PDTD113ET,215-SamacSys_Parts-Control_board-rescue-Control_board-rescue Q 0 30 Y Y 1 F N
+F0 "Q" 750 600 50 H V L BNN
+F1 "PDTD113ET,215-SamacSys_Parts-Control_board-rescue-Control_board-rescue" 750 500 50 H V L BNN
+F2 "SOT95P230X110-3N" 750 400 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/1/PDTD113ET,215.pdf" 750 300 50 H I L BNN
+F4 "PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm" 750 200 50 H I L BNN "Description"
+F5 "1.1" 750 100 50 H I L BNN "Height"
+F6 "771-PDTD113ET215" 750 0 50 H I L BNN "Mouser Part Number"
+F7 "Nexperia" 750 -100 50 H I L BNN "Manufacturer_Name"
+F8 "PDTD113ET,215" 750 -200 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+C 450 0 10 0 1 15 N
+C 650 -400 10 0 1 15 N
+T 0 260 100 50 0 0 1 R1 Normal 0 C C
+T 0 510 -200 50 0 0 1 R2 Normal 0 L C
+P 2 0 1 6 100 0 150 0 N
+P 2 0 1 6 450 0 550 0 N
+P 2 0 1 6 550 -20 650 -120 N
+P 2 0 1 6 550 30 650 130 N
+P 2 0 1 20 550 80 550 -70 N
+P 2 0 1 6 650 -120 650 -400 N
+P 3 0 1 6 450 -300 450 -400 700 -400 N
+P 3 0 1 6 450 -100 450 0 350 0 N
+P 3 0 1 6 650 130 650 200 700 200 N
+P 4 0 1 10 580 -70 600 -50 620 -90 580 -70 F
+P 5 0 1 6 150 -40 150 40 350 40 350 -40 150 -40 N
+P 5 0 1 6 490 -300 410 -300 410 -100 490 -100 490 -300 N
+P 5 0 1 6 700 300 700 -500 100 -500 100 300 700 300 N
+X ~ 1 0 0 100 R 50 50 0 0 B
+X ~ 2 800 -400 100 L 50 50 0 0 B
+X ~ 3 800 200 100 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue
+#
+DEF PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue LS 0 30 Y Y 1 F N
+F0 "LS" 650 300 50 H V L CNN
+F1 "PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue" 650 200 50 H V L CNN
+F2 "PS1240P02BT" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" 650 0 50 H I L CNN
+F4 "Audio Indicators & Alerts Round 12.2mmx6.5mm 4kHz Vin=3V" 650 -100 50 H I L CNN "Description"
+F5 "810-PS1240P02BT" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "TDK" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "PS1240P02BT" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
