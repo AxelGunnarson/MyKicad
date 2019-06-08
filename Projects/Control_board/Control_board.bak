@@ -601,22 +601,6 @@ Wire Wire Line
 	850  9700 2150 9700
 NoConn ~ 10650 5400
 $Comp
-L Control_board-rescue:43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue J5
-U 1 1 5C75F026
-P 9100 7500
-F 0 "J5" V 9454 7628 50  0000 L CNN
-F 1 "43045-0401" V 9545 7628 50  0000 L CNN
-F 2 "SamacSys_Parts:430450401" H 9750 7600 50  0001 L CNN
-F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 9750 7500 50  0001 L CNN
-F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 9750 7400 50  0001 L CNN "Description"
-F 5 "8" H 9750 7300 50  0001 L CNN "Height"
-F 6 "538-43045-0401" H 9750 7200 50  0001 L CNN "Mouser Part Number"
-F 7 "Molex" H 9750 7100 50  0001 L CNN "Manufacturer_Name"
-F 8 "43045-0401" H 9750 7000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9100 7500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0135
 U 1 1 5C75F0C5
 P 9900 7500
@@ -1008,8 +992,6 @@ Wire Wire Line
 	7900 1250 7900 3150
 Text Label 11750 2350 0    50   ~ 0
 NTC
-Text Label 11750 2450 0    50   ~ 0
-LDR
 $Comp
 L power:+36V #PWR015
 U 1 1 5C8C2FA1
@@ -1563,8 +1545,6 @@ Text Label 6650 3050 2    50   ~ 0
 pump
 Text Label 12250 8600 2    50   ~ 0
 fan_status
-Text Label 13650 8200 0    50   ~ 0
-LDR
 Text Label 13650 8100 0    50   ~ 0
 NTC
 Text Label 7650 3350 0    50   ~ 0
@@ -1573,4 +1553,22 @@ Text Label 11750 2050 0    50   ~ 0
 ADJ_LED
 Text Label 13650 8400 0    50   ~ 0
 ADJ
+Text Label 13650 8200 0    50   ~ 0
+LDR
+$Comp
+L SamacSys_Parts:43045-0401 J5
+U 1 1 5CFE9C0C
+P 9100 7500
+F 0 "J5" H 9500 7765 50  0000 C CNN
+F 1 "43045-0401" H 9500 7674 50  0000 C CNN
+F 2 "SamacSys_Parts:430450401" H 9750 7600 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 9750 7500 50  0001 L CNN
+F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 9750 7400 50  0001 L CNN "Description"
+F 5 "8" H 9750 7300 50  0001 L CNN "Height"
+F 6 "538-43045-0401" H 9750 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "Molex" H 9750 7100 50  0001 L CNN "Manufacturer_Name"
+F 8 "43045-0401" H 9750 7000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9100 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

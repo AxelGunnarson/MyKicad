@@ -601,22 +601,6 @@ Wire Wire Line
 	850  9700 2150 9700
 NoConn ~ 10650 5400
 $Comp
-L Control_board-rescue:43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue J5
-U 1 1 5C75F026
-P 9100 7500
-F 0 "J5" V 9454 7628 50  0000 L CNN
-F 1 "43045-0401" V 9545 7628 50  0000 L CNN
-F 2 "SamacSys_Parts:430450401" H 9750 7600 50  0001 L CNN
-F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 9750 7500 50  0001 L CNN
-F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 9750 7400 50  0001 L CNN "Description"
-F 5 "8" H 9750 7300 50  0001 L CNN "Height"
-F 6 "538-43045-0401" H 9750 7200 50  0001 L CNN "Mouser Part Number"
-F 7 "Molex" H 9750 7100 50  0001 L CNN "Manufacturer_Name"
-F 8 "43045-0401" H 9750 7000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9100 7500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0135
 U 1 1 5C75F0C5
 P 9900 7500
@@ -1006,38 +990,17 @@ Wire Wire Line
 	7900 3150 7650 3150
 Wire Wire Line
 	7900 1250 7900 3150
-Text Label 11750 2350 0    50   ~ 0
-NTC
 $Comp
 L power:+36V #PWR015
 U 1 1 5C8C2FA1
-P 12100 1800
-F 0 "#PWR015" H 12100 1650 50  0001 C CNN
-F 1 "+36V" H 12115 1973 50  0000 C CNN
-F 2 "" H 12100 1800 50  0001 C CNN
-F 3 "" H 12100 1800 50  0001 C CNN
-	1    12100 1800
+P 11800 1400
+F 0 "#PWR015" H 11800 1250 50  0001 C CNN
+F 1 "+36V" H 11815 1573 50  0000 C CNN
+F 2 "" H 11800 1400 50  0001 C CNN
+F 3 "" H 11800 1400 50  0001 C CNN
+	1    11800 1400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5C8C3004
-P 12250 2150
-F 0 "#PWR017" H 12250 1900 50  0001 C CNN
-F 1 "GND" H 12255 1977 50  0000 C CNN
-F 2 "" H 12250 2150 50  0001 C CNN
-F 3 "" H 12250 2150 50  0001 C CNN
-	1    12250 2150
-	1    0    0    -1  
-$EndComp
-Text Label 11750 2550 0    50   ~ 0
-12V_Fan
-Wire Wire Line
-	12250 2150 11750 2150
-Wire Wire Line
-	11750 2250 12100 2250
-Wire Wire Line
-	12100 1800 12100 2250
 $Comp
 L Sensor_Optical:LDR03 R4
 U 1 1 5C995AC8
@@ -1147,17 +1110,6 @@ Wire Wire Line
 	14350 5100 14350 5250
 Wire Wire Line
 	14350 5250 14250 5250
-$Comp
-L Connector_Generic:Conn_01x08 J1
-U 1 1 5CA02812
-P 11550 2450
-F 0 "J1" H 11470 1825 50  0000 C CNN
-F 1 "505567-0681" H 11470 1916 50  0000 C CNN
-F 2 "SamacSys_Parts:5055670681" H 11550 2450 50  0001 C CNN
-F 3 "~" H 11550 2450 50  0001 C CNN
-	1    11550 2450
-	-1   0    0    1   
-$EndComp
 $Comp
 L Control_board-rescue:BSP76_E6433-SamacSys_Parts Q5
 U 1 1 5C998A0E
@@ -1565,10 +1517,66 @@ Text Label 13650 8100 0    50   ~ 0
 NTC
 Text Label 7650 3350 0    50   ~ 0
 ADJ
-Text Label 11750 2050 0    50   ~ 0
+Text Label 11400 1600 0    50   ~ 0
 ADJ_LED
 Text Label 13650 8400 0    50   ~ 0
 ADJ
 Text Label 13650 8200 0    50   ~ 0
 LDR
+$Comp
+L SamacSys_Parts:43045-0401 J5
+U 1 1 5CFE9C0C
+P 9100 7500
+F 0 "J5" H 9500 7765 50  0000 C CNN
+F 1 "43045-0401" H 9500 7674 50  0000 C CNN
+F 2 "SamacSys_Parts:430450401" H 9750 7600 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 9750 7500 50  0001 L CNN
+F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 9750 7400 50  0001 L CNN "Description"
+F 5 "8" H 9750 7300 50  0001 L CNN "Height"
+F 6 "538-43045-0401" H 9750 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "Molex" H 9750 7100 50  0001 L CNN "Manufacturer_Name"
+F 8 "43045-0401" H 9750 7000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:505567-0871 J1
+U 1 1 5CFCA1AA
+P 10500 1300
+F 0 "J1" H 10950 1565 50  0000 C CNN
+F 1 "505567-0871" H 10950 1474 50  0000 C CNN
+F 2 "5055670871" H 11250 1400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/505567-0871.pdf" H 11250 1300 50  0001 L CNN
+F 4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 8CKT BLK" H 11250 1200 50  0001 L CNN "Description"
+F 5 "4" H 11250 1100 50  0001 L CNN "Height"
+F 6 "538-505567-0871" H 11250 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0871" H 11250 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 11250 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "505567-0871" H 11250 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 1400 11800 1500
+Wire Wire Line
+	11800 1500 11400 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5CFD25A9
+P 10150 1650
+F 0 "#PWR?" H 10150 1400 50  0001 C CNN
+F 1 "GND" H 10155 1477 50  0000 C CNN
+F 2 "" H 10150 1650 50  0001 C CNN
+F 3 "" H 10150 1650 50  0001 C CNN
+	1    10150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 1650 10150 1600
+Wire Wire Line
+	10150 1600 10500 1600
+Text Label 10500 1400 2    50   ~ 0
+12V_Fan
+Text Label 10500 1500 2    50   ~ 0
+NTC
 $EndSCHEMATC

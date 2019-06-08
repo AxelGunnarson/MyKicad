@@ -47,37 +47,6 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x08
-#
-DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
-F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 50 -450 1 1 10 f
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-X Pin_8 8 -200 -400 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Control_board-rescue_43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue
 #
 DEF Control_board-rescue_43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue J 0 30 Y Y 1 F N
@@ -93,27 +62,6 @@ DRAW
 P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
 X 1 1 0 0 200 R 50 50 0 0 B
 X 2 2 800 0 200 L 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
-# Control_board-rescue_43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue
-#
-DEF Control_board-rescue_43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "Control_board-rescue_43045-0401-SamacSys_Parts-Control_board-rescue-Control_board-rescue" 650 200 50 H V L CNN
-F2 "430450401" 650 100 50 H I L CNN
-F3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" 650 0 50 H I L CNN
-F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
-F5 "8" 650 -200 50 H I L CNN "Height"
-F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
-F7 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
-F8 "43045-0401" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 B
-X 2 2 800 0 200 L 50 50 0 0 B
-X 3 3 0 -100 200 R 50 50 0 0 B
-X 4 4 800 -100 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
@@ -499,6 +447,55 @@ S -200 75 200 -200 1 1 10 f
 X VI 1 -300 0 100 R 50 50 1 1 W
 X GND 2 0 -300 100 U 50 50 1 1 W
 X VO 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_43045-0401
+#
+DEF SamacSys_Parts_43045-0401 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_43045-0401" 650 200 50 H V L CNN
+F2 "430450401" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
+F8 "43045-0401" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_505567-0871
+#
+DEF SamacSys_Parts_505567-0871 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_505567-0871" 750 200 50 H V L CNN
+F2 "5055670871" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/505567-0871.pdf" 750 0 50 H I L CNN
+F4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 8CKT BLK" 750 -100 50 H I L CNN "Description"
+F5 "4" 750 -200 50 H I L CNN "Height"
+F6 "538-505567-0871" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0871" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "505567-0871" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #

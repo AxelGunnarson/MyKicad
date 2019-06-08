@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LED_Driver_ISSI_ALU-rescue)(type Legacy)(uri ${KIPRJMOD}/LED_Driver_ISSI_ALU-rescue.lib)(options "")(descr ""))
+)

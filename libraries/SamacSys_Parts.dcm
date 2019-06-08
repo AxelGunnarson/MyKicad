@@ -12,4 +12,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/AL8860WT-7.pdf
 $ENDCMP
 #
+$CMP 43045-0401
+D Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A
+K
+F https://componentsearchengine.com/Datasheets/1/43045-0401.pdf
+$ENDCMP
+#
 #End Doc Library
