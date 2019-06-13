@@ -1,6 +1,6 @@
-update=2019-05-28 09:45:39
+update=2019-06-13 14:35:16
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -245,8 +245,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=VCC
-Clearance=0.2
-TrackWidth=1
+Clearance=0.3
+TrackWidth=0.7
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -256,8 +256,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=power
-Clearance=0.2
-TrackWidth=1
+Clearance=0.3
+TrackWidth=0.7
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3

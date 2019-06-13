@@ -65,8 +65,8 @@ L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driv
 U 1 1 583A132A
 P 6900 1350
 F 0 "R1" V 6980 1350 50  0000 C CNN
-F 1 "0.22" V 6900 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 6830 1350 50  0000 C CNN
+F 1 "0.3" V 6900 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6830 1350 50  0000 C CNN
 F 3 "" H 6900 1350 50  0000 C CNN
 	1    6900 1350
 	0    1    1    0   
@@ -369,8 +369,8 @@ L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driv
 U 1 1 5CAFF6B3
 P 6800 4300
 F 0 "R3" V 6880 4300 50  0000 C CNN
-F 1 "0.22" V 6800 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 6730 4300 50  0000 C CNN
+F 1 "0.3" V 6800 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6730 4300 50  0000 C CNN
 F 3 "" H 6800 4300 50  0000 C CNN
 	1    6800 4300
 	0    1    1    0   
@@ -644,7 +644,7 @@ L stop_light-rescue:R-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driv
 U 1 1 5CE9154E
 P 6800 7050
 F 0 "R5" V 6880 7050 50  0000 C CNN
-F 1 "0.22" V 6800 7050 50  0000 C CNN
+F 1 "0.3" V 6800 7050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6730 7050 50  0000 C CNN
 F 3 "" H 6800 7050 50  0000 C CNN
 	1    6800 7050
@@ -842,7 +842,7 @@ U 1 1 5C098AE6
 P 5650 1900
 F 0 "C1" V 5854 2030 50  0000 L CNN
 F 1 "22uF" V 6050 1950 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPAE660X560N" H 6000 1950 50  0001 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 6000 1950 50  0001 L CNN
 F 3 "" H 6000 1850 50  0001 L CNN
 F 4 "Wurth Elektronik 22F 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 5.35mm" H 6000 1750 50  0001 L CNN "Description"
 F 5 "5.6" H 6000 1650 50  0001 L CNN "Height"
@@ -873,18 +873,18 @@ NoConn ~ 1750 4700
 $Comp
 L stop_light-rescue:VCC-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR0101
 U 1 1 5CF72751
-P 800 4400
-F 0 "#PWR0101" H 800 4250 50  0001 C CNN
-F 1 "VCC" H 800 4550 50  0000 C CNN
-F 2 "" H 800 4400 50  0000 C CNN
-F 3 "" H 800 4400 50  0000 C CNN
-	1    800  4400
+P 800 4500
+F 0 "#PWR0101" H 800 4350 50  0001 C CNN
+F 1 "VCC" H 800 4650 50  0000 C CNN
+F 2 "" H 800 4500 50  0000 C CNN
+F 3 "" H 800 4500 50  0000 C CNN
+	1    800  4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  4400 800  4600
+	800  4500 800  4700
 Wire Wire Line
-	800  4600 950  4600
+	800  4700 950  4700
 $Comp
 L stop_light-rescue:GND-LED_Driver_ISSI-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue-LED_Driver_ISSI_ALU-rescue #PWR0102
 U 1 1 5CF769AC
@@ -900,6 +900,8 @@ Wire Wire Line
 	2150 4700 2150 4600
 Wire Wire Line
 	2150 4600 1750 4600
-Text Label 950  4700 2    60   ~ 0
+Text Label 950  4600 2    60   ~ 0
 adj
+Text Notes 6250 1150 0    60   ~ 0
+Iout=0,1/Rs => 0,1/0,3= 330mA
 $EndSCHEMATC
