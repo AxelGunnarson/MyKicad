@@ -18,4 +18,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/43045-0401.pdf
 $ENDCMP
 #
+$CMP PCA9615DPJ
+D NXP - PCA9615DPJ - BUFFER, DIFFERENTIAL I2C-BUS, TSSOP-10
+K
+F https://componentsearchengine.com/Datasheets/1/PCA9615DPJ.pdf
+$ENDCMP
+#
 #End Doc Library
