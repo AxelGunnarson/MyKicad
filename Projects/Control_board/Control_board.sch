@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Control_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -414,11 +414,11 @@ Text Label 4000 7550 0    50   ~ 0
 fan
 Text Label 5200 10050 0    50   ~ 0
 mistmaker
-Text Label 6650 2450 2    50   ~ 0
+Text Label 6400 2450 2    50   ~ 0
 airstone_pump
-Text Label 6650 2550 2    50   ~ 0
+Text Label 6400 2550 2    50   ~ 0
 fan
-Text Label 7650 3650 0    50   ~ 0
+Text Label 7750 3650 0    50   ~ 0
 mistmaker
 $Comp
 L power:GND #PWR0134
@@ -506,7 +506,7 @@ NoConn ~ 10350 8750
 Connection ~ 8750 8750
 Text Label 7000 8750 2    50   ~ 0
 Temp_data_3V3
-Text Label 6650 2750 2    50   ~ 0
+Text Label 6400 2750 2    50   ~ 0
 Temp_data_3V3
 $Comp
 L power:+3.3V #PWR0137
@@ -654,8 +654,6 @@ Wire Wire Line
 	8750 8300 8750 8350
 Text Label 4050 3900 0    50   ~ 0
 pump
-Text Label 6650 2850 2    50   ~ 0
-heating_element
 $Comp
 L power:+36V #PWR05
 U 1 1 5C74D009
@@ -1033,11 +1031,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 7850 4000 7850
 NoConn ~ 2800 7650
-Text Label 4000 7750 0    50   ~ 0
-fan_+12V
 Text Label 2800 7550 2    50   ~ 0
 fan_status
-Text Label 6650 2950 2    50   ~ 0
+Text Label 6400 2950 2    50   ~ 0
 fan_status
 $Comp
 L Device:LED D2
@@ -1197,7 +1193,7 @@ Wire Wire Line
 	5550 10150 5550 10050
 Wire Wire Line
 	5550 10050 5200 10050
-Text Label 7650 3750 0    50   ~ 0
+Text Label 7750 3750 0    50   ~ 0
 pump
 Text Label 7650 3350 0    50   ~ 0
 ADJ
@@ -1650,7 +1646,7 @@ F 3 "" H 10150 6650 50  0001 C CNN
 $EndComp
 Text Label 10800 7000 2    50   ~ 0
 EN
-Text Label 6650 2650 2    50   ~ 0
+Text Label 6400 2650 2    50   ~ 0
 EN
 $Comp
 L power:GND #PWR0130
@@ -1667,4 +1663,64 @@ Wire Wire Line
 	10600 7350 10600 7200
 Wire Wire Line
 	10600 7200 10800 7200
+Text Label 4100 7750 0    50   ~ 0
+12V_Fan
+Wire Wire Line
+	6400 2450 6650 2450
+Wire Wire Line
+	6400 2550 6650 2550
+Wire Wire Line
+	6400 2650 6650 2650
+Wire Wire Line
+	6400 2750 6650 2750
+Wire Wire Line
+	6400 2950 6650 2950
+Wire Wire Line
+	7650 3650 7750 3650
+Wire Wire Line
+	7650 3750 7750 3750
+NoConn ~ 6650 2850
+NoConn ~ 6650 3050
+NoConn ~ 6650 3150
+NoConn ~ 6650 3250
+NoConn ~ 6650 3350
+NoConn ~ 6650 3450
+NoConn ~ 6650 3550
+NoConn ~ 6650 3650
+NoConn ~ 7050 2050
+NoConn ~ 7350 2050
+NoConn ~ 7650 2450
+NoConn ~ 7650 2550
+NoConn ~ 7650 2850
+NoConn ~ 7650 3050
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D5E9D88
+P 13600 7800
+F 0 "#FLG0101" H 13600 7875 50  0001 C CNN
+F 1 "PWR_FLAG" H 13600 7973 50  0000 C CNN
+F 2 "" H 13600 7800 50  0001 C CNN
+F 3 "~" H 13600 7800 50  0001 C CNN
+	1    13600 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 7800 13600 7900
+Wire Wire Line
+	13600 7900 14100 7900
+Connection ~ 14100 7900
+$Comp
+L power:+3.3V #PWR0131
+U 1 1 5D5F4327
+P 11350 4450
+F 0 "#PWR0131" H 11350 4300 50  0001 C CNN
+F 1 "+3.3V" H 11365 4623 50  0000 C CNN
+F 2 "" H 11350 4450 50  0001 C CNN
+F 3 "" H 11350 4450 50  0001 C CNN
+	1    11350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 4450 11350 4550
+Connection ~ 11350 4550
 $EndSCHEMATC

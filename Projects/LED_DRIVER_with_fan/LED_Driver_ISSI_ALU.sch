@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LED_Driver_ISSI_ALU-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -421,7 +421,7 @@ F 3 "" H 600 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:505578-0271 J2
+L LED_Driver_ISSI_ALU-rescue:505578-0271-SamacSys_Parts J2
 U 1 1 5C7DDF94
 P 2550 3450
 F 0 "J2" H 3050 3715 50  0000 C CNN
