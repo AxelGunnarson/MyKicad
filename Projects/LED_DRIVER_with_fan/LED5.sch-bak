@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LED_Driver_ISSI_ALU-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -158,13 +158,12 @@ Wire Wire Line
 Wire Wire Line
 	3750 4200 4100 4200
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8A78
 P 7200 3150
 AR Path="/5C7ADA7D/5C7B8A78" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8A78" Ref="D46"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8A78" Ref="D57"  Part="1" 
-AR Path="/5C7B8A78" Ref="D46"  Part="1" 
 F 0 "D46" H 7192 2895 50  0000 C CNN
 F 1 "LED" H 7192 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 7200 3150 50  0001 C CNN
@@ -173,13 +172,12 @@ F 3 "~" H 7200 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8A7F
 P 7500 3150
 AR Path="/5C7ADA7D/5C7B8A7F" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8A7F" Ref="D47"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8A7F" Ref="D58"  Part="1" 
-AR Path="/5C7B8A7F" Ref="D47"  Part="1" 
 F 0 "D47" H 7492 2895 50  0000 C CNN
 F 1 "LED" H 7492 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 7500 3150 50  0001 C CNN
@@ -188,13 +186,12 @@ F 3 "~" H 7500 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8A86
 P 7800 3150
 AR Path="/5C7ADA7D/5C7B8A86" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8A86" Ref="D48"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8A86" Ref="D59"  Part="1" 
-AR Path="/5C7B8A86" Ref="D48"  Part="1" 
 F 0 "D48" H 7792 2895 50  0000 C CNN
 F 1 "LED" H 7792 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 7800 3150 50  0001 C CNN
@@ -203,13 +200,12 @@ F 3 "~" H 7800 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8A8D
 P 8100 3150
 AR Path="/5C7ADA7D/5C7B8A8D" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8A8D" Ref="D49"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8A8D" Ref="D60"  Part="1" 
-AR Path="/5C7B8A8D" Ref="D49"  Part="1" 
 F 0 "D49" H 8092 2895 50  0000 C CNN
 F 1 "LED" H 8092 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 8100 3150 50  0001 C CNN
@@ -218,13 +214,12 @@ F 3 "~" H 8100 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8A94
 P 8400 3150
 AR Path="/5C7ADA7D/5C7B8A94" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8A94" Ref="D50"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8A94" Ref="D61"  Part="1" 
-AR Path="/5C7B8A94" Ref="D50"  Part="1" 
 F 0 "D50" H 8392 2895 50  0000 C CNN
 F 1 "LED" H 8392 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 8400 3150 50  0001 C CNN
@@ -233,13 +228,12 @@ F 3 "~" H 8400 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8A9B
 P 8700 3150
 AR Path="/5C7ADA7D/5C7B8A9B" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8A9B" Ref="D51"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8A9B" Ref="D62"  Part="1" 
-AR Path="/5C7B8A9B" Ref="D51"  Part="1" 
 F 0 "D51" H 8692 2895 50  0000 C CNN
 F 1 "LED" H 8692 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 8700 3150 50  0001 C CNN
@@ -248,13 +242,12 @@ F 3 "~" H 8700 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8AA2
 P 9000 3150
 AR Path="/5C7ADA7D/5C7B8AA2" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8AA2" Ref="D52"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8AA2" Ref="D63"  Part="1" 
-AR Path="/5C7B8AA2" Ref="D52"  Part="1" 
 F 0 "D52" H 8992 2895 50  0000 C CNN
 F 1 "LED" H 8992 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 9000 3150 50  0001 C CNN
@@ -263,13 +256,12 @@ F 3 "~" H 9000 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8AA9
 P 9300 3150
 AR Path="/5C7ADA7D/5C7B8AA9" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8AA9" Ref="D53"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8AA9" Ref="D64"  Part="1" 
-AR Path="/5C7B8AA9" Ref="D53"  Part="1" 
 F 0 "D53" H 9292 2895 50  0000 C CNN
 F 1 "LED" H 9292 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 9300 3150 50  0001 C CNN
@@ -278,13 +270,12 @@ F 3 "~" H 9300 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8AB0
 P 9600 3150
 AR Path="/5C7ADA7D/5C7B8AB0" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8AB0" Ref="D54"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8AB0" Ref="D65"  Part="1" 
-AR Path="/5C7B8AB0" Ref="D54"  Part="1" 
 F 0 "D54" H 9592 2895 50  0000 C CNN
 F 1 "LED" H 9592 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 9600 3150 50  0001 C CNN
@@ -293,13 +284,12 @@ F 3 "~" H 9600 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D?
+L Device:LED D?
 U 1 1 5C7B8AB7
 P 9900 3150
 AR Path="/5C7ADA7D/5C7B8AB7" Ref="D?"  Part="1" 
 AR Path="/5C7ADB0B/5C7B8AB7" Ref="D55"  Part="1" 
 AR Path="/5C7E4B4D/5C7B8AB7" Ref="D66"  Part="1" 
-AR Path="/5C7B8AB7" Ref="D55"  Part="1" 
 F 0 "D55" H 9892 2895 50  0000 C CNN
 F 1 "LED" H 9892 2986 50  0000 C CNN
 F 2 "Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E" H 9900 3150 50  0001 C CNN

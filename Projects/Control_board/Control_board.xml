@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Kicad_projects\Control_board\Control_board.sch</source>
-    <date>2/17/2019 8:06:31 PM</date>
-    <tool>Eeschema (5.0.2)-1</tool>
+    <source>C:\GIT\MyKicad\Projects\Control_board\Control_board.sch</source>
+    <date>9/5/2019 9:03:42 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -19,19 +19,11 @@
     </sheet>
   </design>
   <components>
-    <comp ref="R4">
-      <value>LDR03</value>
-      <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
-      <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
-      <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C4DD2A3</tstamp>
-    </comp>
     <comp ref="A1">
       <value>Arduino_Nano_v2.x</value>
       <footprint>Module:Arduino_Nano</footprint>
       <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
-      <libsource lib="MCU_Module" part="Arduino_Nano_v2.x" description="Arduino Nano v2.x"/>
+      <libsource lib="Control_board-rescue" part="Arduino_Nano_v2.x-MCU_Module" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4DD323</tstamp>
     </comp>
@@ -39,7 +31,7 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4DE511</tstamp>
     </comp>
@@ -47,23 +39,15 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4DE5A5</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>100K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C4F967D</tstamp>
     </comp>
     <comp ref="U2">
       <value>DS1307Z+</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</datasheet>
-      <libsource lib="Timer_RTC" part="DS1307Z+" description="64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, SOIC-8"/>
+      <libsource lib="Control_board-rescue" part="DS1307Z+-Timer_RTC" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C5580D7</tstamp>
     </comp>
@@ -71,7 +55,7 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="Control_board-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C560F9F</tstamp>
     </comp>
@@ -79,115 +63,9 @@
       <value>Battery_Cell</value>
       <footprint>SamacSys_Parts:BATHLD001</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <libsource lib="Control_board-rescue" part="Battery_Cell-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C565BEA</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>ESP8266-12E_ESP-12E</value>
-      <footprint>ESP8266-12E_ESP-12E:XCVR_ESP8266-12E%2fESP-12E</footprint>
-      <datasheet>AI-Thinker</datasheet>
-      <fields>
-        <field name="Field4">None</field>
-        <field name="Field5">This WiFi module has a 32-bit MCU micro and clock speeds supporting 80 MHz or 160 MHz. Supports the RTOS and integrated Wi-Fi MAC/BB/RF/PA/LNA, and has an on-board antenna.</field>
-        <field name="Field6">ESP8266-12E/ESP-12E</field>
-        <field name="Field7">None</field>
-        <field name="Field8">Unavailable</field>
-      </fields>
-      <libsource lib="ESP8266-12E_ESP-12E" part="ESP8266-12E_ESP-12E" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C56D8BE</tstamp>
-    </comp>
-    <comp ref="J6">
-      <value>Conn_01x06</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C56E5BA</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>LM1117-3.3</value>
-      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
-      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C593AE7</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_Push</value>
-      <footprint>SamacSys_Parts:B3U-1000P</footprint>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C59F4E7</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C5A899C</tstamp>
-    </comp>
-    <comp ref="K2">
-      <value>PB114024</value>
-      <footprint>SamacSys_Parts:PB114024</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/1/PB114024.pdf</datasheet>
-      <fields>
-        <field name="Description">Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc</field>
-        <field name="Height">20</field>
-        <field name="Manufacturer_Name">TE Connectivity</field>
-        <field name="Manufacturer_Part_Number">PB114024</field>
-        <field name="Mouser Part Number">655-PB114024</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="PB114024" description="Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C636B2B</tstamp>
-    </comp>
-    <comp ref="Q3">
-      <value>PDTD113ET,215</value>
-      <footprint>SamacSys_Parts:SOT95P230X110-3N</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/1/PDTD113ET,215.pdf</datasheet>
-      <fields>
-        <field name="Description">PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm</field>
-        <field name="Height">1.1</field>
-        <field name="Manufacturer_Name">Nexperia</field>
-        <field name="Manufacturer_Part_Number">PDTD113ET,215</field>
-        <field name="Mouser Part Number">771-PDTD113ET215</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="PDTD113ET,215" description="PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C645DDE</tstamp>
-    </comp>
-    <comp ref="K1">
-      <value>PB114024</value>
-      <footprint>SamacSys_Parts:PB114024</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/1/PB114024.pdf</datasheet>
-      <fields>
-        <field name="Description">Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc</field>
-        <field name="Height">20</field>
-        <field name="Manufacturer_Name">TE Connectivity</field>
-        <field name="Manufacturer_Part_Number">PB114024</field>
-        <field name="Mouser Part Number">655-PB114024</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="PB114024" description="Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C66CA51</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>PDTD113ET,215</value>
-      <footprint>SamacSys_Parts:SOT95P230X110-3N</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/1/PDTD113ET,215.pdf</datasheet>
-      <fields>
-        <field name="Description">PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm</field>
-        <field name="Height">1.1</field>
-        <field name="Manufacturer_Name">Nexperia</field>
-        <field name="Manufacturer_Part_Number">PDTD113ET,215</field>
-        <field name="Mouser Part Number">771-PDTD113ET215</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="PDTD113ET,215" description="PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C66CA69</tstamp>
     </comp>
     <comp ref="K3">
       <value>PB114024</value>
@@ -200,7 +78,7 @@
         <field name="Manufacturer_Part_Number">PB114024</field>
         <field name="Mouser Part Number">655-PB114024</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="PB114024" description="Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc"/>
+      <libsource lib="Control_board-rescue" part="PB114024-SamacSys_Parts-Control_board-rescue-Control_board-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C6741D4</tstamp>
     </comp>
@@ -215,27 +93,27 @@
         <field name="Manufacturer_Part_Number">PDTD113ET,215</field>
         <field name="Mouser Part Number">771-PDTD113ET215</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="PDTD113ET,215" description="PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm"/>
+      <libsource lib="Control_board-rescue" part="PDTD113ET,215-SamacSys_Parts-Control_board-rescue-Control_board-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C6741EC</tstamp>
     </comp>
     <comp ref="U4">
       <value>DCDC_lm2596</value>
       <footprint>Kicad_mylib:LM2596_module</footprint>
-      <libsource lib="my_library2" part="DCDC_lm2596" description=""/>
+      <libsource lib="Control_board-rescue" part="DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C641A9A</tstamp>
     </comp>
     <comp ref="U5">
       <value>DCDC_lm2596</value>
       <footprint>Kicad_mylib:LM2596_module</footprint>
-      <libsource lib="my_library2" part="DCDC_lm2596" description=""/>
+      <libsource lib="Control_board-rescue" part="DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C65B489</tstamp>
     </comp>
     <comp ref="J2">
       <value>43045-0200</value>
-      <footprint>SamacSys_Parts:43045-0200</footprint>
+      <footprint>Kicad_mylib:Molex_43045-0200</footprint>
       <datasheet>http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</datasheet>
       <fields>
         <field name="Description">2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
@@ -243,72 +121,15 @@
         <field name="Manufacturer_Part_Number">43045-0200</field>
         <field name="Mouser Part Number">538-43045-0200</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="43045-0200" description="2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A"/>
+      <libsource lib="Control_board-rescue" part="43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C71D2B9</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>43045-0200</value>
-      <footprint>SamacSys_Parts:43045-0200</footprint>
-      <datasheet>http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</datasheet>
-      <fields>
-        <field name="Description">2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">43045-0200</field>
-        <field name="Mouser Part Number">538-43045-0200</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="43045-0200" description="2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C729C8E</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>43045-0200</value>
-      <footprint>SamacSys_Parts:43045-0200</footprint>
-      <datasheet>http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</datasheet>
-      <fields>
-        <field name="Description">2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">43045-0200</field>
-        <field name="Mouser Part Number">538-43045-0200</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="43045-0200" description="2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C73ADB7</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>43045-0401</value>
-      <footprint>SamacSys_Parts:430450401</footprint>
-      <datasheet>http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf</datasheet>
-      <fields>
-        <field name="Description">Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
-        <field name="Height">8</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">43045-0401</field>
-        <field name="Mouser Part Number">538-43045-0401</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="43045-0401" description="Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C75F026</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>43650-0303</value>
-      <footprint>SamacSys_Parts:436500303</footprint>
-      <datasheet>http://www.mouser.com/datasheet/2/276/0436500303_PCB_HEADERS-148739.pdf</datasheet>
-      <fields>
-        <field name="Description">Molex PCB Header 43650 MICRO-FIT 3.0, 3 Way, 3mm Pitch, 1 Row, Right Angle, Through Hole</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">43650-0303</field>
-        <field name="Mouser Part Number">538-43650-0303</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="43650-0303" description="Molex PCB Header 43650 MICRO-FIT 3.0, 3 Way, 3mm Pitch, 1 Row, Right Angle, Through Hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C762E99</tstamp>
     </comp>
     <comp ref="R1">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C7638EE</tstamp>
     </comp>
@@ -316,7 +137,7 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C763976</tstamp>
     </comp>
@@ -330,31 +151,15 @@
         <field name="Manufacturer_Part_Number">PS1240P02BT</field>
         <field name="Mouser Part Number">810-PS1240P02BT</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="PS1240P02BT" description="Audio Indicators &amp; Alerts Round 12.2mmx6.5mm 4kHz Vin=3V"/>
+      <libsource lib="Control_board-rescue" part="PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C78C261</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>MBR0520</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
-      <libsource lib="Diode" part="MBR0520" description="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C6986DA</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>MBR0520</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
-      <libsource lib="Diode" part="MBR0520" description="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C69CEB1</tstamp>
     </comp>
     <comp ref="D3">
       <value>MBR0520</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
-      <libsource lib="Diode" part="MBR0520" description="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <libsource lib="Control_board-rescue" part="MBR0520-Diode" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C6A14F6</tstamp>
     </comp>
@@ -362,7 +167,7 @@
       <value>Crystal</value>
       <footprint>SamacSys_Parts:FC135327680KAAG0</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <libsource lib="Control_board-rescue" part="Crystal-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C6A61BC</tstamp>
     </comp>
@@ -370,7 +175,7 @@
       <value>BSS138</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-channel MOSFET, SOT-23"/>
+      <libsource lib="Control_board-rescue" part="BSS138-Transistor_FET" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C69A6D8</tstamp>
     </comp>
@@ -378,7 +183,7 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C6A2326</tstamp>
     </comp>
@@ -386,166 +191,365 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="Control_board-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C6A23CA</tstamp>
     </comp>
+    <comp ref="J8">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74D39C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>LDR03</value>
+      <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
+      <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <libsource lib="Control_board-rescue" part="LDR03-Sensor_Optical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C995AC8</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8B4B55</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TC1262-50</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf</datasheet>
+      <libsource lib="Control_board-rescue" part="TC1262-50-Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C99E6E8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9AF00C</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSP76_E6433</value>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
+      <datasheet>https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf</datasheet>
+      <fields>
+        <field name="Description">Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSP76 E6433</field>
+      </fields>
+      <libsource lib="Control_board-rescue" part="BSP76_E6433-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C998A0E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>43045-0200</value>
+      <footprint>Kicad_mylib:Molex_43045-0200</footprint>
+      <datasheet>http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</datasheet>
+      <fields>
+        <field name="Description">2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">43045-0200</field>
+        <field name="Mouser Part Number">538-43045-0200</field>
+      </fields>
+      <libsource lib="Control_board-rescue" part="43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9BB7DD</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSP76_E6433</value>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
+      <datasheet>https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf</datasheet>
+      <fields>
+        <field name="Description">Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSP76 E6433</field>
+      </fields>
+      <libsource lib="Control_board-rescue" part="BSP76_E6433-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9FBBD9</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>43045-0200</value>
+      <footprint>Kicad_mylib:Molex_43045-0200</footprint>
+      <datasheet>http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</datasheet>
+      <fields>
+        <field name="Description">2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">43045-0200</field>
+        <field name="Mouser Part Number">538-43045-0200</field>
+      </fields>
+      <libsource lib="Control_board-rescue" part="43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9FBBE5</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>BD1HD500FVM-CTR</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://mouser.componentsearchengine.com/Datasheets/1/BD1HD500FVM-CTR.pdf</datasheet>
+      <fields>
+        <field name="Description">Power Switch ICs - Power Distribution 1ch High-side swtch 4-18V; TSD slf-rest.</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BD1HD500FVM-CTR</field>
+      </fields>
+      <libsource lib="Control_board-rescue" part="BD1HD500FVM-CTR-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA1F6F3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA78362</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA7F073</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA93A5B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA93A69</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAB7983</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAB7991</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC6751</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC675F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>43045-0401</value>
+      <footprint>SamacSys_Parts:430450401</footprint>
+      <datasheet>http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf</datasheet>
+      <fields>
+        <field name="Description">Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">43045-0401</field>
+        <field name="Mouser Part Number">538-43045-0401</field>
+      </fields>
+      <libsource lib="Control_board-rescue" part="43045-0401-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFE9C0C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>5055780871</value>
+      <footprint>footprints:5055780871</footprint>
+      <libsource lib="Control_board-rescue" part="5055780871-My_symbol_library" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B46DC</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1C5EA6</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>PCA9615DPJ</value>
+      <footprint>SamacSys_Parts:QFN50P300X300X100-10N-D</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/PCA9615DPJ.pdf</datasheet>
+      <fields>
+        <field name="Description">NXP - PCA9615DPJ - BUFFER, DIFFERENTIAL I2C-BUS, TSSOP-10</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PCA9615DPJ</field>
+        <field name="Mouser Part Number">771-PCA9615DPJ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCA9615DPJ</field>
+      </fields>
+      <libsource lib="Control_board-rescue" part="PCA9615DPJ-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2275FC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D269078</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D26914E</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2691C2</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2B8F30</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2B8F37</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2B8F3E</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>RJ45</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="RJ45-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2C939D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2F28EF</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Control_board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3136AC</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector_Generic" part="Conn_01x06">
-      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
+    <libpart lib="Control_board-rescue" part="43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x06</field>
+        <field name="Value">43045-0200-SamacSys_Parts-Control_board-rescue-Control_board-rescue</field>
+        <field name="Footprint">43045-0200</field>
+        <field name="Datasheet">http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</field>
+        <field name="Description">2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
+        <field name="Mouser Part Number">538-43045-0200</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">43045-0200</field>
       </fields>
       <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Battery_Cell">
-      <description>Single-cell battery</description>
-      <docs>~</docs>
+    <libpart lib="Control_board-rescue" part="43045-0401-SamacSys_Parts">
       <fields>
-        <field name="Reference">BT</field>
-        <field name="Value">Battery_Cell</field>
+        <field name="Reference">J</field>
+        <field name="Value">43045-0401-SamacSys_Parts</field>
+        <field name="Footprint">430450401</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/43045-0401.pdf</field>
+        <field name="Description">Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
+        <field name="Height">8</field>
+        <field name="Mouser Part Number">538-43045-0401</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0401</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">43045-0401</field>
       </fields>
       <pins>
-        <pin num="1" name="+" type="passive"/>
-        <pin num="2" name="-" type="passive"/>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C_Small">
-      <description>Unpolarized capacitor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Crystal">
-      <description>Two pin crystal</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Crystal*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">Crystal</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Diode" part="BAT48ZFILM">
-      <aliases>
-        <alias>MBR0520LT</alias>
-        <alias>MBR0520</alias>
-        <alias>MBR0530</alias>
-        <alias>MBR0540</alias>
-        <alias>MBR0550</alias>
-        <alias>MBR0560</alias>
-        <alias>MBR0570</alias>
-        <alias>MBR0580</alias>
-        <alias>BAT42W-V</alias>
-        <alias>BAT43W-V</alias>
-        <alias>PMEG6010CEH</alias>
-      </aliases>
-      <description>40V 0.35A Small Signal Schottky Diode, SOD-123</description>
-      <docs>www.st.com/resource/en/datasheet/bat48.pdf</docs>
-      <footprints>
-        <fp>D*SOD?123*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">BAT48ZFILM</field>
-        <field name="Footprint">Diode_SMD:D_SOD-123</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="ESP8266-12E_ESP-12E" part="ESP8266-12E_ESP-12E">
+    <libpart lib="Control_board-rescue" part="5055780871-My_symbol_library">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ESP8266-12E_ESP-12E</field>
-        <field name="Footprint">XCVR_ESP8266-12E/ESP-12E</field>
-        <field name="Datasheet">AI-Thinker</field>
-        <field name="Field4">None</field>
-        <field name="Field5">This WiFi module has a 32-bit MCU micro and clock speeds supporting 80 MHz or 160 MHz. Supports the RTOS and integrated Wi-Fi MAC/BB/RF/PA/LNA, and has an on-board antenna.</field>
-        <field name="Field6">ESP8266-12E/ESP-12E</field>
-        <field name="Field7">None</field>
-        <field name="Field8">Unavailable</field>
+        <field name="Value">5055780871-My_symbol_library</field>
       </fields>
       <pins>
-        <pin num="1" name="RESET" type="input"/>
-        <pin num="2" name="ADC" type="passive"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="IO16" type="BiDi"/>
-        <pin num="5" name="IO14" type="BiDi"/>
-        <pin num="6" name="IO12" type="BiDi"/>
-        <pin num="7" name="IO13" type="BiDi"/>
-        <pin num="8" name="VCC" type="power_in"/>
-        <pin num="9" name="CS0" type="input"/>
-        <pin num="10" name="MISO" type="BiDi"/>
-        <pin num="11" name="IO9" type="BiDi"/>
-        <pin num="12" name="IO10" type="BiDi"/>
-        <pin num="13" name="MOSI" type="BiDi"/>
-        <pin num="14" name="SCLK" type="input"/>
-        <pin num="15" name="GND" type="power_in"/>
-        <pin num="16" name="IO15" type="BiDi"/>
-        <pin num="17" name="IO2" type="BiDi"/>
-        <pin num="18" name="IO0" type="BiDi"/>
-        <pin num="19" name="IO4" type="BiDi"/>
-        <pin num="20" name="IO5" type="BiDi"/>
-        <pin num="21" name="RXD" type="input"/>
-        <pin num="22" name="TXD" type="output"/>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="MP1" name="MP1" type="BiDi"/>
+        <pin num="MP2" name="MP2" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
-      <aliases>
-        <alias>Arduino_Nano_v2.x</alias>
-      </aliases>
-      <description>Arduino Nano v3.x</description>
-      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+    <libpart lib="Control_board-rescue" part="Arduino_Nano_v2.x-MCU_Module">
       <footprints>
         <fp>Arduino*Nano*</fp>
       </footprints>
       <fields>
         <field name="Reference">A</field>
-        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Value">Arduino_Nano_v2.x-MCU_Module</field>
         <field name="Footprint">Module:Arduino_Nano</field>
       </fields>
       <pins>
@@ -581,99 +585,189 @@
         <pin num="30" name="VIN" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="LM1117-1.8">
-      <aliases>
-        <alias>LM1117-2.5</alias>
-        <alias>LM1117-3.3</alias>
-        <alias>LM1117-5.0</alias>
-        <alias>TLV1117-15</alias>
-        <alias>TLV1117-18</alias>
-        <alias>TLV1117-25</alias>
-        <alias>TLV1117-33</alias>
-        <alias>TLV1117-50</alias>
-      </aliases>
-      <description>800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
-      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+    <libpart lib="Control_board-rescue" part="BD1HD500FVM-CTR-SamacSys_Parts">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BD1HD500FVM-CTR-SamacSys_Parts</field>
+        <field name="Footprint">SOP65P400X90-8N</field>
+        <field name="Datasheet">https://mouser.componentsearchengine.com/Datasheets/1/BD1HD500FVM-CTR.pdf</field>
+        <field name="Description">Power Switch ICs - Power Distribution 1ch High-side swtch 4-18V; TSD slf-rest.</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BD1HD500FVM-CTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="OUT_1" type="BiDi"/>
+        <pin num="4" name="OUT_2" type="BiDi"/>
+        <pin num="5" name="VDD_1" type="BiDi"/>
+        <pin num="6" name="VDD_2" type="BiDi"/>
+        <pin num="7" name="NC" type="BiDi"/>
+        <pin num="8" name="ST" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="BSP76_E6433-SamacSys_Parts">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSP76_E6433-SamacSys_Parts</field>
+        <field name="Footprint">SOT230P700X170-4N</field>
+        <field name="Datasheet">https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf</field>
+        <field name="Description">Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSP76 E6433</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="BiDi"/>
+        <pin num="2" name="DRAIN_1" type="BiDi"/>
+        <pin num="3" name="SOURCE" type="BiDi"/>
+        <pin num="4" name="DRAIN_2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="BSS138-Transistor_FET">
       <footprints>
-        <fp>SOT?223*</fp>
-        <fp>TO?263*</fp>
-        <fp>TO?252*</fp>
-        <fp>TO?220*</fp>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138-Transistor_FET</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="Battery_Cell-Device">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="Crystal-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="OUT-" type="input"/>
+        <pin num="4" name="OUT+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="DS1307Z+-Timer_RTC">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm?P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM1117-1.8</field>
+        <field name="Value">DS1307Z+-Timer_RTC</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="SQW/OUT" type="openCol"/>
+        <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="43045-0200">
-      <description>2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</description>
-      <docs>http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</docs>
+    <libpart lib="Control_board-rescue" part="LDR03-Sensor_Optical">
+      <footprints>
+        <fp>R*LDR*10x8.5mm*P7.6mm*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">43045-0200</field>
-        <field name="Footprint">43045-0200</field>
-        <field name="Datasheet">http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf</field>
-        <field name="Description">2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
-        <field name="Mouser Part Number">538-43045-0200</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">43045-0200</field>
+        <field name="Reference">R</field>
+        <field name="Value">LDR03-Sensor_Optical</field>
+        <field name="Footprint">OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="43045-0401">
-      <description>Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</description>
-      <docs>http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf</docs>
+    <libpart lib="Control_board-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">43045-0401</field>
-        <field name="Footprint">430450401</field>
-        <field name="Datasheet">http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf</field>
-        <field name="Description">Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
-        <field name="Height">8</field>
-        <field name="Mouser Part Number">538-43045-0401</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">43045-0401</field>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
-        <pin num="4" name="4" type="BiDi"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="43650-0303">
-      <description>Molex PCB Header 43650 MICRO-FIT 3.0, 3 Way, 3mm Pitch, 1 Row, Right Angle, Through Hole</description>
-      <docs>http://www.mouser.com/datasheet/2/276/0436500303_PCB_HEADERS-148739.pdf</docs>
+    <libpart lib="Control_board-rescue" part="MBR0520-Diode">
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">43650-0303</field>
-        <field name="Footprint">436500303</field>
-        <field name="Datasheet">http://www.mouser.com/datasheet/2/276/0436500303_PCB_HEADERS-148739.pdf</field>
-        <field name="Description">Molex PCB Header 43650 MICRO-FIT 3.0, 3 Way, 3mm Pitch, 1 Row, Right Angle, Through Hole</field>
-        <field name="Mouser Part Number">538-43650-0303</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">43650-0303</field>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0520-Diode</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="PB114024">
-      <description>Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc</description>
-      <docs>https://componentsearchengine.com/Datasheets/1/PB114024.pdf</docs>
+    <libpart lib="Control_board-rescue" part="PB114024-SamacSys_Parts-Control_board-rescue-Control_board-rescue">
       <fields>
         <field name="Reference">K</field>
-        <field name="Value">PB114024</field>
+        <field name="Value">PB114024-SamacSys_Parts-Control_board-rescue-Control_board-rescue</field>
         <field name="Footprint">PB114024</field>
         <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/PB114024.pdf</field>
         <field name="Description">Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc</field>
@@ -690,12 +784,36 @@
         <pin num="A2" name="COIL_2" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="PDTD113ET,215">
-      <description>PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm</description>
-      <docs>https://componentsearchengine.com/Datasheets/1/PDTD113ET,215.pdf</docs>
+    <libpart lib="Control_board-rescue" part="PCA9615DPJ-SamacSys_Parts">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PCA9615DPJ-SamacSys_Parts</field>
+        <field name="Footprint">SOP50P490X110-10N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/PCA9615DPJ.pdf</field>
+        <field name="Description">NXP - PCA9615DPJ - BUFFER, DIFFERENTIAL I2C-BUS, TSSOP-10</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">771-PCA9615DPJ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCA9615DPJ</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PCA9615DPJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD(A)" type="BiDi"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="EN" type="BiDi"/>
+        <pin num="4" name="SCL" type="BiDi"/>
+        <pin num="5" name="VSS" type="BiDi"/>
+        <pin num="6" name="DSCLM" type="BiDi"/>
+        <pin num="7" name="DSCLP" type="BiDi"/>
+        <pin num="8" name="DSDAP" type="BiDi"/>
+        <pin num="9" name="DSDAM" type="BiDi"/>
+        <pin num="10" name="VDD(B)" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control_board-rescue" part="PDTD113ET,215-SamacSys_Parts-Control_board-rescue-Control_board-rescue">
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">PDTD113ET,215</field>
+        <field name="Value">PDTD113ET,215-SamacSys_Parts-Control_board-rescue-Control_board-rescue</field>
         <field name="Footprint">SOT95P230X110-3N</field>
         <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/PDTD113ET,215.pdf</field>
         <field name="Description">PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm</field>
@@ -710,12 +828,10 @@
         <pin num="3" name="~" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="PS1240P02BT">
-      <description>Audio Indicators &amp; Alerts Round 12.2mmx6.5mm 4kHz Vin=3V</description>
-      <docs>http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf</docs>
+    <libpart lib="Control_board-rescue" part="PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue">
       <fields>
         <field name="Reference">LS</field>
-        <field name="Value">PS1240P02BT</field>
+        <field name="Value">PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue</field>
         <field name="Footprint">PS1240P02BT</field>
         <field name="Datasheet">http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf</field>
         <field name="Description">Audio Indicators &amp; Alerts Round 12.2mmx6.5mm 4kHz Vin=3V</field>
@@ -728,425 +844,369 @@
         <pin num="2" name="2" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Sensor_Optical" part="LDR03">
-      <description>light dependent resistor</description>
-      <docs>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</docs>
+    <libpart lib="Control_board-rescue" part="R-Device">
       <footprints>
-        <fp>R*LDR*10x8.5mm*P7.6mm*</fp>
+        <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">LDR03</field>
-        <field name="Footprint">OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</field>
+        <field name="Value">R-Device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Switch" part="SW_Push">
-      <description>Push button switch, generic, two pins</description>
+    <libpart lib="Control_board-rescue" part="RJ45-Connector">
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_Push</field>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45-Connector</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Timer_RTC" part="DS1307Z+">
-      <aliases>
-        <alias>DS1307ZN+</alias>
-      </aliases>
-      <description>64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, SOIC-8</description>
-      <docs>https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</docs>
+    <libpart lib="Control_board-rescue" part="TC1262-50-Regulator_Linear">
       <footprints>
-        <fp>SOIC*3.9x4.9mm?P1.27mm*</fp>
+        <fp>SOT?223*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?263*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">DS1307Z+</field>
-        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Value">TC1262-50-Regulator_Linear</field>
       </fields>
       <pins>
-        <pin num="1" name="X1" type="input"/>
-        <pin num="2" name="X2" type="input"/>
-        <pin num="3" name="VBAT" type="power_in"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="SDA" type="BiDi"/>
-        <pin num="6" name="SCL" type="input"/>
-        <pin num="7" name="SQW/OUT" type="openCol"/>
-        <pin num="8" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="BSS138">
-      <aliases>
-        <alias>2N7002</alias>
-        <alias>MMBF170</alias>
-      </aliases>
-      <description>50V Vds, 0.22A Id, N-channel MOSFET, SOT-23</description>
-      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BSS138</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="my_library2" part="DCDC_lm2596">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DCDC_lm2596</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN+" type="input"/>
-        <pin num="2" name="IN-" type="input"/>
-        <pin num="3" name="OUT-" type="input"/>
-        <pin num="4" name="OUT+" type="input"/>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
-    </library>
-    <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
-    </library>
-    <library logical="Diode">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
-    </library>
-    <library logical="ESP8266-12E_ESP-12E">
-      <uri>C:/Kicad_mylib/ESP8266-12E_ESP-12E.lib</uri>
-    </library>
-    <library logical="MCU_Module">
-      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
-    </library>
-    <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
-    </library>
-    <library logical="SamacSys_Parts">
-      <uri>C:/Kicad_mylib/SamacSys_Parts.lib</uri>
-    </library>
-    <library logical="Sensor_Optical">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Sensor_Optical.lib</uri>
-    </library>
-    <library logical="Switch">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
-    </library>
-    <library logical="Timer_RTC">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Timer_RTC.lib</uri>
-    </library>
-    <library logical="Transistor_FET">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
-    </library>
-    <library logical="my_library2">
-      <uri>C:/Kicad_mylib/my_library2.lib</uri>
+    <library logical="Control_board-rescue">
+      <uri>C:\GIT\MyKicad\Projects\Control_board/Control_board-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+36V">
-      <node ref="J4" pin="1"/>
+    <net code="1" name="GND">
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J6" pin="5"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="R18" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="A1" pin="4"/>
+      <node ref="A1" pin="29"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="LS1" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="3" name="/pump">
+      <node ref="Q3" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="4" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="6" name="/ADJ_LED">
+      <node ref="J1" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J1-PadMP1)">
+      <node ref="J1" pin="MP1"/>
+    </net>
+    <net code="8" name="/airstone_pump">
+      <node ref="Q5" pin="1"/>
+      <node ref="A1" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D4-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J1-PadMP2)">
+      <node ref="J1" pin="MP2"/>
+    </net>
+    <net code="12" name="/NTC">
+      <node ref="J1" pin="5"/>
+      <node ref="A1" pin="21"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="14" name="+36V">
+      <node ref="J8" pin="1"/>
+      <node ref="J1" pin="4"/>
       <node ref="U5" pin="1"/>
       <node ref="U4" pin="1"/>
     </net>
-    <net code="2" name="+5V">
-      <node ref="K2" pin="11"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="R4" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="U5" pin="4"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R5" pin="1"/>
+    <net code="15" name="/12V_Fan">
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="J1" pin="7"/>
     </net>
-    <net code="3" name="+24V">
-      <node ref="K3" pin="11"/>
-      <node ref="K1" pin="A1"/>
-      <node ref="K3" pin="A1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="K1" pin="11"/>
-      <node ref="D3" pin="1"/>
-      <node ref="K2" pin="A1"/>
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="4" name="GND">
-      <node ref="J2" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="BT1" pin="2"/>
-      <node ref="A1" pin="29"/>
-      <node ref="A1" pin="4"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J5" pin="2"/>
-      <node ref="U5" pin="3"/>
-      <node ref="J3" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U5" pin="2"/>
-      <node ref="U4" pin="3"/>
-      <node ref="LS1" pin="2"/>
+    <net code="16" name="Net-(J3-Pad2)">
       <node ref="Q3" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="U3" pin="1"/>
-      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="4"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="17" name="+5V">
+      <node ref="R16" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="IC2" pin="10"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="20" name="/fan_status">
+      <node ref="IC1" pin="8"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="21" name="+12V">
+      <node ref="IC1" pin="5"/>
+      <node ref="U5" pin="4"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="22" name="Net-(J6-Pad6)">
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="23" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="24" name="/DSDA-">
+      <node ref="R9" pin="2"/>
+      <node ref="J6" pin="7"/>
+      <node ref="R10" pin="1"/>
+      <node ref="IC2" pin="9"/>
+    </net>
+    <net code="25" name="/DSDA+">
+      <node ref="IC2" pin="8"/>
+      <node ref="J6" pin="8"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="26" name="Net-(A1-Pad19)">
+      <node ref="A1" pin="19"/>
+    </net>
+    <net code="27" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="13"/>
+    </net>
+    <net code="28" name="Net-(A1-Pad14)">
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="29" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="30" name="Net-(A1-Pad30)">
+      <node ref="A1" pin="30"/>
+    </net>
+    <net code="31" name="Net-(A1-Pad27)">
+      <node ref="A1" pin="27"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="33" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="34" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="35" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="36" name="/fan">
+      <node ref="R13" pin="1"/>
+      <node ref="A1" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="37" name="/mistmaker">
+      <node ref="R14" pin="1"/>
+      <node ref="A1" pin="25"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="38" name="Net-(A1-Pad7)">
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="39" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="40" name="Net-(A1-Pad10)">
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="41" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="42" name="Net-(A1-Pad24)">
+      <node ref="A1" pin="24"/>
+      <node ref="R7" pin="2"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="43" name="/EN">
+      <node ref="IC2" pin="3"/>
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="44" name="/DSCL-">
+      <node ref="IC2" pin="6"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R17" pin="2"/>
       <node ref="J6" pin="1"/>
     </net>
-    <net code="5" name="+3V3">
-      <node ref="R1" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="R3" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="A1" pin="17"/>
-      <node ref="J6" pin="3"/>
-      <node ref="Q1" pin="1"/>
+    <net code="45" name="/DSCL+">
+      <node ref="J6" pin="2"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R17" pin="1"/>
     </net>
-    <net code="6" name="Net-(K3-Pad12)">
+    <net code="46" name="+24V">
+      <node ref="U4" pin="4"/>
+      <node ref="K3" pin="A1"/>
+      <node ref="K3" pin="11"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="47" name="Net-(K3-Pad12)">
       <node ref="K3" pin="12"/>
     </net>
-    <net code="7" name="Net-(K1-Pad12)">
-      <node ref="K1" pin="12"/>
+    <net code="49" name="Net-(A1-Pad23)">
+      <node ref="IC2" pin="2"/>
+      <node ref="A1" pin="23"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="5"/>
     </net>
-    <net code="8" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="K3" pin="A2"/>
+    <net code="50" name="+3V3">
+      <node ref="IC2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J6" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="A1" pin="17"/>
     </net>
-    <net code="9" name="Net-(J2-Pad1)">
-      <node ref="K3" pin="14"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="11" name="Net-(D1-Pad2)">
-      <node ref="Q2" pin="3"/>
-      <node ref="D1" pin="2"/>
-      <node ref="K1" pin="A2"/>
-    </net>
-    <net code="12" name="Net-(A1-Pad16)">
-      <node ref="LS1" pin="1"/>
-      <node ref="A1" pin="16"/>
-    </net>
-    <net code="13" name="Net-(J5-Pad4)">
-      <node ref="J5" pin="4"/>
-    </net>
-    <net code="14" name="/LED_PWM">
-      <node ref="R8" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="15" name="Net-(A1-Pad22)">
+    <net code="51" name="/ADJ">
       <node ref="A1" pin="22"/>
       <node ref="R8" pin="2"/>
     </net>
-    <net code="16" name="Net-(U2-Pad1)">
-      <node ref="Y1" pin="1"/>
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="17" name="/5V_Airstone_pump">
-      <node ref="J3" pin="1"/>
-      <node ref="K2" pin="14"/>
-    </net>
-    <net code="18" name="/24V_Fan">
-      <node ref="J1" pin="1"/>
-      <node ref="K1" pin="14"/>
-    </net>
-    <net code="19" name="/temp_data_5V">
-      <node ref="Q1" pin="3"/>
-      <node ref="J5" pin="3"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="20" name="Net-(U2-Pad7)">
+    <net code="52" name="Net-(U2-Pad7)">
       <node ref="U2" pin="7"/>
     </net>
-    <net code="21" name="Net-(U2-Pad2)">
+    <net code="53" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="54" name="/LDR">
+      <node ref="R6" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="A1" pin="20"/>
+    </net>
+    <net code="55" name="Net-(J4-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="Q5" pin="4"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="56" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="K3" pin="14"/>
+    </net>
+    <net code="57" name="/temp_data_5V">
+      <node ref="J5" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="58" name="Net-(A1-Pad16)">
+      <node ref="A1" pin="16"/>
+      <node ref="LS1" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D3-Pad2)">
+      <node ref="K3" pin="A2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad2)">
       <node ref="Y1" pin="2"/>
       <node ref="U2" pin="2"/>
     </net>
-    <net code="22" name="Net-(BT1-Pad1)">
-      <node ref="U2" pin="3"/>
-      <node ref="BT1" pin="1"/>
-    </net>
-    <net code="23" name="Net-(A1-Pad21)">
-      <node ref="R6" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="A1" pin="21"/>
-    </net>
-    <net code="24" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="25" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="26" name="Net-(U1-Pad7)">
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="27" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="28" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="29" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="30" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="31" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="32" name="Net-(C1-Pad1)">
-      <node ref="U2" pin="8"/>
-      <node ref="C1" pin="1"/>
-    </net>
-    <net code="33" name="Net-(A1-Pad19)">
-      <node ref="A1" pin="19"/>
-    </net>
-    <net code="34" name="Net-(A1-Pad3)">
-      <node ref="A1" pin="3"/>
-    </net>
-    <net code="35" name="Net-(A1-Pad28)">
-      <node ref="A1" pin="28"/>
-    </net>
-    <net code="36" name="Net-(A1-Pad27)">
-      <node ref="A1" pin="27"/>
-    </net>
-    <net code="37" name="Net-(A1-Pad26)">
-      <node ref="A1" pin="26"/>
-    </net>
-    <net code="38" name="Net-(A1-Pad25)">
-      <node ref="A1" pin="25"/>
-    </net>
-    <net code="39" name="Net-(A1-Pad20)">
-      <node ref="A1" pin="20"/>
-    </net>
-    <net code="40" name="/airstone_pump">
-      <node ref="A1" pin="2"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="41" name="Net-(A1-Pad30)">
-      <node ref="A1" pin="30"/>
-    </net>
-    <net code="42" name="Net-(A1-Pad18)">
-      <node ref="A1" pin="18"/>
-    </net>
-    <net code="43" name="Net-(A1-Pad15)">
-      <node ref="A1" pin="15"/>
-    </net>
-    <net code="44" name="Net-(A1-Pad14)">
-      <node ref="A1" pin="14"/>
-    </net>
-    <net code="45" name="Net-(A1-Pad13)">
-      <node ref="A1" pin="13"/>
-    </net>
-    <net code="46" name="Net-(A1-Pad12)">
-      <node ref="A1" pin="12"/>
-    </net>
-    <net code="47" name="Net-(A1-Pad11)">
-      <node ref="A1" pin="11"/>
-    </net>
-    <net code="48" name="Net-(A1-Pad10)">
-      <node ref="A1" pin="10"/>
-    </net>
-    <net code="49" name="/fan">
-      <node ref="A1" pin="1"/>
-      <node ref="Q2" pin="1"/>
-    </net>
-    <net code="50" name="Net-(A1-Pad23)">
-      <node ref="U2" pin="5"/>
-      <node ref="R5" pin="2"/>
-      <node ref="A1" pin="23"/>
-    </net>
-    <net code="51" name="Net-(A1-Pad24)">
-      <node ref="U2" pin="6"/>
-      <node ref="A1" pin="24"/>
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="52" name="Net-(A1-Pad9)">
-      <node ref="A1" pin="9"/>
-    </net>
-    <net code="53" name="Net-(A1-Pad8)">
-      <node ref="A1" pin="8"/>
-    </net>
-    <net code="54" name="Net-(A1-Pad7)">
-      <node ref="A1" pin="7"/>
-    </net>
-    <net code="55" name="/Temp_data_3V3">
+    <net code="62" name="/Temp_data_3V3">
       <node ref="Q1" pin="2"/>
-      <node ref="A1" pin="6"/>
       <node ref="R1" pin="2"/>
-    </net>
-    <net code="56" name="/mistmaker">
-      <node ref="A1" pin="5"/>
-      <node ref="Q4" pin="1"/>
-    </net>
-    <net code="57" name="Net-(K2-Pad12)">
-      <node ref="K2" pin="12"/>
-    </net>
-    <net code="58" name="Net-(D2-Pad2)">
-      <node ref="Q3" pin="3"/>
-      <node ref="K2" pin="A2"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="59" name="Net-(R3-Pad2)">
-      <node ref="U1" pin="18"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="60" name="/DTR">
-      <node ref="J6" pin="6"/>
-    </net>
-    <net code="61" name="/TXO">
-      <node ref="U1" pin="21"/>
-      <node ref="J6" pin="4"/>
-    </net>
-    <net code="62" name="/CTS">
-      <node ref="J6" pin="2"/>
-    </net>
-    <net code="63" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="64" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="65" name="Net-(U1-Pad12)">
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="66" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="67" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="68" name="Net-(U1-Pad3)">
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="69" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="70" name="/RXI">
-      <node ref="J6" pin="5"/>
-      <node ref="U1" pin="22"/>
-    </net>
-    <net code="71" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="72" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="73" name="Net-(SW1-Pad2)">
-      <node ref="SW1" pin="2"/>
-      <node ref="U1" pin="15"/>
+      <node ref="A1" pin="6"/>
     </net>
   </nets>
 </export>

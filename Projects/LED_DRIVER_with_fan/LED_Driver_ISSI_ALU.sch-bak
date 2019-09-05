@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LED_Driver_ISSI_ALU-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -137,7 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2300 5100 2300
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D3
+L Device:LED D3
 U 1 1 5C098661
 P 8200 1250
 F 0 "D3" H 8192 995 50  0000 C CNN
@@ -148,7 +148,7 @@ F 3 "~" H 8200 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D4
+L Device:LED D4
 U 1 1 5C098709
 P 8500 1250
 F 0 "D4" H 8492 995 50  0000 C CNN
@@ -159,7 +159,7 @@ F 3 "~" H 8500 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D5
+L Device:LED D5
 U 1 1 5C098737
 P 8800 1250
 F 0 "D5" H 8792 995 50  0000 C CNN
@@ -170,7 +170,7 @@ F 3 "~" H 8800 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D6
+L Device:LED D6
 U 1 1 5C098774
 P 9100 1250
 F 0 "D6" H 9092 995 50  0000 C CNN
@@ -181,7 +181,7 @@ F 3 "~" H 9100 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D7
+L Device:LED D7
 U 1 1 5C098FE5
 P 9400 1250
 F 0 "D7" H 9392 995 50  0000 C CNN
@@ -192,7 +192,7 @@ F 3 "~" H 9400 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D8
+L Device:LED D8
 U 1 1 5C098FEC
 P 9700 1250
 F 0 "D8" H 9692 995 50  0000 C CNN
@@ -203,7 +203,7 @@ F 3 "~" H 9700 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D9
+L Device:LED D9
 U 1 1 5C098FF3
 P 10000 1250
 F 0 "D9" H 9992 995 50  0000 C CNN
@@ -214,7 +214,7 @@ F 3 "~" H 10000 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D10
+L Device:LED D10
 U 1 1 5C098FFA
 P 10300 1250
 F 0 "D10" H 10292 995 50  0000 C CNN
@@ -225,7 +225,7 @@ F 3 "~" H 10300 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D11
+L Device:LED D11
 U 1 1 5C0997B3
 P 10600 1250
 F 0 "D11" H 10592 995 50  0000 C CNN
@@ -236,7 +236,7 @@ F 3 "~" H 10600 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Driver_ISSI_ALU-rescue:LED-Device D12
+L Device:LED D12
 U 1 1 5C0997F5
 P 10900 1250
 F 0 "D12" H 10892 995 50  0000 C CNN
@@ -287,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2400 5600 2400
 Text Label 1250 2650 0    60   ~ 0
-ADJ_LED
+ADJ
 $Sheet
 S 11350 4300 1800 700 
 U 5C7ADA7D
@@ -336,7 +336,7 @@ Wire Wire Line
 	11050 4500 11050 2800
 Connection ~ 11050 4500
 $Comp
-L LED_Driver_ISSI_ALU-rescue:Thermistor_NTC-Device TH1
+L Device:Thermistor_NTC TH1
 U 1 1 5C7C2381
 P 2050 4950
 F 0 "TH1" H 2148 4996 50  0000 L CNN
@@ -353,7 +353,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1250 4750 1250
 $Comp
-L LED_Driver_ISSI_ALU-rescue:PWR_FLAG-power #FLG0101
+L power:PWR_FLAG #FLG0101
 U 1 1 5C7C78CD
 P 2700 1250
 F 0 "#FLG0101" H 2700 1325 50  0001 C CNN
@@ -390,7 +390,7 @@ Wire Wire Line
 	1250 2950 2050 2950
 NoConn ~ 1250 3350
 $Comp
-L LED_Driver_ISSI_ALU-rescue:PWR_FLAG-power #FLG0102
+L power:PWR_FLAG #FLG0102
 U 1 1 5C7D4DC2
 P 4050 2200
 F 0 "#FLG0102" H 4050 2275 50  0001 C CNN
