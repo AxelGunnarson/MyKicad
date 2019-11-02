@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\GIT\MyKicad\Projects\Control_board\Control_board.sch</source>
-    <date>9/5/2019 9:03:42 PM</date>
-    <tool>Eeschema (5.1.4)-1</tool>
+    <source>C:\MyKicad\Projects\Control_board\Control_board.sch</source>
+    <date>9/9/2019 5:37:31 PM</date>
+    <tool>Eeschema (5.1.2)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -904,7 +904,7 @@
   </libparts>
   <libraries>
     <library logical="Control_board-rescue">
-      <uri>C:\GIT\MyKicad\Projects\Control_board/Control_board-rescue.lib</uri>
+      <uri>C:\MyKicad\Projects\Control_board/Control_board-rescue.lib</uri>
     </library>
   </libraries>
   <nets>

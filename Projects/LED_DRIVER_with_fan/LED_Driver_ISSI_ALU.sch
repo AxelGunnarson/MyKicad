@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LED_Driver_ISSI_ALU-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -279,8 +279,6 @@ $EndComp
 Connection ~ 4750 1800
 Wire Wire Line
 	4750 1250 4750 1650
-Wire Wire Line
-	5550 1650 4750 1650
 Connection ~ 4750 1650
 Wire Wire Line
 	4750 1650 4750 1800
@@ -364,23 +362,6 @@ F 3 "~" H 2700 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2700 1250
-$Comp
-L LED_Driver_ISSI_ALU-rescue:PMEG4010EGWX-SamacSys_Parts D1
-U 1 1 5C7C8997
-P 5450 1650
-F 0 "D1" H 5850 1915 50  0000 C CNN
-F 1 "PMEG4010EGWX" H 5850 1824 50  0000 C CNN
-F 2 "SamacSys_Parts:SOD3616X130N" H 5950 1800 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/PMEG4010EGWX.pdf" H 5950 1700 50  0001 L CNN
-F 4 "NEXPERIA - PMEG4010EGWX - SCHOTTKY RECT, AEC-Q101, 40V, SOD-123" H 5950 1600 50  0001 L CNN "Description"
-F 5 "1.3" H 5950 1500 50  0001 L CNN "Height"
-F 6 "841-PMEG4010EGWX" H 5950 1400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=841-PMEG4010EGWX" H 5950 1300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Nexperia" H 5950 1200 50  0001 L CNN "Manufacturer_Name"
-F 9 "PMEG4010EGWX" H 5950 1100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5450 1650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1250 2550
 Wire Wire Line
 	1250 2750 3250 2750
@@ -538,4 +519,23 @@ Wire Wire Line
 Text Label 1250 3250 0    60   ~ 0
 3.3V
 NoConn ~ 1250 3050
+Wire Wire Line
+	5550 1650 4750 1650
+$Comp
+L LED_Driver_ISSI_ALU-rescue:PMEG4010EGWX-SamacSys_Parts D1
+U 1 1 5C7C8997
+P 5450 1650
+F 0 "D1" H 5850 1915 50  0000 C CNN
+F 1 "PMEG4010EGWX" H 5850 1824 50  0000 C CNN
+F 2 "SamacSys_Parts:SOD3616X130N" H 5950 1800 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PMEG4010EGWX.pdf" H 5950 1700 50  0001 L CNN
+F 4 "NEXPERIA - PMEG4010EGWX - SCHOTTKY RECT, AEC-Q101, 40V, SOD-123" H 5950 1600 50  0001 L CNN "Description"
+F 5 "1.3" H 5950 1500 50  0001 L CNN "Height"
+F 6 "841-PMEG4010EGWX" H 5950 1400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=841-PMEG4010EGWX" H 5950 1300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nexperia" H 5950 1200 50  0001 L CNN "Manufacturer_Name"
+F 9 "PMEG4010EGWX" H 5950 1100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5450 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -16,21 +16,6 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Control_board-rescue_+24V-power
-#
-DEF Control_board-rescue_+24V-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Control_board-rescue_+24V-power" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +24V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Control_board-rescue_+3.3V-power
 #
 DEF Control_board-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
@@ -43,21 +28,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Control_board-rescue_+36V-power
-#
-DEF Control_board-rescue_+36V-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Control_board-rescue_+36V-power" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +36V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -180,30 +150,6 @@ X D3 6 -500 300 100 R 50 50 1 1 B
 X D4 7 -500 200 100 R 50 50 1 1 B
 X D5 8 -500 100 100 R 50 50 1 1 B
 X D6 9 -500 0 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Control_board-rescue_BD1HD500FVM-CTR-SamacSys_Parts
-#
-DEF Control_board-rescue_BD1HD500FVM-CTR-SamacSys_Parts IC 0 30 Y Y 1 F N
-F0 "IC" 1050 300 50 H V L CNN
-F1 "Control_board-rescue_BD1HD500FVM-CTR-SamacSys_Parts" 1050 200 50 H V L CNN
-F2 "SOP65P400X90-8N" 1050 100 50 H I L CNN
-F3 "https://mouser.componentsearchengine.com/Datasheets/1/BD1HD500FVM-CTR.pdf" 1050 0 50 H I L CNN
-F4 "Power Switch ICs - Power Distribution 1ch High-side swtch 4-18V; TSD slf-rest." 1050 -100 50 H I L CNN "Description"
-F5 "0.9" 1050 -200 50 H I L CNN "Height"
-F6 "ROHM Semiconductor" 1050 -500 50 H I L CNN "Manufacturer_Name"
-F7 "BD1HD500FVM-CTR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
-X IN 1 0 0 200 R 50 50 0 0 B
-X GND 2 0 -100 200 R 50 50 0 0 B
-X OUT_1 3 0 -200 200 R 50 50 0 0 B
-X OUT_2 4 0 -300 200 R 50 50 0 0 B
-X VDD_1 5 1200 -300 200 L 50 50 0 0 B
-X VDD_2 6 1200 -200 200 L 50 50 0 0 B
-X NC 7 1200 -100 200 L 50 50 0 0 B
-X ST 8 1200 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
@@ -647,6 +593,21 @@ S -200 75 200 -200 1 1 10 f
 X VI 1 -300 0 100 R 50 50 1 1 W
 X GND 2 0 -300 100 U 50 50 1 1 W
 X VO 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# power_+48V
+#
+DEF power_+48V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+48V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +48V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
