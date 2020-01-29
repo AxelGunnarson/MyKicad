@@ -1,0 +1,1144 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AL8860WT-7
+#/648025/75051/2.43/5/3/Integrated Circuit
+DEF AL8860WT-7 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "AL8860WT-7" 950 200 50 H V L CNN
+F2 "SOT95P280X100-5N" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/AL8860WT-7.pdf" 950 0 50 H I L CNN
+F4 "DiodesZetex, AL8860WT-7 Step-Down Switching Regulator 1A Adjustable 25-Pin, TSOT" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "621-AL8860WT-7" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AL8860WT-7" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AL8860WT-7" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SW 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 B
+X CTRL 3 0 -200 200 R 50 50 0 0 B
+X SET 4 1100 0 200 L 50 50 0 0 B
+X VIN 5 1100 -100 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 43045-0401
+#/258875/75051/2.43/4/4/Connector
+DEF 43045-0401 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0401" 650 200 50 H V L CNN
+F2 "430450401" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/43045-0401.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0401" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "43045-0401" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PCA9615DPJ
+#/1027765/75051/2.43/10/3/Integrated Circuit
+DEF PCA9615DPJ IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "PCA9615DPJ" 1150 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 1150 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PCA9615DPJ.pdf" 1150 0 50 H I L CNN
+F4 "NXP - PCA9615DPJ - BUFFER, DIFFERENTIAL I2C-BUS, TSSOP-10" 1150 -100 50 H I L CNN "Description"
+F5 "1.1" 1150 -200 50 H I L CNN "Height"
+F6 "771-PCA9615DPJ" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCA9615DPJ" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PCA9615DPJ" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD(A) 1 0 0 200 R 50 50 0 0 B
+X SDA 2 0 -100 200 R 50 50 0 0 B
+X EN 3 0 -200 200 R 50 50 0 0 B
+X SCL 4 0 -300 200 R 50 50 0 0 B
+X VSS 5 0 -400 200 R 50 50 0 0 B
+X VDD(B) 10 1300 0 200 L 50 50 0 0 B
+X DSDAM 9 1300 -100 200 L 50 50 0 0 B
+X DSDAP 8 1300 -200 200 L 50 50 0 0 B
+X DSCLP 7 1300 -300 200 L 50 50 0 0 B
+X DSCLM 6 1300 -400 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+
+#
+# 109159003101916
+#
+DEF 109159003101916 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "109159003101916" 650 200 50 H V L CNN
+F2 "109159003101916" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/109159003101916.pdf" 650 0 50 H I L CNN
+F4 "Board to Board & Mezzanine Connectors 3WAY PLUG" 650 -100 50 H I L CNN "Description"
+F5 "581-109159003101916" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "AVX" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "109159003101916" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 109159006101916
+#
+DEF 109159006101916 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "109159006101916" 650 200 50 H V L CNN
+F2 "109159006101916" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/109159006101916.pdf" 650 0 50 H I L CNN
+F4 "Board to Board & Mezzanine Connectors Horizontal Plug 6Way 3mm Pitch 5A 125VAC" 650 -100 50 H I L CNN "Description"
+F5 "2.55" 650 -200 50 H I L CNN "Height"
+F6 "581-109159006101916" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "AVX" 650 -400 50 H I L CNN "Manufacturer_Name"
+F8 "109159006101916" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 800 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 800 -300 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 209159003101916
+#
+DEF 209159003101916 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "209159003101916" 650 200 50 H V L CNN
+F2 "209159003101916" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/209159003101916.pdf" 650 0 50 H I L CNN
+F4 "CONN SSL SOCKET 3POS 3MM SOLDER" 650 -100 50 H I L CNN "Description"
+F5 "581-209159003101916" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "AVX" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "209159003101916" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 2SS100L-W
+#
+DEF 2SS100L-W D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "2SS100L-W" 400 250 50 H V L BNN
+F2 "2SS100LW" 400 150 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/1/2SS100L-W.pdf" 400 50 50 H I L BNN
+F4 "Schottky Diodes & Rectifiers 100V 2A SM SCHOTTKY Barrier Rectifier" 400 -50 50 H I L BNN "Description"
+F5 "1" 400 -150 50 H I L BNN "Height"
+F6 "583-2SS100L-W" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "Rectron" 400 -350 50 H I L BNN "Manufacturer_Name"
+F8 "2SS100L-W" 400 -450 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 600 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 43045-0200
+#
+DEF 43045-0200 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0200" 650 200 50 H V L CNN
+F2 "43045-0200" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/276/0430450200_PCB_HEADERS-145770.pdf" 650 0 50 H I L CNN
+F4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "538-43045-0200" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "43045-0200" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 43045-0401
+#
+DEF 43045-0401 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0401" 650 200 50 H V L CNN
+F2 "430450401" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
+F8 "43045-0401" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 43650-0303
+#
+DEF 43650-0303 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43650-0303" 650 200 50 H V L CNN
+F2 "436500303" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/276/0436500303_PCB_HEADERS-148739.pdf" 650 0 50 H I L CNN
+F4 "Molex PCB Header 43650 MICRO-FIT 3.0, 3 Way, 3mm Pitch, 1 Row, Right Angle, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "538-43650-0303" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "43650-0303" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 505578-0571
+#
+DEF 505578-0571 J 0 30 Y Y 1 F N
+F0 "J" 650 500 50 H V L CNN
+F1 "505578-0571" 650 400 50 H V L CNN
+F2 "5055780571" 650 300 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/505578-0571.pdf" 1550 -100 50 H I L CNN
+F4 "MOLEX - 505578-0571 - CONNECTOR, HEADER, 5POS, 1ROW, 2MM" 1550 -200 50 H I L CNN "Description"
+F5 "5.9" 650 -550 50 H I L CNN "Height"
+F6 "538-505578-0571" 1650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505578-0571" 1650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 1700 -550 50 H I L CNN "Manufacturer_Name"
+F9 "505578-0571" 1700 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 800 250 450 -450 0 1 0 N
+X 1 1 1000 100 200 L 50 50 0 0 B
+X 2 2 1000 0 200 L 50 50 0 0 P
+X 3 3 1000 -100 200 L 50 50 0 0 B
+X 4 4 1000 -200 200 L 50 50 0 0 B
+X 5 5 1000 -300 200 L 50 50 0 0 B
+X MP1 MP1 1000 200 200 L 50 50 0 0 B
+X MP2 MP2 1000 -400 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 865080643008
+#
+DEF 865080643008 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "865080643008" 350 150 50 H V L CNN
+F2 "CAPAE660X560N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Wurth Elektronik 22F 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 5.35mm" 350 -150 50 H I L CNN "Description"
+F5 "5.6" 350 -250 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 350 -450 50 H I L CNN "Manufacturer_Name"
+F7 "865080643008" 350 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 865080653016
+#
+DEF 865080653016 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "865080653016" 350 150 50 H V L CNN
+F2 "CAPAE830X1050N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/865080653016.pdf" 350 -50 50 H I L CNN
+F4 "Wurth Elektronik 100F 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 8 (Dia.) x 10.35mm" 350 -150 50 H I L CNN "Description"
+F5 "10.5" 350 -250 50 H I L CNN "Height"
+F6 "710-865080653016" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "Wurth Elektronik" 350 -450 50 H I L CNN "Manufacturer_Name"
+F8 "865080653016" 350 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 B
+X ~ 2 500 0 100 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# B3U-1000P
+#
+DEF B3U-1000P S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "B3U-1000P" 650 200 50 H V L CNN
+F2 "B3U-1000P" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/307/en-b3u-3615.pdf" 650 0 50 H I L CNN
+F4 "OMRON ELECTRONIC COMPONENTS - B3U-1000P - SWITCH, SPST-NO, 0.05A, 12V, SMD" 650 -100 50 H I L CNN "Description"
+F5 "653-B3U-1000P" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "Omron Electronics" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "B3U-1000P" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X K 1 0 0 200 R 50 50 0 0 B
+X A 2 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# BAT-HLD-001
+#
+DEF BAT-HLD-001 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "BAT-HLD-001" 650 200 50 H V L CNN
+F2 "BATHLD001" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/238/bat-hld-001-220194.pdf" 650 0 50 H I L CNN
+F4 "Coin Cell Battery Holders Linx CR2032 Battery Holder" 650 -100 50 H I L CNN "Description"
+F5 "4" 650 -200 50 H I L CNN "Height"
+F6 "712-BAT-HLD-001" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "Linx Technologies" 650 -400 50 H I L CNN "Manufacturer_Name"
+F8 "BAT-HLD-001" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# BQ24040DSQR
+#
+DEF BQ24040DSQR IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "BQ24040DSQR" 1150 200 50 H V L CNN
+F2 "SON40P200X200X80-10N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/bq24040" 1150 0 50 H I L CNN
+F4 "1A Single-Input, Single Cell Li-Ion Battery Charger. Vovp=6.6V | Linear" 1150 -100 50 H I L CNN "Description"
+F5 "595-BQ24040DSQR" 1150 -300 50 H I L CNN "Mouser Part Number"
+F6 "Texas Instruments" 1150 -400 50 H I L CNN "Manufacturer_Name"
+F7 "BQ24040DSQR" 1150 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -600 200 -600 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 B
+X OUT 10 1300 -100 200 L 50 50 0 0 B
+X EP 11 1300 0 200 L 50 50 0 0 W
+X ISET 2 0 -100 200 R 50 50 0 0 B
+X VSS 3 0 -200 200 R 50 50 0 0 B
+X PRETERM 4 0 -300 200 R 50 50 0 0 B
+X ~PG 5 0 -400 200 R 50 50 0 0 B
+X NC 6 0 -500 200 R 50 50 0 0 B
+X ISET2 7 1300 -400 200 L 50 50 0 0 B
+X ~CHG 8 1300 -300 200 L 50 50 0 0 B
+X TS 9 1300 -200 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# DB2W40100L
+#
+DEF DB2W40100L D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "DB2W40100L" 450 100 50 H V L CNN
+F2 "MINI2-F3-B" 450 0 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/DB2W40100L.pdf" 450 -100 50 H I L CNN
+F4 "Panasonic DB2W40100L, SMT Schottky Diode, 40V 1A, 15ns, 2-Pin Mini2-F3-AB" 450 -200 50 H I L CNN "Description"
+F5 "667-DB2W40100L" 450 -400 50 H I L CNN "Mouser Part Number"
+F6 "Panasonic" 450 -500 50 H I L CNN "Manufacturer_Name"
+F7 "DB2W40100L" 450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 600 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# FC-135_32.7680KA-AG0
+#
+DEF FC-135_32.7680KA-AG0 Y 0 30 Y Y 1 F N
+F0 "Y" 650 300 50 H V L CNN
+F1 "FC-135_32.7680KA-AG0" 650 200 50 H V L CNN
+F2 "FC135327680KAAG0" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/137/C-135R_en-1109071.pdf" 650 0 50 H I L CNN
+F4 "Crystals 32.768KHz 20ppm 7.0pF -40C +85C" 650 -100 50 H I L CNN "Description"
+F5 "0" 650 -200 50 H I L CNN "Height"
+F6 "732-FC135-32.76KAAG0" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "Epson Timing" 650 -400 50 H I L CNN "Manufacturer_Name"
+F8 "FC-135 32.7680KA-AG0" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# FC0H473ZFTBR24
+#
+DEF FC0H473ZFTBR24 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "FC0H473ZFTBR24" 350 150 50 H V L CNN
+F2 "CAPAE1080X550N" 350 50 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/212/KEM_S6011_FC-1104096.pdf" 350 -50 50 H I L CNN
+F4 "KEMET 47000uF Supercapacitor EDLC -20  +80% Tolerance Supercap FC Series 5.5V dc Surface Mount" 350 -150 50 H I L CNN "Description"
+F5 "5.5" 350 -250 50 H I L CNN "Height"
+F6 "80-FC0H473ZFTBR24" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "Kemet" 350 -450 50 H I L CNN "Manufacturer_Name"
+F8 "FC0H473ZFTBR24" 350 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 B
+X ~ 2 500 0 100 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# LM1117MPX-3.3_NOPB
+#
+DEF LM1117MPX-3.3_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "LM1117MPX-3.3_NOPB" 1150 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" 1150 0 50 H I L CNN
+F4 "Space saving 800-mA low-dropout linear regulator with internal current limit" 1150 -100 50 H I L CNN "Description"
+F5 "1.8" 1150 -200 50 H I L CNN "Height"
+F6 "926-LM1117MPX3.3NOPB" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "Texas Instruments" 1150 -400 50 H I L CNN "Manufacturer_Name"
+F8 "LM1117MPX-3.3/NOPB" 1150 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+X ADJ/GND 1 0 0 200 R 50 50 0 0 B
+X OUTPUT 2 0 -100 200 R 50 50 0 0 B
+X INPUT 3 1300 0 200 L 50 50 0 0 B
+X VOUT 4 1300 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# LM3658SDX-A_NOPB
+#
+DEF LM3658SDX-A_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "LM3658SDX-A_NOPB" 1150 200 50 H V L CNN
+F2 "QFN50P300X300X100-10N-D" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/lm3658" 1150 0 50 H I L CNN
+F4 "Dual Source USB/AC Li Chemistry Charger IC for Portable Applications" 1150 -100 50 H I L CNN "Description"
+F5 "1" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -400 50 H I L CNN "Manufacturer_Name"
+F7 "LM3658SDX-A/NOPB" 1150 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+X CHG_IN 1 0 0 200 R 50 50 0 0 B
+X BATT 10 1300 0 200 L 50 50 0 0 B
+X USBPWR 2 0 -100 200 R 50 50 0 0 B
+X GND 3 0 -200 200 R 50 50 0 0 B
+X USB_SEL 4 0 -300 200 R 50 50 0 0 B
+X EN_B 5 0 -400 200 R 50 50 0 0 B
+X STAT2 6 1300 -400 200 L 50 50 0 0 B
+X STAT1 7 1300 -300 200 L 50 50 0 0 B
+X ISET 8 1300 -200 200 L 50 50 0 0 B
+X TS 9 1300 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# MBR0520LT1G
+#
+DEF MBR0520LT1G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "MBR0520LT1G" 450 100 50 H V L CNN
+F2 "SOD3716X135N" 450 0 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/308/MBR0520LT1-D-94265.pdf" 450 -100 50 H I L CNN
+F4 "MBR0520LT1G, Schottky Diode,  0.5A max, 20V, 2-Pin, SOD-123" 450 -200 50 H I L CNN "Description"
+F5 "1.35" 450 -300 50 H I L CNN "Height"
+F6 "863-MBR0520LT1G" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "ON Semiconductor" 450 -500 50 H I L CNN "Manufacturer_Name"
+F8 "MBR0520LT1G" 450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 600 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# MIC5504-3.3YM5-TR
+#
+DEF MIC5504-3.3YM5-TR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MIC5504-3.3YM5-TR" 950 200 50 H V L CNN
+F2 "SOT95P280X130-5N" 950 100 50 H I L CNN
+F3 "https://www.mouser.se/datasheet/2/268/MIC550X-1082389.pdf" 950 0 50 H I L CNN
+F4 "MICROCHIP - MIC5504-3.3YM5-TR - LDO VOLT REG, 0.3A, 3.3V, SOT-23-5" 950 -100 50 H I L CNN "Description"
+F5 "1.3" 950 -200 50 H I L CNN "Height"
+F6 "998-MIC5504-3.3YM5TR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "Microchip" 950 -400 50 H I L CNN "Manufacturer_Name"
+F8 "MIC5504-3.3YM5-TR" 950 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 W
+X EN 3 0 -200 200 R 50 50 0 0 B
+X NC 4 1100 0 200 L 50 50 0 0 B
+X VOUT 5 1100 -100 200 L 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# NCP694H33HT1G
+#
+DEF NCP694H33HT1G IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "NCP694H33HT1G" 1050 200 50 H V L CNN
+F2 "ON_SOT-89" 1050 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/NCP694.PDF" 1050 0 50 H I L CNN
+F4 "ON Semiconductor NCP694H33HT1G, LDO Voltage Regulator, 1A, 3.3 V, 1.4  6 Vin, 5-Pin SOT-89" 1050 -100 50 H I L CNN "Description"
+F5 "ON Semiconductor" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F6 "NCP694H33HT1G" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "7192733P" 1050 -500 50 H I L CNN "RS Part Number"
+F8 "http://uk.rs-online.com/web/p/products/7192733P" 1050 -600 50 H I L CNN "RS Price/Stock"
+F9 "863-NCP694H33HT1G" 1050 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NCP694H33HT1G" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X ADJ/NC 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 B
+X CE 3 0 -200 200 R 50 50 0 0 B
+X VIN 4 1200 0 200 L 50 50 0 0 B
+X VOUT 5 1200 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# NE555D
+#
+DEF NE555D IC 0 30 Y Y 1 F N
+F0 "IC" 550 150 50 H V C CNN
+F1 "NE555D" 550 -450 50 H V C CNN
+F2 "SOIC127P600X175-8N" 550 -550 50 H I C CNN
+F3 "http: //www.ti.com/lit/ds/symlink/ne555.pdf" 550 -650 50 H I C CNN
+F4 "NE555DG4, Timer, 4.5 To 16V, 8-Pin SOIC-8" 550 -750 50 H I C CNN "Description"
+F5 "Texas Instruments" 550 -850 50 H I C CNN "Manufacturer_Name"
+F6 "NE555D" 550 -950 50 H I C CNN "Manufacturer_Part_Number"
+F7 "RS" 550 -1050 50 H I C CNN "Supplier_Name"
+F8 "6624661P" 550 -1150 50 H I C CNN "RS Part Number"
+F9 "1.75" 550 -1250 50 H I C CNN "Height"
+DRAW
+S 200 100 900 -400 0 0 10 f
+X GND 1 0 0 200 R 50 50 0 0 W
+X TRIG 2 0 -100 200 R 50 50 0 0 U
+X OUT 3 0 -200 200 R 50 50 0 0 O
+X Reset 4 0 -300 200 R 50 50 0 0 U
+X CONT 5 1100 -300 200 L 50 50 0 0 U
+X THRES 6 1100 -200 200 L 50 50 0 0 U
+X DISCH 7 1100 -100 200 L 50 50 0 0 U
+X VCC 8 1100 0 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# PAM2861CBR
+#
+DEF PAM2861CBR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "PAM2861CBR" 1050 200 50 H V L CNN
+F2 "SOT89-5" 1050 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/PAM2861.pdf" 1050 0 50 H I L CNN
+F4 "Step-down LED Driver 1MHz 40V 1A SOT89-5 DiodesZetex PAM2861CBR LED Driver IC, 6  40 V dc 1A 6-Pin SOT-89" 1050 -100 50 H I L CNN "Description"
+F5 "Diodes Inc." 1050 -300 50 H I L CNN "Manufacturer_Name"
+F6 "PAM2861CBR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "7902944P" 1050 -500 50 H I L CNN "RS Part Number"
+F8 "http://uk.rs-online.com/web/p/products/7902944P" 1050 -600 50 H I L CNN "RS Price/Stock"
+F9 "70438399" 1050 -700 50 H I L CNN "Allied_Number"
+F10 "http://www.alliedelec.com/diodes-inc-pam2861cbr/70438399/" 1050 -800 50 H I L CNN "Allied Price/Stock"
+F11 "621-PAM2861CBR" 1050 -900 50 H I L CNN "Mouser Part Number"
+F12 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-PAM2861CBR" 1050 -1000 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X LX 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 B
+X VSET 3 0 -200 200 R 50 50 0 0 B
+X ISENSE 4 1200 0 200 L 50 50 0 0 B
+X VIN 5 1200 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# PB114024
+#
+DEF PB114024 K 0 30 Y Y 1 F N
+F0 "K" 1050 300 50 H V L CNN
+F1 "PB114024" 1050 200 50 H V L CNN
+F2 "PB114024" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PB114024.pdf" 1050 0 50 H I L CNN
+F4 "Mini SPDT 10A pcb power relay, 24Vdc SPDT PCB Mount Non-Latching Relay, 24V dc" 1050 -100 50 H I L CNN "Description"
+F5 "20" 1050 -200 50 H I L CNN "Height"
+F6 "655-PB114024" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "TE Connectivity" 1050 -400 50 H I L CNN "Manufacturer_Name"
+F8 "PB114024" 1050 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X COM 11 0 0 200 R 50 50 0 0 B
+X NC 12 0 -100 200 R 50 50 0 0 B
+X NO 14 0 -200 200 R 50 50 0 0 B
+X COIL_1 A1 1200 0 200 L 50 50 0 0 B
+X COIL_2 A2 1200 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# PDTD113ET,215
+#
+DEF PDTD113ET,215 Q 0 30 Y Y 1 F N
+F0 "Q" 750 600 50 H V L BNN
+F1 "PDTD113ET,215" 750 500 50 H V L BNN
+F2 "SOT95P230X110-3N" 750 400 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/1/PDTD113ET,215.pdf" 750 300 50 H I L BNN
+F4 "PDTD113E_SER - NPN 500 mA, 50 V resistor-equipped transistors; R1 = 1 kOhm, R2 = 1 kOhm" 750 200 50 H I L BNN "Description"
+F5 "1.1" 750 100 50 H I L BNN "Height"
+F6 "771-PDTD113ET215" 750 0 50 H I L BNN "Mouser Part Number"
+F7 "Nexperia" 750 -100 50 H I L BNN "Manufacturer_Name"
+F8 "PDTD113ET,215" 750 -200 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+C 450 0 10 0 1 15 N
+C 650 -400 10 0 1 15 N
+T 0 260 100 50 0 0 1 R1 Normal 0 C C
+T 0 510 -200 50 0 0 1 R2 Normal 0 L C
+P 2 0 1 6 100 0 150 0 N
+P 2 0 1 6 450 0 550 0 N
+P 2 0 1 6 550 -20 650 -120 N
+P 2 0 1 6 550 30 650 130 N
+P 2 0 1 20 550 80 550 -70 N
+P 2 0 1 6 650 -120 650 -400 N
+P 3 0 1 6 450 -300 450 -400 700 -400 N
+P 3 0 1 6 450 -100 450 0 350 0 N
+P 3 0 1 6 650 130 650 200 700 200 N
+P 4 0 1 10 580 -70 600 -50 620 -90 580 -70 F
+P 5 0 1 6 150 -40 150 40 350 40 350 -40 150 -40 N
+P 5 0 1 6 490 -300 410 -300 410 -100 490 -100 490 -300 N
+P 5 0 1 6 700 300 700 -500 100 -500 100 300 700 300 N
+X ~ 1 0 0 100 R 50 50 0 0 B
+X ~ 2 800 -400 100 L 50 50 0 0 B
+X ~ 3 800 200 100 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# PMEG4010EGWX
+#
+DEF PMEG4010EGWX D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "PMEG4010EGWX" 500 250 50 H V L CNN
+F2 "SOD3616X130N" 500 150 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PMEG4010EGWX.pdf" 500 50 50 H I L CNN
+F4 "NEXPERIA - PMEG4010EGWX - SCHOTTKY RECT, AEC-Q101, 40V, SOD-123" 500 -50 50 H I L CNN "Description"
+F5 "1.3" 500 -150 50 H I L CNN "Height"
+F6 "841-PMEG4010EGWX" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=841-PMEG4010EGWX" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "PMEG4010EGWX" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 500 0 600 0 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 4 0 1 6 300 0 500 100 500 -100 300 0 N
+X ~ 1 100 0 100 R 50 50 0 0 B
+X ~ 2 700 0 100 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# PS1240P02BT
+#
+DEF PS1240P02BT LS 0 30 Y Y 1 F N
+F0 "LS" 650 300 50 H V L CNN
+F1 "PS1240P02BT" 650 200 50 H V L CNN
+F2 "PS1240P02BT" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" 650 0 50 H I L CNN
+F4 "Audio Indicators & Alerts Round 12.2mmx6.5mm 4kHz Vin=3V" 650 -100 50 H I L CNN "Description"
+F5 "810-PS1240P02BT" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "TDK" 650 -400 50 H I L CNN "Manufacturer_Name"
+F7 "PS1240P02BT" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# UJ2W-MIBH-4-SMT-TR
+#
+DEF UJ2W-MIBH-4-SMT-TR J 0 30 Y Y 1 F N
+F0 "J" 350 200 50 H V L CNN
+F1 "UJ2W-MIBH-4-SMT-TR" 50 100 50 H V L CNN
+F2 "UJ2WMIBH4SMTTR" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/UJ2W-MIBH-4-SMT-TR.pdf" 750 0 50 H I L CNN
+F4 "USB Connectors USB 2.0 micro B jack 5pn HZ watrproof SMT" 750 -100 50 H I L CNN "Description"
+F5 "4" 750 -200 50 H I L CNN "Height"
+F6 "490-UJ2W-MIBH-4-SMT" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "CUI" 750 -400 50 H I L CNN "Manufacturer_Name"
+F8 "UJ2W-MIBH-4-SMT-TR" 750 -500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 6 0 1 6 200 0 400 0 700 0 700 -750 200 -750 200 0 N
+X 1_VCC 1 900 -400 200 L 50 50 0 0 B
+X 10 10 0 -600 200 R 50 50 0 0 B
+X 11 11 0 -700 200 R 50 50 0 0 B
+X 2_D- 2 900 -700 200 L 50 50 0 0 B
+X 3_D+ 3 900 -600 200 L 50 50 0 0 B
+X 4 4 0 -100 200 R 50 50 0 0 B
+X 5_GND 5 900 -500 200 L 50 50 0 0 B
+X 6 6 0 -200 200 R 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 0 -400 200 R 50 50 0 0 B
+X 9 9 0 -500 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 505578-0271
+#/1512976/75051/2.36/4/4/Connector
+DEF 505578-0271 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "505578-0271" 850 200 50 H V L CNN
+F2 "5055780271" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/505578-0271.pdf" 850 0 50 H I L CNN
+F4 "Headers & Wire Housings MicroLockPlus RA Hdr SR 2Ckt Blk" 850 -100 50 H I L CNN "Description"
+F5 "5.9" 850 -200 50 H I L CNN "Height"
+F6 "538-505578-0271" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505578-0271" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "505578-0271" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X MP1 MP1 0 -100 200 R 50 50 0 0 B
+X 2 2 1000 0 200 L 50 50 0 0 B
+X MP2 MP2 1000 -100 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L7812CD2T-TR
+#/179444/75051/2.36/3/3/Integrated Circuit
+DEF L7812CD2T-TR IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "L7812CD2T-TR" 1350 200 50 H V L CNN
+F2 "TO254P1542X460-3N" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/L7812CD2T-TR.pdf" 1350 0 50 H I L CNN
+F4 "L7812CD2T-TR, Voltage Regulator, 1.5A 12 V, 3-Pin D2PAK" 1350 -100 50 H I L CNN "Description"
+F5 "4.6" 1350 -200 50 H I L CNN "Height"
+F6 "511-L7812CD2T-TR" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-L7812CD2T-TR" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L7812CD2T-TR" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X INPUT 1 0 0 200 R 50 50 0 0 B
+X OUTPUT 3 0 -100 200 R 50 50 0 0 B
+X GND_(TAB) 4 1500 0 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1300 100 1300 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 505567-0871
+#/990884/75051/2.37/10/4/Connector
+DEF 505567-0871 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "505567-0871" 750 200 50 H V L CNN
+F2 "5055670871" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/505567-0871.pdf" 750 0 50 H I L CNN
+F4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 8CKT BLK" 750 -100 50 H I L CNN "Description"
+F5 "4" 750 -200 50 H I L CNN "Height"
+F6 "538-505567-0871" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0871" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "505567-0871" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 505567-0681
+#/1007071/75051/2.37/8/4/Connector
+DEF 505567-0681 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "505567-0681" 650 200 50 H V L CNN
+F2 "5055670681" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/505567-0681.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 6P BLK GLD" 650 -100 50 H I L CNN "Description"
+F5 "4" 650 -200 50 H I L CNN "Height"
+F6 "538-505567-0681" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0681" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "505567-0681" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+X 6 6 800 -200 200 L 50 50 0 0 B
+X 8 8 800 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BSP76_E6433
+#/1936231/75051/2.37/4/0/MOSFET (N-Channel)
+DEF BSP76_E6433 Q 0 30 Y Y 1 F N
+F0 "Q" 1250 300 50 H V L CNN
+F1 "BSP76_E6433" 1250 200 50 H V L CNN
+F2 "SOT230P700X170-4N" 1250 100 50 H I L CNN
+F3 "https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf" 1250 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR" 1250 -100 50 H I L CNN "Description"
+F5 "1.7" 1250 -200 50 H I L CNN "Height"
+F6 "" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BSP76 E6433" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 B
+X DRAIN_1 2 0 -100 200 R 50 50 0 0 B
+X SOURCE 3 1400 0 200 L 50 50 0 0 B
+X DRAIN_2 4 1400 -100 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BD1HD500FVM-CTR
+#/1936632/75051/2.37/8/0/Integrated Circuit
+DEF BD1HD500FVM-CTR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BD1HD500FVM-CTR" 1050 200 50 H V L CNN
+F2 "SOP65P400X90-8N" 1050 100 50 H I L CNN
+F3 "https://mouser.componentsearchengine.com/Datasheets/1/BD1HD500FVM-CTR.pdf" 1050 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution 1ch High-side swtch 4-18V; TSD slf-rest." 1050 -100 50 H I L CNN "Description"
+F5 "0.9" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BD1HD500FVM-CTR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 B
+X OUT_1 3 0 -200 200 R 50 50 0 0 B
+X OUT_2 4 0 -300 200 R 50 50 0 0 B
+X ST 8 1200 0 200 L 50 50 0 0 B
+X NC 7 1200 -100 200 L 50 50 0 0 B
+X VDD_2 6 1200 -200 200 L 50 50 0 0 B
+X VDD_1 5 1200 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 43045-0401
+#/258875/75051/2.43/4/4/Connector
+DEF 43045-0401 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0401" 650 200 50 H V L CNN
+F2 "430450401" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/43045-0401.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0401" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "43045-0401" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+# 5055680671
+#
+DEF 5055680671 J 0 40 Y Y 1 L N
+F0 "J" -200 521 50 H V L BNN
+F1 "5055680671" -200 -591 50 H V L BNN
+F2 "MOLEX_5055680671" 0 0 50 H I L BNN
+F3 "5055680671" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "https://www.digikey.se/product-detail/en/molex/5055680671/WM17037CT-ND/7807036?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "Conn Shrouded Header HDR 6 POS 1.25mm Solder ST Top Entry SMD Micro-Lock™ T/R" 0 0 50 H I L BNN
+F7 "WM17037CT-ND" 0 0 50 H I L BNN
+F8 "Molex" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 200 -400 200 500 N
+P 2 0 0 6 200 500 -200 500 N
+P 2 0 0 6 -200 500 -200 -400 N
+P 2 0 0 6 -200 -400 200 -400 N
+X 1 1 400 400 200 L 40 40 0 0 P 
+X 2 2 400 300 200 L 40 40 0 0 P 
+X 3 3 400 200 200 L 40 40 0 0 P 
+X 4 4 400 100 200 L 40 40 0 0 P 
+X SHIELD S1 400 -300 200 L 40 40 0 0 P 
+X SHIELD S2 400 -300 200 L 40 40 0 0 P 
+X 5 5 400 0 200 L 40 40 0 0 P 
+X 6 6 400 -100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BSP75N
+#/375620/75051/2.44/4/4/Transistor
+DEF BSP75N Q 0 30 Y Y 1 F N
+F0 "Q" 1250 300 50 H V L CNN
+F1 "BSP75N" 1250 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1250 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/BSP75N.pdf" 1250 0 50 H I L CNN
+F4 "700mA Smart Low-Side Power Switch SOT223 Infineon BSP75N Intelligent Power Switch, Low Side, 0.7A, 60V, 3+Tab-Pin, SOT-223" 1250 -100 50 H I L CNN "Description"
+F5 "1.8" 1250 -200 50 H I L CNN "Height"
+F6 "Infineon" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BSP75N" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "726-BSP75N" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BSP75N" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "8259351P" 1250 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/8259351P" 1250 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 I
+X DRAIN 2 0 -100 200 R 50 50 0 0 U
+X SOURCE_1 3 1400 0 200 L 50 50 0 0 U
+X SOURCE_2 4 1400 -100 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 43045-0609
+#/238878/75051/2.44/8/4/Connector
+DEF 43045-0609 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0609" 650 200 50 H V L CNN
+F2 "430450609" 650 100 50 H I L CNN
+F3 "http://www.molex.com/pdm_docs/sd/430450609_sd.pdf" 650 0 50 H I L CNN
+F4 "Header 3.00mm, SMT, dual row, RA, 6w Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 6 Way 2 Row Shrouded Right Angle PCB Header, Surface Mount" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "43045-0609" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-43045-0609" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0609" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "6701939" 650 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/6701939" 650 -800 50 H I L CNN "RS Price/Stock"
+F12 "70090791" 650 -900 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/molex-incorporated-43045-0609/70090791/" 650 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+X 5 5 800 0 200 L 50 50 0 0 U
+X 6 6 800 -100 200 L 50 50 0 0 U
+X 7 7 800 -200 200 L 50 50 0 0 U
+X 8 8 800 -300 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IS31LT3117-ZLS4-TR
+#/1081862/75051/2.45/17/3/Integrated Circuit
+DEF IS31LT3117-ZLS4-TR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "IS31LT3117-ZLS4-TR" 1250 200 50 H V L CNN
+F2 "SOP65P640X120-17N" 1250 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf" 1250 0 50 H I L CNN
+F4 "LED Lighting Drivers 60V 350MA, 4-channel" 1250 -100 50 H I L CNN "Description"
+F5 "1.2" 1250 -200 50 H I L CNN "Height"
+F6 "Integrated Silicon Solution Inc." 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IS31LT3117-ZLS4-TR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "870-IS31LT3117-ZLS4T" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31LT3117-ZLS4T" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -700 50 H I L CNN "RS Part Number"
+F11 "" 1250 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X PWM 1 0 0 200 R 50 50 0 0 U
+X PGND_1 2 0 -100 200 R 50 50 0 0 U
+X VCC 3 0 -200 200 R 50 50 0 0 U
+X NC_1 4 0 -300 200 R 50 50 0 0 U
+X PGND_2 5 0 -400 200 R 50 50 0 0 U
+X GND 6 0 -500 200 R 50 50 0 0 U
+X NC_2 7 0 -600 200 R 50 50 0 0 U
+X ISET 8 0 -700 200 R 50 50 0 0 U
+X EP 17 700 -1200 200 U 50 50 0 0 U
+X VLED1 16 1400 0 200 L 50 50 0 0 U
+X NC_5 15 1400 -100 200 L 50 50 0 0 U
+X VLED2 14 1400 -200 200 L 50 50 0 0 U
+X NC_4 13 1400 -300 200 L 50 50 0 0 U
+X VLED3 12 1400 -400 200 L 50 50 0 0 U
+X NC_3 11 1400 -500 200 L 50 50 0 0 U
+X VLED4 10 1400 -600 200 L 50 50 0 0 U
+X VREF 9 1400 -700 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 1200 100 1200 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EDK106M063A9GAA
+#/722511/75051/2.45/2/3/Capacitor Polarised
+DEF EDK106M063A9GAA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EDK106M063A9GAA" 350 150 50 H V L CNN
+F2 "CAPAE660X565N" 350 50 50 H I L CNN
+F3 "https://api.kemet.com/component-edge/download/specsheet/EDK106M063A9GAA.pdf" 350 -50 50 H I L CNN
+F4 "KEMET Aluminium Electrolytic Capacitor 10uF 63V dc 6.3mm Can - SMD, Radial EDK Series Aluminium Electrolytic" 350 -150 50 H I L CNN "Description"
+F5 "5.65" 350 -250 50 H I L CNN "Height"
+F6 "Kemet" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "EDK106M063A9GAA" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-EDK106M063A9GAA" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=80-EDK106M063A9GAA" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "8707336" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/8707336" 350 -850 50 H I L CNN "RS Price/Stock"
+F12 "70097575" 350 -950 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/kemet-edk106m063a9gaa/70097575/" 350 -1050 50 H I L CNN "Allied Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model UCD1J330MNL1GS
+#/169542/75051/2.45/2/3/Capacitor Polarised
+DEF UCD1J330MNL1GS C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "UCD1J330MNL1GS" 350 150 50 H V L CNN
+F2 "CAPAE830X1050N" 350 50 50 H I L CNN
+F3 "http://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" 350 -50 50 H I L CNN
+F4 "Nichicon Aluminium Electrolytic Capacitor 33uF 63V dc 8mm CD Series, Surface Mount Electrolytic, +/-20% 8 (Dia.) x 10mm" 350 -150 50 H I L CNN "Description"
+F5 "10.5" 350 -250 50 H I L CNN "Height"
+F6 "Nichicon" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "UCD1J330MNL1GS" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "647-UCD1J330MNL1GS" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCD1J330MNL1GS" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "7151405P" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7151405P" 350 -850 50 H I L CNN "RS Price/Stock"
+F12 "70409368" 350 -950 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/nichicon-ucd1j330mnl1gs/70409368/" 350 -1050 50 H I L CNN "Allied Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VE-330M1HTR-0607
+#/1535177/75051/2.45/2/3/Capacitor
+DEF VE-330M1HTR-0607 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "VE-330M1HTR-0607" 350 150 50 H V L CNN
+F2 "CAPAE660X800N" 350 50 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1810171024_Lelon-VE-330M1HTR-0607_C182393.pdf" 350 -50 50 H I L CNN
+F4 "Aluminum Electrolytic Capacitors - SMD 50 Volts 33uF 20% 6.3x7.7" 350 -150 50 H I L CNN "Description"
+F5 "8" 350 -250 50 H I L CNN "Height"
+F6 "Lelon" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "VE-330M1HTR-0607" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "140-VE330M1HTR0607" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=140-VE330M1HTR0607" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "RS Part Number"
+F11 "" 350 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 43045-0809
+#/294068/75051/2.45/8/3/Connector
+DEF 43045-0809 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0809" 650 200 50 H V L CNN
+F2 "43045-0809" 650 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "43045-0809" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-43045-0809" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0809" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "6701954P" 650 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/6701954P" 650 -800 50 H I L CNN "RS Price/Stock"
+F12 "70091332" 650 -900 50 H I L CNN "Allied_Number"
+F13 "http://www.alliedelec.com/molex-incorporated-43045-0809/70091332/" 650 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+X 5 5 800 0 200 L 50 50 0 0 U
+X 6 6 800 -100 200 L 50 50 0 0 U
+X 7 7 800 -200 200 L 50 50 0 0 U
+X 8 8 800 -300 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

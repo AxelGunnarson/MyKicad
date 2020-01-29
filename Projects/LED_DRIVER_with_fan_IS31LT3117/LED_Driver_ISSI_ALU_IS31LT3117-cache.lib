@@ -1,0 +1,258 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP
+#
+DEF Device_CP C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_CP" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_Driver_ISSI_ALU_IS31LT3117-rescue_LED-Device-LED_Driver_ISSI_ALU-rescue
+#
+DEF LED_Driver_ISSI_ALU_IS31LT3117-rescue_LED-Device-LED_Driver_ISSI_ALU-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED_Driver_ISSI_ALU_IS31LT3117-rescue_LED-Device-LED_Driver_ISSI_ALU-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_Driver_ISSI_ALU_IS31LT3117-rescue_Thermistor_NTC-Device-LED_Driver_ISSI_ALU-rescue
+#
+DEF LED_Driver_ISSI_ALU_IS31LT3117-rescue_Thermistor_NTC-Device-LED_Driver_ISSI_ALU-rescue TH 0 0 N Y 1 F N
+F0 "TH" -175 0 50 V V C CNN
+F1 "LED_Driver_ISSI_ALU_IS31LT3117-rescue_Thermistor_NTC-Device-LED_Driver_ISSI_ALU-rescue" 125 0 50 V V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+$ENDFPLIST
+DRAW
+A -126 88 7 -265 818 0 1 0 N -120 85 -125 95
+A -110 85 10 1800 -900 0 1 0 N -120 85 -110 75
+A -110 85 10 -900 0 0 1 0 N -110 75 -100 85
+A -110 110 10 0 900 0 1 0 N -100 110 -110 120
+A -110 110 10 900 1800 0 1 0 N -110 120 -120 110
+A -110 110 10 1800 -900 0 1 0 N -120 110 -110 100
+A -104 119 20 -1075 -253 0 1 0 N -110 100 -85 110
+S -40 100 40 -100 0 1 10 N
+P 2 0 1 0 -100 85 -100 110 N
+P 4 0 1 0 -70 100 -70 60 70 -60 70 -100 N
+P 6 0 1 0 -100 -145 -100 -55 -110 -85 -90 -85 -100 -55 -100 -65 F
+P 6 0 1 0 -70 -55 -70 -145 -80 -115 -60 -115 -70 -145 -70 -135 F
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_43045-0809
+#
+DEF SamacSys_Parts_43045-0809 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_43045-0809" 650 200 50 H V L CNN
+F2 "43045-0809" 650 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "43045-0809" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "538-43045-0809" 650 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0809" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "6701954P" 650 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/6701954P" 650 -800 50 H I L CNN "RS Price/Stock"
+F11 "70091332" 650 -900 50 H I L CNN "Allied_Number"
+F12 "http://www.alliedelec.com/molex-incorporated-43045-0809/70091332/" 650 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+X 5 5 800 0 200 L 50 50 0 0 U
+X 6 6 800 -100 200 L 50 50 0 0 U
+X 7 7 800 -200 200 L 50 50 0 0 U
+X 8 8 800 -300 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_EDK106M063A9GAA
+#
+DEF SamacSys_Parts_EDK106M063A9GAA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_EDK106M063A9GAA" 350 150 50 H V L CNN
+F2 "CAPAE660X565N" 350 50 50 H I L CNN
+F3 "https://api.kemet.com/component-edge/download/specsheet/EDK106M063A9GAA.pdf" 350 -50 50 H I L CNN
+F4 "KEMET Aluminium Electrolytic Capacitor 10uF 63V dc 6.3mm Can - SMD, Radial EDK Series Aluminium Electrolytic" 350 -150 50 H I L CNN "Description"
+F5 "5.65" 350 -250 50 H I L CNN "Height"
+F6 "Kemet" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "EDK106M063A9GAA" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-EDK106M063A9GAA" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=80-EDK106M063A9GAA" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "8707336" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/8707336" 350 -850 50 H I L CNN "RS Price/Stock"
+F12 "70097575" 350 -950 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/kemet-edk106m063a9gaa/70097575/" 350 -1050 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_IS31LT3117-ZLS4-TR
+#
+DEF SamacSys_Parts_IS31LT3117-ZLS4-TR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "SamacSys_Parts_IS31LT3117-ZLS4-TR" 1250 200 50 H V L CNN
+F2 "SOP65P640X120-17N" 1250 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf" 1250 0 50 H I L CNN
+F4 "LED Lighting Drivers 60V 350MA, 4-channel" 1250 -100 50 H I L CNN "Description"
+F5 "1.2" 1250 -200 50 H I L CNN "Height"
+F6 "Integrated Silicon Solution Inc." 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IS31LT3117-ZLS4-TR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "870-IS31LT3117-ZLS4T" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31LT3117-ZLS4T" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -1000 200 -1000 200 100 N
+X PWM 1 0 0 200 R 50 50 0 0 U
+X VLED4 10 1400 -600 200 L 50 50 0 0 U
+X NC_3 11 1400 -500 200 L 50 50 0 0 U
+X VLED3 12 1400 -400 200 L 50 50 0 0 U
+X NC_4 13 1400 -300 200 L 50 50 0 0 U
+X VLED2 14 1400 -200 200 L 50 50 0 0 U
+X NC_5 15 1400 -100 200 L 50 50 0 0 U
+X VLED1 16 1400 0 200 L 50 50 0 0 U
+X EP 17 700 -1200 200 U 50 50 0 0 U
+X PGND_1 2 0 -100 200 R 50 50 0 0 U
+X VCC 3 0 -200 200 R 50 50 0 0 U
+X NC_1 4 0 -300 200 R 50 50 0 0 U
+X PGND_2 5 0 -400 200 R 50 50 0 0 U
+X GND 6 0 -500 200 R 50 50 0 0 U
+X NC_2 7 0 -600 200 R 50 50 0 0 U
+X ISET 8 0 -700 200 R 50 50 0 0 U
+X VREF 9 1400 -700 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

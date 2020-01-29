@@ -1,4 +1,4 @@
-//#include "Wire.h"
+
 #include <OneWire.h>
 #include <DallasTemperature.h>
  
@@ -6,7 +6,6 @@
 #define ONE_WIRE_BUS 3
 
 // Date and time functions using a DS1307 RTC connected via I2C and Wire lib
-//#include <Wire.h>
 #include "RTClib.h"
 
 int LED_5600K = 6;             // the PWM control pin for 5600K cold white LEDs
@@ -20,14 +19,14 @@ int val = 0;
 int NTCvalue = 0;              
 int fanStatus = 5;            //the status of the highside driver driving the fan
 int brightness_5600K = 20;    // how bright the LED is
-int brightness_5600K_daylight = 100;
+int brightness_5600K_daylight = 50;
 
 
 bool fanState;
 
 long pumpState;       
-long onTime = 600000;   // milliseconds of on-time
-long offTime = 600000; // milliseconds of off-time
+long onTime = 120000;   // milliseconds of on-time
+long offTime = 1200000; // milliseconds of off-time
 unsigned long previousMillis;  //some global variables available anywhere in the program
 unsigned long previousMillis2;
 unsigned long currentMillis;
@@ -78,7 +77,7 @@ void setup()
    Serial.println("Couldn't find RTC");
    while (1);
  }
- if (! rtc.isrunning()) {   //remove the ! if you need to set the time
+ if (! rtc.isrunning()) {  
    Serial.println("RTC is NOT running!");
    // following line sets the RTC to the date & time this sketch was compiled
    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
@@ -162,7 +161,7 @@ void loop ()
  // You can have more than one IC on the same bus. 
  // 0 refers to the first IC on the wire
 
- if (now.hour() >= 6 && now.hour() <= 17)
+ if (now.hour() >= 7 && now.hour() <= 18)
   {
     analogWrite(LED_5600K, brightness_5600K);
     Serial.println("brightness set to:");
