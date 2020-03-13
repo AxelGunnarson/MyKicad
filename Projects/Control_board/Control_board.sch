@@ -44,12 +44,12 @@ Connection ~ 8900 4050
 $Comp
 L Control_board-rescue:GND-power #PWR0114
 U 1 1 5C5EC745
-P 2350 3950
-F 0 "#PWR0114" H 2350 3700 50  0001 C CNN
-F 1 "GND" H 2355 3777 50  0000 C CNN
-F 2 "" H 2350 3950 50  0001 C CNN
-F 3 "" H 2350 3950 50  0001 C CNN
-	1    2350 3950
+P 700 3400
+F 0 "#PWR0114" H 700 3150 50  0001 C CNN
+F 1 "GND" H 705 3227 50  0000 C CNN
+F 2 "" H 700 3400 50  0001 C CNN
+F 3 "" H 700 3400 50  0001 C CNN
+	1    700  3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -63,26 +63,10 @@ F 3 "" H 14150 3100 50  0001 C CNN
 	1    14150 3100
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Control_board-rescue:DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue U5
-U 1 1 5C65B489
-P 14150 3950
-F 0 "U5" H 14150 4075 50  0000 C CNN
-F 1 "DCDC_lm2596" H 14150 3984 50  0000 C CNN
-F 2 "Kicad_mylib:LM2596_module" H 14150 3950 50  0001 C CNN
-F 3 "" H 14150 3950 50  0001 C CNN
-	1    14150 3950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	14550 3200 15000 3200
 Wire Wire Line
 	15000 3200 15000 3100
-Wire Wire Line
-	15000 3200 15000 4050
-Wire Wire Line
-	15000 4050 14550 4050
-Connection ~ 15000 3200
 $Comp
 L Control_board-rescue:GND-power #PWR0125
 U 1 1 5C66CC0E
@@ -98,30 +82,6 @@ Wire Wire Line
 	14700 3600 14700 3500
 Wire Wire Line
 	14700 3500 14550 3500
-$Comp
-L Control_board-rescue:GND-power #PWR0126
-U 1 1 5C6758FC
-P 14750 4550
-F 0 "#PWR0126" H 14750 4300 50  0001 C CNN
-F 1 "GND" H 14755 4377 50  0000 C CNN
-F 2 "" H 14750 4550 50  0001 C CNN
-F 3 "" H 14750 4550 50  0001 C CNN
-	1    14750 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14750 4550 14750 4500
-Wire Wire Line
-	14750 4350 14550 4350
-Wire Wire Line
-	14750 4500 13650 4500
-Wire Wire Line
-	13650 4500 13650 4350
-Wire Wire Line
-	13650 4350 13750 4350
-Connection ~ 14750 4500
-Wire Wire Line
-	14750 4500 14750 4350
 Wire Wire Line
 	13750 3500 13650 3500
 Wire Wire Line
@@ -144,47 +104,43 @@ F 3 "" H 13350 5100 50  0001 C CNN
 	1    13350 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13400 4000 13400 4050
-Wire Wire Line
-	13400 4050 13750 4050
 $Comp
 L Control_board-rescue:GND-power #PWR0134
 U 1 1 5C7104FE
-P 1950 10300
-F 0 "#PWR0134" H 1950 10050 50  0001 C CNN
-F 1 "GND" H 1955 10127 50  0000 C CNN
-F 2 "" H 1950 10300 50  0001 C CNN
-F 3 "" H 1950 10300 50  0001 C CNN
-	1    1950 10300
+P 1900 9900
+F 0 "#PWR0134" H 1900 9650 50  0001 C CNN
+F 1 "GND" H 1905 9727 50  0000 C CNN
+F 2 "" H 1900 9900 50  0001 C CNN
+F 3 "" H 1900 9900 50  0001 C CNN
+	1    1900 9900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR0135
 U 1 1 5C75F0C5
-P 10100 9650
-F 0 "#PWR0135" H 10100 9400 50  0001 C CNN
-F 1 "GND" H 10105 9477 50  0000 C CNN
-F 2 "" H 10100 9650 50  0001 C CNN
-F 3 "" H 10100 9650 50  0001 C CNN
-	1    10100 9650
+P 11150 9650
+F 0 "#PWR0135" H 11150 9400 50  0001 C CNN
+F 1 "GND" H 11155 9477 50  0000 C CNN
+F 2 "" H 11150 9650 50  0001 C CNN
+F 3 "" H 11150 9650 50  0001 C CNN
+	1    11150 9650
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 10100 9750
+NoConn ~ 11150 9750
 $Comp
 L Control_board-rescue:PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue LS1
 U 1 1 5C78C261
-P 2350 3150
-F 0 "LS1" V 2704 3278 50  0000 L CNN
-F 1 "PS1240P02BT" V 2795 3278 50  0000 L CNN
-F 2 "SamacSys_Parts:PS1240P02BT" H 3000 3250 50  0001 L CNN
-F 3 "http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" H 3000 3150 50  0001 L CNN
-F 4 "Audio Indicators & Alerts Round 12.2mmx6.5mm 4kHz Vin=3V" H 3000 3050 50  0001 L CNN "Description"
-F 5 "" H 3000 2950 50  0001 L CNN "Height"
-F 6 "810-PS1240P02BT" H 3000 2850 50  0001 L CNN "Mouser Part Number"
-F 7 "TDK" H 3000 2750 50  0001 L CNN "Manufacturer_Name"
-F 8 "PS1240P02BT" H 3000 2650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2350 3150
+P 700 2200
+F 0 "LS1" V 1054 2328 50  0000 L CNN
+F 1 "PS1240P02BT" V 1145 2328 50  0000 L CNN
+F 2 "SamacSys_Parts:PS1240P02BT" H 1350 2300 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" H 1350 2200 50  0001 L CNN
+F 4 "Audio Indicators & Alerts Round 12.2mmx6.5mm 4kHz Vin=3V" H 1350 2100 50  0001 L CNN "Description"
+F 5 "" H 1350 2000 50  0001 L CNN "Height"
+F 6 "810-PS1240P02BT" H 1350 1900 50  0001 L CNN "Mouser Part Number"
+F 7 "TDK" H 1350 1800 50  0001 L CNN "Manufacturer_Name"
+F 8 "PS1240P02BT" H 1350 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    700  2200
 	0    1    1    0   
 $EndComp
 Text Label 3550 5200 0    50   ~ 0
@@ -222,47 +178,45 @@ Wire Wire Line
 $Comp
 L Control_board-rescue:GND-power #PWR012
 U 1 1 5C8B4B5C
-P 8700 2000
-F 0 "#PWR012" H 8700 1750 50  0001 C CNN
-F 1 "GND" H 8705 1827 50  0000 C CNN
-F 2 "" H 8700 2000 50  0001 C CNN
-F 3 "" H 8700 2000 50  0001 C CNN
-	1    8700 2000
+P 9100 2000
+F 0 "#PWR012" H 9100 1750 50  0001 C CNN
+F 1 "GND" H 9105 1827 50  0000 C CNN
+F 2 "" H 9100 2000 50  0001 C CNN
+F 3 "" H 9100 2000 50  0001 C CNN
+	1    9100 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:LDR03-Sensor_Optical R4
 U 1 1 5C995AC8
-P 8700 1450
-F 0 "R4" H 8770 1496 50  0000 L CNN
-F 1 "LDR03" H 8770 1405 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 8875 1450 50  0001 C CNN
-F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 8700 1400 50  0001 C CNN
-	1    8700 1450
+P 9100 1450
+F 0 "R4" H 9170 1496 50  0000 L CNN
+F 1 "LDR03" H 9170 1405 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 9275 1450 50  0001 C CNN
+F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 9100 1400 50  0001 C CNN
+	1    9100 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:R-Device R6
 U 1 1 5C8B4B55
-P 8700 1850
-F 0 "R6" H 8770 1896 50  0000 L CNN
-F 1 "100K" H 8770 1805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 1850 50  0001 C CNN
-F 3 "~" H 8700 1850 50  0001 C CNN
-	1    8700 1850
+P 9100 1850
+F 0 "R6" H 9170 1896 50  0000 L CNN
+F 1 "100K" H 9170 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 1850 50  0001 C CNN
+F 3 "~" H 9100 1850 50  0001 C CNN
+	1    9100 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8700 1700 8700 1650
 $Comp
 L Control_board-rescue:+3.3V-power #PWR011
 U 1 1 5C99E048
-P 8700 1300
-F 0 "#PWR011" H 8700 1150 50  0001 C CNN
-F 1 "+3.3V" H 8715 1473 50  0000 C CNN
-F 2 "" H 8700 1300 50  0001 C CNN
-F 3 "" H 8700 1300 50  0001 C CNN
-	1    8700 1300
+P 9100 1300
+F 0 "#PWR011" H 9100 1150 50  0001 C CNN
+F 1 "+3.3V" H 9115 1473 50  0000 C CNN
+F 2 "" H 9100 1300 50  0001 C CNN
+F 3 "" H 9100 1300 50  0001 C CNN
+	1    9100 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -479,20 +433,20 @@ Wire Wire Line
 $Comp
 L Control_board-rescue:43045-0401-SamacSys_Parts J5
 U 1 1 5CFE9C0C
-P 9300 9650
-F 0 "J5" H 9700 9915 50  0000 C CNN
-F 1 "43045-0401" H 9700 9824 50  0000 C CNN
-F 2 "SamacSys_Parts:430450401" H 9950 9750 50  0001 L CNN
-F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 9950 9650 50  0001 L CNN
-F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 9950 9550 50  0001 L CNN "Description"
-F 5 "8" H 9950 9450 50  0001 L CNN "Height"
-F 6 "538-43045-0401" H 9950 9350 50  0001 L CNN "Mouser Part Number"
-F 7 "Molex" H 9950 9250 50  0001 L CNN "Manufacturer_Name"
-F 8 "43045-0401" H 9950 9150 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9300 9650
+P 10350 9650
+F 0 "J5" H 10750 9915 50  0000 C CNN
+F 1 "43045-0401" H 10750 9824 50  0000 C CNN
+F 2 "SamacSys_Parts:430450401" H 11000 9750 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 11000 9650 50  0001 L CNN
+F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 11000 9550 50  0001 L CNN "Description"
+F 5 "8" H 11000 9450 50  0001 L CNN "Height"
+F 6 "538-43045-0401" H 11000 9350 50  0001 L CNN "Mouser Part Number"
+F 7 "Molex" H 11000 9250 50  0001 L CNN "Manufacturer_Name"
+F 8 "43045-0401" H 11000 9150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10350 9650
 	1    0    0    -1  
 $EndComp
-Text Notes 2550 3800 0    50   ~ 0
+Text Notes 900  2850 0    50   ~ 0
 Buzzer
 $Comp
 L Control_board-rescue:+3.3V-power #PWR0101
@@ -854,7 +808,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 7900 14100 7900
 Connection ~ 14100 7900
-Text Notes 9200 8950 0    50   ~ 0
+Text Notes 10250 8950 0    50   ~ 0
 1 wire interface 
 $Comp
 L Control_board-rescue:+12V-power #PWR0103
@@ -867,8 +821,6 @@ F 3 "" H 13450 3150 50  0001 C CNN
 	1    13450 3150
 	1    0    0    -1  
 $EndComp
-Text Notes 13200 4250 0    50   ~ 0
-pumps
 $Comp
 L Control_board-rescue:+12V-power #PWR0124
 U 1 1 5DBFE284
@@ -896,13 +848,13 @@ F 8 "Espressif Systems" H 4250 2050 50  0001 L BNN "Field8"
 	1    4250 2050
 	1    0    0    -1  
 $EndComp
-Text Label 5050 2150 0    50   ~ 0
+Text Label 3450 2150 2    50   ~ 0
 EN
 Text Label 5050 2050 0    50   ~ 0
 airstone_pump
-Text Label 5050 1850 0    50   ~ 0
+Text Label 6950 1850 0    50   ~ 0
 NTC_1
-Text Label 5050 1650 0    50   ~ 0
+Text Label 5050 2450 0    50   ~ 0
 LDR
 Wire Wire Line
 	5050 1150 5350 1150
@@ -975,145 +927,17 @@ Wire Wire Line
 	2700 2800 2700 2950
 Wire Wire Line
 	2700 2950 3450 2950
-Text Label 10800 1250 2    50   ~ 0
-ADJ_LED1
 $Comp
 L Control_board-rescue:GND-power #PWR07
 U 1 1 5DD82704
-P 11850 1250
-F 0 "#PWR07" H 11850 1000 50  0001 C CNN
-F 1 "GND" H 11855 1077 50  0000 C CNN
-F 2 "" H 11850 1250 50  0001 C CNN
-F 3 "" H 11850 1250 50  0001 C CNN
-	1    11850 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11850 1250 11600 1250
-$Comp
-L power:+48V #PWR01
-U 1 1 5DD8D515
-P 10150 1250
-F 0 "#PWR01" H 10150 1100 50  0001 C CNN
-F 1 "+48V" H 10165 1423 50  0000 C CNN
-F 2 "" H 10150 1250 50  0001 C CNN
-F 3 "" H 10150 1250 50  0001 C CNN
-	1    10150 1250
+P 10150 1450
+F 0 "#PWR07" H 10150 1200 50  0001 C CNN
+F 1 "GND" H 10155 1277 50  0000 C CNN
+F 2 "" H 10150 1450 50  0001 C CNN
+F 3 "" H 10150 1450 50  0001 C CNN
+	1    10150 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10150 1350 10800 1350
-Wire Wire Line
-	10150 1250 10150 1350
-Text Label 11600 1350 0    50   ~ 0
-NTC_1
-$Comp
-L Control_board-rescue:+3.3V-power #PWR014
-U 1 1 5DD98DD8
-P 12350 1450
-F 0 "#PWR014" H 12350 1300 50  0001 C CNN
-F 1 "+3.3V" H 12365 1623 50  0000 C CNN
-F 2 "" H 12350 1450 50  0001 C CNN
-F 3 "" H 12350 1450 50  0001 C CNN
-	1    12350 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12350 1450 11600 1450
-NoConn ~ 10800 1550
-NoConn ~ 11600 1550
-Text Label 10800 2350 2    50   ~ 0
-ADJ_LED2
-$Comp
-L Control_board-rescue:GND-power #PWR08
-U 1 1 5DDCEF81
-P 11850 2350
-F 0 "#PWR08" H 11850 2100 50  0001 C CNN
-F 1 "GND" H 11855 2177 50  0000 C CNN
-F 2 "" H 11850 2350 50  0001 C CNN
-F 3 "" H 11850 2350 50  0001 C CNN
-	1    11850 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11850 2350 11600 2350
-$Comp
-L power:+48V #PWR02
-U 1 1 5DDCEF88
-P 10150 2350
-F 0 "#PWR02" H 10150 2200 50  0001 C CNN
-F 1 "+48V" H 10165 2523 50  0000 C CNN
-F 2 "" H 10150 2350 50  0001 C CNN
-F 3 "" H 10150 2350 50  0001 C CNN
-	1    10150 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 2450 10800 2450
-Wire Wire Line
-	10150 2350 10150 2450
-Text Label 11600 2450 0    50   ~ 0
-NTC_2
-$Comp
-L Control_board-rescue:+3.3V-power #PWR015
-U 1 1 5DDCEF92
-P 12350 2550
-F 0 "#PWR015" H 12350 2400 50  0001 C CNN
-F 1 "+3.3V" H 12365 2723 50  0000 C CNN
-F 2 "" H 12350 2550 50  0001 C CNN
-F 3 "" H 12350 2550 50  0001 C CNN
-	1    12350 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12350 2550 11600 2550
-NoConn ~ 10800 2650
-NoConn ~ 11600 2650
-$Comp
-L Control_board-rescue:GND-power #PWR013
-U 1 1 5DDD9549
-P 11850 3300
-F 0 "#PWR013" H 11850 3050 50  0001 C CNN
-F 1 "GND" H 11855 3127 50  0000 C CNN
-F 2 "" H 11850 3300 50  0001 C CNN
-F 3 "" H 11850 3300 50  0001 C CNN
-	1    11850 3300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11850 3300 11600 3300
-$Comp
-L power:+48V #PWR05
-U 1 1 5DDD9550
-P 10150 3300
-F 0 "#PWR05" H 10150 3150 50  0001 C CNN
-F 1 "+48V" H 10165 3473 50  0000 C CNN
-F 2 "" H 10150 3300 50  0001 C CNN
-F 3 "" H 10150 3300 50  0001 C CNN
-	1    10150 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 3400 10800 3400
-Wire Wire Line
-	10150 3300 10150 3400
-Text Label 11600 3400 0    50   ~ 0
-NTC_3
-$Comp
-L Control_board-rescue:+3.3V-power #PWR016
-U 1 1 5DDD955A
-P 12350 3500
-F 0 "#PWR016" H 12350 3350 50  0001 C CNN
-F 1 "+3.3V" H 12365 3673 50  0000 C CNN
-F 2 "" H 12350 3500 50  0001 C CNN
-F 3 "" H 12350 3500 50  0001 C CNN
-	1    12350 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12350 3500 11600 3500
-NoConn ~ 10800 3600
-NoConn ~ 11600 3600
 $Comp
 L Connector_Generic:Conn_01x04 J11
 U 1 1 5DD4D868
@@ -1150,56 +974,48 @@ $EndComp
 $Comp
 L Control_board-rescue:43045-0401-SamacSys_Parts J10
 U 1 1 5DDBDF15
-P 9300 10650
-F 0 "J10" H 9700 10915 50  0000 C CNN
-F 1 "43045-0401" H 9700 10824 50  0000 C CNN
-F 2 "SamacSys_Parts:430450401" H 9950 10750 50  0001 L CNN
-F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 9950 10650 50  0001 L CNN
-F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 9950 10550 50  0001 L CNN "Description"
-F 5 "8" H 9950 10450 50  0001 L CNN "Height"
-F 6 "538-43045-0401" H 9950 10350 50  0001 L CNN "Mouser Part Number"
-F 7 "Molex" H 9950 10250 50  0001 L CNN "Manufacturer_Name"
-F 8 "43045-0401" H 9950 10150 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9300 10650
+P 10350 10650
+F 0 "J10" H 10750 10915 50  0000 C CNN
+F 1 "43045-0401" H 10750 10824 50  0000 C CNN
+F 2 "SamacSys_Parts:430450401" H 11000 10750 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/276/0430450401_PCB_HEADERS-142810.pdf" H 11000 10650 50  0001 L CNN
+F 4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 11000 10550 50  0001 L CNN "Description"
+F 5 "8" H 11000 10450 50  0001 L CNN "Height"
+F 6 "538-43045-0401" H 11000 10350 50  0001 L CNN "Mouser Part Number"
+F 7 "Molex" H 11000 10250 50  0001 L CNN "Manufacturer_Name"
+F 8 "43045-0401" H 11000 10150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10350 10650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR025
 U 1 1 5DDBE80D
-P 10100 10650
-F 0 "#PWR025" H 10100 10400 50  0001 C CNN
-F 1 "GND" H 10105 10477 50  0000 C CNN
-F 2 "" H 10100 10650 50  0001 C CNN
-F 3 "" H 10100 10650 50  0001 C CNN
-	1    10100 10650
+P 11150 10650
+F 0 "#PWR025" H 11150 10400 50  0001 C CNN
+F 1 "GND" H 11155 10477 50  0000 C CNN
+F 2 "" H 11150 10650 50  0001 C CNN
+F 3 "" H 11150 10650 50  0001 C CNN
+	1    11150 10650
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 10100 10750
+NoConn ~ 11150 10750
 $Comp
 L Control_board-rescue:+3.3V-power #PWR021
 U 1 1 5DDCABFE
-P 9100 10550
-F 0 "#PWR021" H 9100 10400 50  0001 C CNN
-F 1 "+3.3V" H 9115 10723 50  0000 C CNN
-F 2 "" H 9100 10550 50  0001 C CNN
-F 3 "" H 9100 10550 50  0001 C CNN
-	1    9100 10550
+P 10150 10550
+F 0 "#PWR021" H 10150 10400 50  0001 C CNN
+F 1 "+3.3V" H 10165 10723 50  0000 C CNN
+F 2 "" H 10150 10550 50  0001 C CNN
+F 3 "" H 10150 10550 50  0001 C CNN
+	1    10150 10550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 10550 9100 10650
+	10150 10550 10150 10650
 Wire Wire Line
-	9100 10650 9300 10650
-Text Label 9300 9750 2    50   ~ 0
+	10150 10650 10350 10650
+Text Label 7300 8850 2    50   ~ 0
 1-Wire
-Text Label 9300 10750 2    50   ~ 0
-1-Wire
-Text Label 10800 1450 2    50   ~ 0
-48V_Fan
-Text Label 10800 2550 2    50   ~ 0
-48V_Fan
-Text Label 10800 3500 2    50   ~ 0
-48V_Fan
 $Comp
 L Control_board-rescue:GND-power #PWR026
 U 1 1 5DE0447A
@@ -1297,57 +1113,6 @@ Text Label 5050 1250 0    50   ~ 0
 SDA
 Text Label 5050 1350 0    50   ~ 0
 SCL
-$Comp
-L SamacSys_Parts:505567-0681 J1
-U 1 1 5DDBF486
-P 10800 1250
-F 0 "J1" H 11200 1515 50  0000 C CNN
-F 1 "505567-0681" H 11200 1424 50  0000 C CNN
-F 2 "SamacSys_Parts:5055670681" H 11450 1350 50  0001 L CNN
-F 3 "" H 11450 1250 50  0001 L CNN
-F 4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 6P BLK GLD" H 11450 1150 50  0001 L CNN "Description"
-F 5 "4" H 11450 1050 50  0001 L CNN "Height"
-F 6 "538-505567-0681" H 11450 950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0681" H 11450 850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 11450 750 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0681" H 11450 650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10800 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L SamacSys_Parts:505567-0681 J7
-U 1 1 5DDE45D5
-P 10800 2350
-F 0 "J7" H 11200 2615 50  0000 C CNN
-F 1 "505567-0681" H 11200 2524 50  0000 C CNN
-F 2 "SamacSys_Parts:5055670681" H 11450 2450 50  0001 L CNN
-F 3 "" H 11450 2350 50  0001 L CNN
-F 4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 6P BLK GLD" H 11450 2250 50  0001 L CNN "Description"
-F 5 "4" H 11450 2150 50  0001 L CNN "Height"
-F 6 "538-505567-0681" H 11450 2050 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0681" H 11450 1950 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 11450 1850 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0681" H 11450 1750 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10800 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L SamacSys_Parts:505567-0681 J9
-U 1 1 5DDE4EFA
-P 10800 3300
-F 0 "J9" H 11200 3565 50  0000 C CNN
-F 1 "505567-0681" H 11200 3474 50  0000 C CNN
-F 2 "SamacSys_Parts:5055670681" H 11450 3400 50  0001 L CNN
-F 3 "" H 11450 3300 50  0001 L CNN
-F 4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 6P BLK GLD" H 11450 3200 50  0001 L CNN "Description"
-F 5 "4" H 11450 3100 50  0001 L CNN "Height"
-F 6 "538-505567-0681" H 11450 3000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0681" H 11450 2900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 11450 2800 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0681" H 11450 2700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10800 3300
-	1    0    0    -1  
-$EndComp
 Text Label 5050 2350 0    50   ~ 0
 Touch
 $Comp
@@ -1356,7 +1121,7 @@ U 1 1 5DE003E8
 P 5550 2350
 F 0 "J13" H 5578 2376 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 5578 2285 50  0000 L CNN
-F 2 "" H 5550 2350 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 5550 2350 50  0001 C CNN
 F 3 "~" H 5550 2350 50  0001 C CNN
 	1    5550 2350
 	1    0    0    -1  
@@ -1372,104 +1137,27 @@ F 3 "" H 6400 2800 50  0001 C CNN
 	1    6400 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Control_board-rescue:R-Device R19
-U 1 1 5DE4CB33
-P 6400 2650
-F 0 "R19" H 6470 2696 50  0000 L CNN
-F 1 "10K" H 6470 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 2650 50  0001 C CNN
-F 3 "~" H 6400 2650 50  0001 C CNN
-	1    6400 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 1850 6400 1850
 Wire Wire Line
 	6400 1850 6400 2500
-$Comp
-L SamacSys_Parts:BSP75N Q1
-U 1 1 5DEA57E6
-P 3550 9750
-F 0 "Q1" H 4250 9385 50  0000 C CNN
-F 1 "BSP75N" H 4250 9476 50  0000 C CNN
-F 2 "SOT230P700X180-4N" H 4800 9850 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/BSP75N.pdf" H 4800 9750 50  0001 L CNN
-F 4 "700mA Smart Low-Side Power Switch SOT223 Infineon BSP75N Intelligent Power Switch, Low Side, 0.7A, 60V, 3+Tab-Pin, SOT-223" H 4800 9650 50  0001 L CNN "Description"
-F 5 "1.8" H 4800 9550 50  0001 L CNN "Height"
-F 6 "Infineon" H 4800 9450 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSP75N" H 4800 9350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSP75N" H 4800 9250 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BSP75N" H 4800 9150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "8259351P" H 4800 9050 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/8259351P" H 4800 8950 50  0001 L CNN "RS Price/Stock"
-	1    3550 9750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Control_board-rescue:LED-Device D3
-U 1 1 5DEDBE1C
-P 3850 10450
-F 0 "D3" V 3888 10333 50  0000 R CNN
-F 1 "LED" V 3797 10333 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3850 10450 50  0001 C CNN
-F 3 "~" H 3850 10450 50  0001 C CNN
-	1    3850 10450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Control_board-rescue:GND-power #PWR018
-U 1 1 5DEDBE22
-P 3850 10650
-F 0 "#PWR018" H 3850 10400 50  0001 C CNN
-F 1 "GND" H 3855 10477 50  0000 C CNN
-F 2 "" H 3850 10650 50  0001 C CNN
-F 3 "" H 3850 10650 50  0001 C CNN
-	1    3850 10650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 10650 3850 10600
-$Comp
-L Control_board-rescue:R-Device R1
-U 1 1 5DEDBE29
-P 3850 10150
-F 0 "R1" H 3920 10196 50  0000 L CNN
-F 1 "1k" H 3920 10105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3780 10150 50  0001 C CNN
-F 3 "~" H 3850 10150 50  0001 C CNN
-	1    3850 10150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 9750 3850 9750
-Wire Wire Line
-	3850 9750 3850 10000
-Text Label 3550 9750 0    50   ~ 0
-fan
 Text Label 3450 1950 2    50   ~ 0
 fan
 Wire Wire Line
 	3450 2350 2350 2350
-Wire Wire Line
-	2350 2350 2350 3150
 $Comp
 L Control_board-rescue:+3.3V-power #PWR020
 U 1 1 5DF1F062
-P 9100 9400
-F 0 "#PWR020" H 9100 9250 50  0001 C CNN
-F 1 "+3.3V" H 9115 9573 50  0000 C CNN
-F 2 "" H 9100 9400 50  0001 C CNN
-F 3 "" H 9100 9400 50  0001 C CNN
-	1    9100 9400
+P 10150 9200
+F 0 "#PWR020" H 10150 9050 50  0001 C CNN
+F 1 "+3.3V" H 10165 9373 50  0000 C CNN
+F 2 "" H 10150 9200 50  0001 C CNN
+F 3 "" H 10150 9200 50  0001 C CNN
+	1    10150 9200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 9400 9100 9650
+	10150 9200 10150 9250
 Wire Wire Line
-	9100 9650 9300 9650
-Wire Wire Line
-	2150 9750 1950 9750
+	10150 9650 10350 9650
 Wire Wire Line
 	5350 1150 5350 650 
 Wire Wire Line
@@ -1484,14 +1172,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 2350 5350 2350
 Wire Wire Line
-	2150 9650 1950 9650
-Wire Wire Line
-	1950 9650 1950 9750
-Connection ~ 1950 9750
-Wire Wire Line
-	1950 9750 1950 10300
-Wire Wire Line
-	3550 9650 3650 9650
+	2100 9250 1900 9250
 $Comp
 L Control_board-rescue:+3.3V-power #PWR0104
 U 1 1 5E02BCF4
@@ -1513,31 +1194,15 @@ NoConn ~ 3450 1450
 NoConn ~ 3450 1550
 NoConn ~ 5050 1450
 NoConn ~ 5050 1550
-NoConn ~ 5050 2450
 NoConn ~ 5050 2850
 NoConn ~ 5050 2950
 NoConn ~ 5050 2750
-NoConn ~ 3450 2550
 NoConn ~ 3450 2650
 NoConn ~ 3450 2750
 NoConn ~ 3450 2850
-NoConn ~ 3450 2150
 NoConn ~ 3450 2250
-Text Label 3650 9650 0    50   ~ 0
-48V_Fan
 Text Label 3450 2050 2    50   ~ 0
 1-Wire
-$Comp
-L Control_board-rescue:+24V-power #PWR0105
-U 1 1 5E121EB6
-P 13400 4000
-F 0 "#PWR0105" H 13400 3850 50  0001 C CNN
-F 1 "+24V-power" H 13415 4173 50  0000 C CNN
-F 2 "" H 13400 4000 50  0001 C CNN
-F 3 "" H 13400 4000 50  0001 C CNN
-	1    13400 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Control_board-rescue:+12V-power #PWR0106
 U 1 1 5E1223D0
@@ -1547,17 +1212,6 @@ F 1 "+12V-power" H 1415 4223 50  0000 C CNN
 F 2 "" H 1400 4050 50  0001 C CNN
 F 3 "" H 1400 4050 50  0001 C CNN
 	1    1400 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Control_board-rescue:+24V-power #PWR0108
-U 1 1 5E123AD4
-P 1400 6350
-F 0 "#PWR0108" H 1400 6200 50  0001 C CNN
-F 1 "+24V-power" H 1415 6523 50  0000 C CNN
-F 2 "" H 1400 6350 50  0001 C CNN
-F 3 "" H 1400 6350 50  0001 C CNN
-	1    1400 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1588,7 +1242,7 @@ U 1 1 5DDE2D34
 P 1400 6350
 F 0 "J4" V 1754 6478 50  0000 L CNN
 F 1 "43045-0200" V 1845 6478 50  0000 L CNN
-F 2 "43045-0200" H 2050 6450 50  0001 L CNN
+F 2 "footprints:43045-0200" H 2050 6450 50  0001 L CNN
 F 3 "" H 2050 6350 50  0001 L CNN
 F 4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 2050 6250 50  0001 L CNN "Description"
 F 5 "538-43045-0200" H 2050 6050 50  0001 L CNN "Mouser Part Number"
@@ -1603,7 +1257,7 @@ U 1 1 5DDE1561
 P 1400 4050
 F 0 "J3" V 1754 4178 50  0000 L CNN
 F 1 "43045-0200" V 1845 4178 50  0000 L CNN
-F 2 "43045-0200" H 2050 4150 50  0001 L CNN
+F 2 "footprints:43045-0200" H 2050 4150 50  0001 L CNN
 F 3 "" H 2050 4050 50  0001 L CNN
 F 4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 2050 3950 50  0001 L CNN "Description"
 F 5 "538-43045-0200" H 2050 3750 50  0001 L CNN "Mouser Part Number"
@@ -1615,45 +1269,45 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E17CA5A
-P 7350 8250
-F 0 "H1" H 7450 8296 50  0000 L CNN
-F 1 "MountingHole" H 7450 8205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 7350 8250 50  0001 C CNN
-F 3 "~" H 7350 8250 50  0001 C CNN
-	1    7350 8250
+P 5350 7950
+F 0 "H1" H 5450 7996 50  0000 L CNN
+F 1 "MountingHole" H 5450 7905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5350 7950 50  0001 C CNN
+F 3 "~" H 5350 7950 50  0001 C CNN
+	1    5350 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5E185B96
-P 7350 8550
-F 0 "H2" H 7450 8596 50  0000 L CNN
-F 1 "MountingHole" H 7450 8505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 7350 8550 50  0001 C CNN
-F 3 "~" H 7350 8550 50  0001 C CNN
-	1    7350 8550
+P 5350 8250
+F 0 "H2" H 5450 8296 50  0000 L CNN
+F 1 "MountingHole" H 5450 8205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5350 8250 50  0001 C CNN
+F 3 "~" H 5350 8250 50  0001 C CNN
+	1    5350 8250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5E185D01
-P 7350 8850
-F 0 "H3" H 7450 8896 50  0000 L CNN
-F 1 "MountingHole" H 7450 8805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 7350 8850 50  0001 C CNN
-F 3 "~" H 7350 8850 50  0001 C CNN
-	1    7350 8850
+P 5350 8550
+F 0 "H3" H 5450 8596 50  0000 L CNN
+F 1 "MountingHole" H 5450 8505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5350 8550 50  0001 C CNN
+F 3 "~" H 5350 8550 50  0001 C CNN
+	1    5350 8550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E185E20
-P 7350 9100
-F 0 "H4" H 7450 9146 50  0000 L CNN
-F 1 "MountingHole" H 7450 9055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 7350 9100 50  0001 C CNN
-F 3 "~" H 7350 9100 50  0001 C CNN
-	1    7350 9100
+P 5350 8800
+F 0 "H4" H 5450 8846 50  0000 L CNN
+F 1 "MountingHole" H 5450 8755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5350 8800 50  0001 C CNN
+F 3 "~" H 5350 8800 50  0001 C CNN
+	1    5350 8800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1672,66 +1326,39 @@ Text Label 7150 5150 0    50   ~ 0
 ADJ_LED2
 Text Label 7150 6350 0    50   ~ 0
 ADJ_LED3
-Text Label 10800 3300 2    50   ~ 0
-ADJ_LED3
-$Comp
-L SamacSys_Parts:43045-0609 J2
-U 1 1 5DFC45EA
-P 8000 7350
-F 0 "J2" H 8400 7615 50  0000 C CNN
-F 1 "43045-0609" H 8400 7524 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0610_2x03-1MP_P3.00mm_Horizontal" H 8650 7450 50  0001 L CNN
-F 3 "http://www.molex.com/pdm_docs/sd/430450609_sd.pdf" H 8650 7350 50  0001 L CNN
-F 4 "Header 3.00mm, SMT, dual row, RA, 6w Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 6 Way 2 Row Shrouded Right Angle PCB Header, Surface Mount" H 8650 7250 50  0001 L CNN "Description"
-F 5 "8" H 8650 7150 50  0001 L CNN "Height"
-F 6 "Molex" H 8650 7050 50  0001 L CNN "Manufacturer_Name"
-F 7 "43045-0609" H 8650 6950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "538-43045-0609" H 8650 6850 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0609" H 8650 6750 50  0001 L CNN "Mouser Price/Stock"
-F 10 "6701939" H 8650 6650 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/6701939" H 8650 6550 50  0001 L CNN "RS Price/Stock"
-F 12 "70090791" H 8650 6450 50  0001 L CNN "Allied_Number"
-F 13 "https://www.alliedelec.com/molex-incorporated-43045-0609/70090791/" H 8650 6350 50  0001 L CNN "Allied Price/Stock"
-	1    8000 7350
-	1    0    0    -1  
-$EndComp
-Text Label 2800 2100 0    50   ~ 0
+Text Label 3450 2550 2    50   ~ 0
 pump
-Text Notes 8100 9700 0    50   ~ 0
-missing 4,7k pullup!
-Text Notes 2200 2000 0    50   ~ 0
-pump is not connected
 Text Notes 2400 5500 0    50   ~ 0
 1,4 A load current MAX
 $Comp
-L Diode:1.5KExxA D?
+L Diode:1.5KExxA D8
 U 1 1 5E2EB0C3
 P 7150 5450
-F 0 "D?" V 7104 5529 50  0000 L CNN
+F 0 "D8" V 7104 5529 50  0000 L CNN
 F 1 "SMF5.0A" V 7195 5529 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 7150 5250 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7150 5250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 7100 5450 50  0001 C CNN
 	1    7150 5450
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R14
 U 1 1 5E2F4C58
 P 5950 5150
-F 0 "R?" V 5743 5150 50  0000 C CNN
+F 0 "R14" V 5743 5150 50  0000 C CNN
 F 1 "100" V 5834 5150 50  0000 C CNN
-F 2 "" V 5880 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 5150 50  0001 C CNN
 F 3 "~" H 5950 5150 50  0001 C CNN
 	1    5950 5150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5E2F5EDA
 P 6300 5450
-F 0 "C?" H 6415 5496 50  0000 L CNN
+F 0 "C2" H 6415 5496 50  0000 L CNN
 F 1 "100nF" H 6415 5405 50  0000 L CNN
-F 2 "" H 6338 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 5300 50  0001 C CNN
 F 3 "~" H 6300 5450 50  0001 C CNN
 	1    6300 5450
 	1    0    0    -1  
@@ -1740,70 +1367,53 @@ Wire Wire Line
 	6100 5150 6300 5150
 Wire Wire Line
 	6300 5150 6300 5300
-Wire Wire Line
-	6750 5300 6750 5150
-Wire Wire Line
-	6750 5150 6300 5150
 Connection ~ 6300 5150
 Wire Wire Line
-	6750 5150 7150 5150
-Wire Wire Line
 	7150 5150 7150 5300
-Connection ~ 6750 5150
-Text Label 3450 1750 2    50   ~ 0
-NTC_3
-Text Label 3450 1850 2    50   ~ 0
+Text Label 1400 1850 2    50   ~ 0
 NTC_2
-Wire Wire Line
-	2000 1850 3450 1850
-Wire Wire Line
-	2000 2200 2000 1850
 $Comp
 L Control_board-rescue:R-Device R15
 U 1 1 5D1C5EA6
-P 2000 2350
-F 0 "R15" H 2070 2396 50  0000 L CNN
-F 1 "10K" H 2070 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 2350 50  0001 C CNN
-F 3 "~" H 2000 2350 50  0001 C CNN
-	1    2000 2350
+P 1900 2000
+F 0 "R15" H 1970 2046 50  0000 L CNN
+F 1 "10K" H 1970 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1830 2000 50  0001 C CNN
+F 3 "~" H 1900 2000 50  0001 C CNN
+	1    1900 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR0116
 U 1 1 5D1C5EA0
-P 2000 2500
-F 0 "#PWR0116" H 2000 2250 50  0001 C CNN
-F 1 "GND" H 2005 2327 50  0000 C CNN
-F 2 "" H 2000 2500 50  0001 C CNN
-F 3 "" H 2000 2500 50  0001 C CNN
-	1    2000 2500
+P 1900 2150
+F 0 "#PWR0116" H 1900 1900 50  0001 C CNN
+F 1 "GND" H 1905 1977 50  0000 C CNN
+F 2 "" H 1900 2150 50  0001 C CNN
+F 3 "" H 1900 2150 50  0001 C CNN
+	1    1900 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 1750 3450 1750
-Wire Wire Line
-	1600 1750 1600 2200
 $Comp
 L Control_board-rescue:R-Device R13
 U 1 1 5DE41599
-P 1600 2350
-F 0 "R13" H 1670 2396 50  0000 L CNN
-F 1 "10K" H 1670 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 2350 50  0001 C CNN
-F 3 "~" H 1600 2350 50  0001 C CNN
-	1    1600 2350
+P 1900 1250
+F 0 "R13" H 1970 1296 50  0000 L CNN
+F 1 "10K" H 1970 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1830 1250 50  0001 C CNN
+F 3 "~" H 1900 1250 50  0001 C CNN
+	1    1900 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR029
 U 1 1 5DE41593
-P 1600 2500
-F 0 "#PWR029" H 1600 2250 50  0001 C CNN
-F 1 "GND" H 1605 2327 50  0000 C CNN
-F 2 "" H 1600 2500 50  0001 C CNN
-F 3 "" H 1600 2500 50  0001 C CNN
-	1    1600 2500
+P 1900 1400
+F 0 "#PWR029" H 1900 1150 50  0001 C CNN
+F 1 "GND" H 1905 1227 50  0000 C CNN
+F 2 "" H 1900 1400 50  0001 C CNN
+F 3 "" H 1900 1400 50  0001 C CNN
+	1    1900 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1814,16 +1424,11 @@ Wire Wire Line
 	7800 1350 7800 4900
 Wire Wire Line
 	5050 1350 7800 1350
-Wire Wire Line
-	5050 1650 8700 1650
-Connection ~ 8700 1650
-Wire Wire Line
-	8700 1650 8700 1600
 $Comp
-L Control_board-rescue:GND-power #PWR?
+L Control_board-rescue:GND-power #PWR05
 U 1 1 5E4A1E88
 P 6300 5800
-F 0 "#PWR?" H 6300 5550 50  0001 C CNN
+F 0 "#PWR05" H 6300 5550 50  0001 C CNN
 F 1 "GND" H 6305 5627 50  0000 C CNN
 F 2 "" H 6300 5800 50  0001 C CNN
 F 3 "" H 6300 5800 50  0001 C CNN
@@ -1832,47 +1437,40 @@ F 3 "" H 6300 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 5800 6300 5700
-Wire Wire Line
-	6750 5600 6750 5700
-Wire Wire Line
-	6750 5700 6300 5700
 Connection ~ 6300 5700
 Wire Wire Line
 	6300 5700 6300 5600
 Wire Wire Line
 	7150 5600 7150 5700
-Wire Wire Line
-	7150 5700 6750 5700
-Connection ~ 6750 5700
 $Comp
-L Diode:1.5KExxA D?
+L Diode:1.5KExxA D9
 U 1 1 5E4CD8A0
 P 7150 6650
-F 0 "D?" V 7104 6729 50  0000 L CNN
+F 0 "D9" V 7104 6729 50  0000 L CNN
 F 1 "SMF5.0A" V 7195 6729 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 7150 6450 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7150 6450 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 7100 6650 50  0001 C CNN
 	1    7150 6650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 5E4CD8AC
 P 5950 6350
-F 0 "R?" V 5743 6350 50  0000 C CNN
+F 0 "R20" V 5743 6350 50  0000 C CNN
 F 1 "100" V 5834 6350 50  0000 C CNN
-F 2 "" V 5880 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 6350 50  0001 C CNN
 F 3 "~" H 5950 6350 50  0001 C CNN
 	1    5950 6350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5E4CD8B2
 P 6300 6650
-F 0 "C?" H 6415 6696 50  0000 L CNN
+F 0 "C6" H 6415 6696 50  0000 L CNN
 F 1 "100nF" H 6415 6605 50  0000 L CNN
-F 2 "" H 6338 6500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 6500 50  0001 C CNN
 F 3 "~" H 6300 6650 50  0001 C CNN
 	1    6300 6650
 	1    0    0    -1  
@@ -1881,21 +1479,14 @@ Wire Wire Line
 	6100 6350 6300 6350
 Wire Wire Line
 	6300 6350 6300 6500
-Wire Wire Line
-	6750 6500 6750 6350
-Wire Wire Line
-	6750 6350 6300 6350
 Connection ~ 6300 6350
 Wire Wire Line
-	6750 6350 7150 6350
-Wire Wire Line
 	7150 6350 7150 6500
-Connection ~ 6750 6350
 $Comp
-L Control_board-rescue:GND-power #PWR?
+L Control_board-rescue:GND-power #PWR08
 U 1 1 5E4CD8C0
 P 6300 7000
-F 0 "#PWR?" H 6300 6750 50  0001 C CNN
+F 0 "#PWR08" H 6300 6750 50  0001 C CNN
 F 1 "GND" H 6305 6827 50  0000 C CNN
 F 2 "" H 6300 7000 50  0001 C CNN
 F 3 "" H 6300 7000 50  0001 C CNN
@@ -1904,51 +1495,44 @@ F 3 "" H 6300 7000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 7000 6300 6900
-Wire Wire Line
-	6750 6800 6750 6900
-Wire Wire Line
-	6750 6900 6300 6900
 Connection ~ 6300 6900
 Wire Wire Line
 	6300 6900 6300 6800
 Wire Wire Line
 	7150 6800 7150 6900
 Wire Wire Line
-	7150 6900 6750 6900
-Connection ~ 6750 6900
-Wire Wire Line
 	5400 2650 5050 2650
 Text Label 7150 4000 0    50   ~ 0
 ADJ_LED1
 $Comp
-L Diode:1.5KExxA D?
+L Diode:1.5KExxA D7
 U 1 1 5E50C693
-P 7150 4300
-F 0 "D?" V 7104 4379 50  0000 L CNN
-F 1 "SMF5.0A" V 7195 4379 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 7150 4100 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 7100 4300 50  0001 C CNN
-	1    7150 4300
+P 6950 4300
+F 0 "D7" V 6904 4379 50  0000 L CNN
+F 1 "SMF5.0A" V 6995 4379 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 6950 4100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 6900 4300 50  0001 C CNN
+	1    6950 4300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5E50C69F
 P 5950 4000
-F 0 "R?" V 5743 4000 50  0000 C CNN
+F 0 "R8" V 5743 4000 50  0000 C CNN
 F 1 "100" V 5834 4000 50  0000 C CNN
-F 2 "" V 5880 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 4000 50  0001 C CNN
 F 3 "~" H 5950 4000 50  0001 C CNN
 	1    5950 4000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5E50C6A5
 P 6300 4300
-F 0 "C?" H 6415 4346 50  0000 L CNN
+F 0 "C1" H 6415 4346 50  0000 L CNN
 F 1 "100nF" H 6415 4255 50  0000 L CNN
-F 2 "" H 6338 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 4150 50  0001 C CNN
 F 3 "~" H 6300 4300 50  0001 C CNN
 	1    6300 4300
 	1    0    0    -1  
@@ -1957,21 +1541,11 @@ Wire Wire Line
 	6100 4000 6300 4000
 Wire Wire Line
 	6300 4000 6300 4150
-Wire Wire Line
-	6750 4150 6750 4000
-Wire Wire Line
-	6750 4000 6300 4000
-Connection ~ 6300 4000
-Wire Wire Line
-	6750 4000 7150 4000
-Wire Wire Line
-	7150 4000 7150 4150
-Connection ~ 6750 4000
 $Comp
-L Control_board-rescue:GND-power #PWR?
+L Control_board-rescue:GND-power #PWR02
 U 1 1 5E50C6B3
 P 6300 4650
-F 0 "#PWR?" H 6300 4400 50  0001 C CNN
+F 0 "#PWR02" H 6300 4400 50  0001 C CNN
 F 1 "GND" H 6305 4477 50  0000 C CNN
 F 2 "" H 6300 4650 50  0001 C CNN
 F 3 "" H 6300 4650 50  0001 C CNN
@@ -1979,19 +1553,7 @@ F 3 "" H 6300 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 4650 6300 4550
-Wire Wire Line
-	6750 4450 6750 4550
-Wire Wire Line
-	6750 4550 6300 4550
-Connection ~ 6300 4550
-Wire Wire Line
-	6300 4550 6300 4450
-Wire Wire Line
-	7150 4450 7150 4550
-Wire Wire Line
-	7150 4550 6750 4550
-Connection ~ 6750 4550
+	6950 4450 6950 4550
 Wire Wire Line
 	5800 4000 5700 4000
 Wire Wire Line
@@ -2008,4 +1570,663 @@ Wire Wire Line
 	5400 2650 5400 6350
 Wire Wire Line
 	5400 6350 5800 6350
+Wire Wire Line
+	10150 1450 10150 1350
+Wire Wire Line
+	10150 1350 10800 1350
+Text Label 10800 1450 2    50   ~ 0
+ADJ_LED1
+Text Label 10800 1550 2    50   ~ 0
+NTC_1
+$Comp
+L power:+48V #PWR015
+U 1 1 5E3811AA
+P 11900 1100
+F 0 "#PWR015" H 11900 950 50  0001 C CNN
+F 1 "+48V" H 11915 1273 50  0000 C CNN
+F 2 "" H 11900 1100 50  0001 C CNN
+F 3 "" H 11900 1100 50  0001 C CNN
+	1    11900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:+3.3V-power #PWR031
+U 1 1 5E390939
+P 12000 1350
+F 0 "#PWR031" H 12000 1200 50  0001 C CNN
+F 1 "+3.3V" H 12015 1523 50  0000 C CNN
+F 2 "" H 12000 1350 50  0001 C CNN
+F 3 "" H 12000 1350 50  0001 C CNN
+	1    12000 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 1350 12000 1550
+Wire Wire Line
+	12000 1550 11600 1550
+Text Label 10800 2450 2    50   ~ 0
+ADJ_LED2
+Text Label 10800 2550 2    50   ~ 0
+NTC_2
+Text Label 10800 3700 2    50   ~ 0
+ADJ_LED3
+Text Label 10800 3800 2    50   ~ 0
+NTC_3
+Wire Wire Line
+	6300 4450 6300 4550
+Wire Wire Line
+	6950 4550 6300 4550
+Connection ~ 6300 4550
+Wire Wire Line
+	6300 4550 6300 4650
+Wire Wire Line
+	6950 4000 6950 4150
+Wire Wire Line
+	6300 4000 6950 4000
+Connection ~ 6950 4000
+Connection ~ 6300 4000
+Text Notes 3500 8800 0    50   ~ 0
+700 mA
+Text Notes 900  4450 0    50   ~ 0
+1.8 A
+Text Notes 900  6750 0    50   ~ 0
+1.8 A
+Wire Wire Line
+	6300 5150 7150 5150
+Wire Wire Line
+	6300 5700 7150 5700
+Wire Wire Line
+	6300 6350 7150 6350
+Wire Wire Line
+	6300 6900 7150 6900
+Wire Wire Line
+	6950 4000 7150 4000
+$Comp
+L Device:R R21
+U 1 1 5E42D992
+P 8250 1650
+F 0 "R21" V 8043 1650 50  0000 C CNN
+F 1 "100" V 8134 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 1650 50  0001 C CNN
+F 3 "~" H 8250 1650 50  0001 C CNN
+	1    8250 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5E42D998
+P 8600 1950
+F 0 "C7" H 8715 1996 50  0000 L CNN
+F 1 "100nF" H 8715 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8638 1800 50  0001 C CNN
+F 3 "~" H 8600 1950 50  0001 C CNN
+	1    8600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1650 8600 1650
+Wire Wire Line
+	8600 1650 8600 1800
+Wire Wire Line
+	9100 1600 9100 1650
+Wire Wire Line
+	8600 1650 9100 1650
+Connection ~ 8600 1650
+Connection ~ 9100 1650
+Wire Wire Line
+	9100 1650 9100 1700
+$Comp
+L Control_board-rescue:GND-power #PWR014
+U 1 1 5E46A083
+P 8600 2100
+F 0 "#PWR014" H 8600 1850 50  0001 C CNN
+F 1 "GND" H 8605 1927 50  0000 C CNN
+F 2 "" H 8600 2100 50  0001 C CNN
+F 3 "" H 8600 2100 50  0001 C CNN
+	1    8600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:R-Device R19
+U 1 1 5DE4CB33
+P 6400 2650
+F 0 "R19" H 6470 2696 50  0000 L CNN
+F 1 "10K" H 6470 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 2650 50  0001 C CNN
+F 3 "~" H 6400 2650 50  0001 C CNN
+	1    6400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxA D6
+U 1 1 5E4CFF05
+P 6950 2250
+F 0 "D6" V 6904 2329 50  0000 L CNN
+F 1 "SMF5.0A" V 6995 2329 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 6950 2050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 6900 2250 50  0001 C CNN
+	1    6950 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 2400 6950 2800
+Wire Wire Line
+	6950 2800 6400 2800
+Connection ~ 6400 2800
+Wire Wire Line
+	6950 2100 6950 1850
+Wire Wire Line
+	5050 1850 6400 1850
+Connection ~ 6400 1850
+Wire Wire Line
+	6400 1850 6950 1850
+Wire Wire Line
+	10350 9750 9950 9750
+$Comp
+L Device:R R22
+U 1 1 5E4FCEF6
+P 9450 9450
+F 0 "R22" H 9520 9496 50  0000 L CNN
+F 1 "4.7k" H 9520 9405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 9450 50  0001 C CNN
+F 3 "~" H 9450 9450 50  0001 C CNN
+	1    9450 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 9600 9450 9750
+Connection ~ 9450 9750
+Wire Wire Line
+	9450 9300 9450 9250
+Wire Wire Line
+	9450 9250 10150 9250
+Connection ~ 10150 9250
+Wire Wire Line
+	10150 9250 10150 9650
+Wire Wire Line
+	10350 10750 9950 10750
+Wire Wire Line
+	9950 10750 9950 9750
+Connection ~ 9950 9750
+Wire Wire Line
+	9950 9750 9450 9750
+$Comp
+L Control_board-rescue:BSS138-Transistor_FET Q2
+U 1 1 5E558C31
+P 800 3200
+F 0 "Q2" H 1005 3246 50  0000 L CNN
+F 1 "BSS138-Transistor_FET" H 1005 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1000 3125 50  0001 L CIN
+F 3 "" H 800 3200 50  0001 L CNN
+	1    800  3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3200 1650 3200
+Wire Wire Line
+	2350 2350 2350 3200
+$Comp
+L Control_board-rescue:R-Device R2
+U 1 1 5E5B9114
+P 1800 3200
+F 0 "R2" H 1870 3246 50  0000 L CNN
+F 1 "10K" H 1870 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 3200 50  0001 C CNN
+F 3 "~" H 1800 3200 50  0001 C CNN
+	1    1800 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 3200 2350 3200
+$Comp
+L Control_board-rescue:+3.3V-power #PWR01
+U 1 1 5E5B9592
+P 700 2200
+F 0 "#PWR01" H 700 2050 50  0001 C CNN
+F 1 "+3.3V" H 715 2373 50  0000 C CNN
+F 2 "" H 700 2200 50  0001 C CNN
+F 3 "" H 700 2200 50  0001 C CNN
+	1    700  2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxA D4
+U 1 1 5E5BA5DA
+P 1400 1250
+F 0 "D4" V 1354 1329 50  0000 L CNN
+F 1 "SMF5.0A" V 1445 1329 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 1400 1050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 1350 1250 50  0001 C CNN
+	1    1400 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D5
+U 1 1 5E5F947B
+P 1400 2000
+F 0 "D5" V 1354 2079 50  0000 L CNN
+F 1 "SMF5.0A" V 1445 2079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 1400 1800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 1350 2000 50  0001 C CNN
+	1    1400 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 2150 1900 2150
+Connection ~ 1900 2150
+Wire Wire Line
+	1900 1850 3450 1850
+Wire Wire Line
+	1900 1850 1400 1850
+Connection ~ 1900 1850
+Wire Wire Line
+	1400 1100 1900 1100
+Wire Wire Line
+	2350 1750 3450 1750
+Connection ~ 1900 1100
+Wire Wire Line
+	1400 1400 1900 1400
+Connection ~ 1900 1400
+Text Label 1400 1100 2    50   ~ 0
+NTC_3
+Wire Wire Line
+	1900 1100 2350 1100
+Wire Wire Line
+	2350 1100 2350 1750
+$Comp
+L Control_board-rescue:+12V-power #PWR0105
+U 1 1 5E6E9962
+P 1400 6350
+F 0 "#PWR0105" H 1400 6200 50  0001 C CNN
+F 1 "+12V-power" H 1415 6523 50  0000 C CNN
+F 2 "" H 1400 6350 50  0001 C CNN
+F 3 "" H 1400 6350 50  0001 C CNN
+	1    1400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:66200621022 J1
+U 1 1 5E7904B4
+P 10800 1350
+F 0 "J1" H 11200 1615 50  0000 C CNN
+F 1 "66200621022" H 11200 1524 50  0000 C CNN
+F 2 "SamacSys_Parts:66200621022" H 11450 1450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/66200621022.pdf" H 11450 1350 50  0001 L CNN
+F 4 "Wurth Elektronik WR-MPC3 Series, Series Number 6620, 3mm Pitch 6 Way 2 Row Right Angle PCB Header, Solder Termination" H 11450 1250 50  0001 L CNN "Description"
+F 5 "10.05" H 11450 1150 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 11450 1050 50  0001 L CNN "Manufacturer_Name"
+F 7 "66200621022" H 11450 950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-66200621022" H 11450 850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-66200621022" H 11450 750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "8286025P" H 11450 650 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/8286025P" H 11450 550 50  0001 L CNN "RS Price/Stock"
+	1    10800 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 1100 11900 1350
+Wire Wire Line
+	11900 1350 11600 1350
+$Comp
+L SamacSys_Parts:66200621022 J7
+U 1 1 5E7FDE0D
+P 10800 3600
+F 0 "J7" H 11200 3865 50  0000 C CNN
+F 1 "66200621022" H 11200 3774 50  0000 C CNN
+F 2 "SamacSys_Parts:66200621022" H 11450 3700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/66200621022.pdf" H 11450 3600 50  0001 L CNN
+F 4 "Wurth Elektronik WR-MPC3 Series, Series Number 6620, 3mm Pitch 6 Way 2 Row Right Angle PCB Header, Solder Termination" H 11450 3500 50  0001 L CNN "Description"
+F 5 "10.05" H 11450 3400 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 11450 3300 50  0001 L CNN "Manufacturer_Name"
+F 7 "66200621022" H 11450 3200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-66200621022" H 11450 3100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-66200621022" H 11450 3000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "8286025P" H 11450 2900 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/8286025P" H 11450 2800 50  0001 L CNN "RS Price/Stock"
+	1    10800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR0108
+U 1 1 5E7FF161
+P 10150 3700
+F 0 "#PWR0108" H 10150 3450 50  0001 C CNN
+F 1 "GND" H 10155 3527 50  0000 C CNN
+F 2 "" H 10150 3700 50  0001 C CNN
+F 3 "" H 10150 3700 50  0001 C CNN
+	1    10150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 3700 10150 3600
+Wire Wire Line
+	10150 3600 10800 3600
+$Comp
+L power:+48V #PWR0115
+U 1 1 5E80EC70
+P 11900 3350
+F 0 "#PWR0115" H 11900 3200 50  0001 C CNN
+F 1 "+48V" H 11915 3523 50  0000 C CNN
+F 2 "" H 11900 3350 50  0001 C CNN
+F 3 "" H 11900 3350 50  0001 C CNN
+	1    11900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:+3.3V-power #PWR0117
+U 1 1 5E80EC76
+P 12000 3600
+F 0 "#PWR0117" H 12000 3450 50  0001 C CNN
+F 1 "+3.3V" H 12015 3773 50  0000 C CNN
+F 2 "" H 12000 3600 50  0001 C CNN
+F 3 "" H 12000 3600 50  0001 C CNN
+	1    12000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 3600 12000 3800
+Wire Wire Line
+	11900 3350 11900 3600
+Wire Wire Line
+	11900 3600 11600 3600
+Wire Wire Line
+	12000 3800 11600 3800
+$Comp
+L SamacSys_Parts:66200621022 J2
+U 1 1 5E8303A0
+P 10800 2350
+F 0 "J2" H 11200 2615 50  0000 C CNN
+F 1 "66200621022" H 11200 2524 50  0000 C CNN
+F 2 "SamacSys_Parts:66200621022" H 11450 2450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/66200621022.pdf" H 11450 2350 50  0001 L CNN
+F 4 "Wurth Elektronik WR-MPC3 Series, Series Number 6620, 3mm Pitch 6 Way 2 Row Right Angle PCB Header, Solder Termination" H 11450 2250 50  0001 L CNN "Description"
+F 5 "10.05" H 11450 2150 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 11450 2050 50  0001 L CNN "Manufacturer_Name"
+F 7 "66200621022" H 11450 1950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-66200621022" H 11450 1850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-66200621022" H 11450 1750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "8286025P" H 11450 1650 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/8286025P" H 11450 1550 50  0001 L CNN "RS Price/Stock"
+	1    10800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR0120
+U 1 1 5E8303A6
+P 10150 2450
+F 0 "#PWR0120" H 10150 2200 50  0001 C CNN
+F 1 "GND" H 10155 2277 50  0000 C CNN
+F 2 "" H 10150 2450 50  0001 C CNN
+F 3 "" H 10150 2450 50  0001 C CNN
+	1    10150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 2450 10150 2350
+Wire Wire Line
+	10150 2350 10800 2350
+$Comp
+L power:+48V #PWR0121
+U 1 1 5E8303AE
+P 11900 2100
+F 0 "#PWR0121" H 11900 1950 50  0001 C CNN
+F 1 "+48V" H 11915 2273 50  0000 C CNN
+F 2 "" H 11900 2100 50  0001 C CNN
+F 3 "" H 11900 2100 50  0001 C CNN
+	1    11900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:+3.3V-power #PWR0122
+U 1 1 5E8303B4
+P 12000 2350
+F 0 "#PWR0122" H 12000 2200 50  0001 C CNN
+F 1 "+3.3V" H 12015 2523 50  0000 C CNN
+F 2 "" H 12000 2350 50  0001 C CNN
+F 3 "" H 12000 2350 50  0001 C CNN
+	1    12000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 2350 12000 2550
+Wire Wire Line
+	11900 2100 11900 2350
+Wire Wire Line
+	11900 2350 11600 2350
+Wire Wire Line
+	12000 2550 11600 2550
+NoConn ~ 5050 2150
+Wire Wire Line
+	8100 1650 8000 1650
+Wire Wire Line
+	8000 1650 8000 2450
+Wire Wire Line
+	8000 2450 5050 2450
+$Comp
+L SamacSys_Parts:VN7050ASTR IC1
+U 1 1 5E607BF3
+P 2100 9050
+F 0 "IC1" H 2900 9315 50  0000 C CNN
+F 1 "VN7050ASTR" H 2900 9224 50  0000 C CNN
+F 2 "SamacSys_Parts:SOIC127P600X175-8N" H 3550 9150 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/vn7050aj.pdf" H 3550 9050 50  0001 L CNN
+F 4 "STMICROELECTRONICS - VN7050ASTR - Power Load Distribution Switch, High Side, Active High, 13V, 1 Output, 30A, 0.05ohm, SOIC-8" H 3550 8950 50  0001 L CNN "Description"
+F 5 "1.75" H 3550 8850 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 3550 8750 50  0001 L CNN "Manufacturer_Name"
+F 7 "VN7050ASTR" H 3550 8650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-VN7050ASTR" H 3550 8550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VN7050ASTR" H 3550 8450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3550 8350 50  0001 L CNN "RS Part Number"
+F 11 "" H 3550 8250 50  0001 L CNN "RS Price/Stock"
+	1    2100 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 9250 1900 9900
+Text Label 1450 9050 2    50   ~ 0
+fan
+$Comp
+L Control_board-rescue:R-Device R1
+U 1 1 5DEDBE29
+P 1450 9750
+F 0 "R1" H 1520 9796 50  0000 L CNN
+F 1 "1k" H 1520 9705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 9750 50  0001 C CNN
+F 3 "~" H 1450 9750 50  0001 C CNN
+	1    1450 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 10250 1450 10200
+$Comp
+L Control_board-rescue:GND-power #PWR018
+U 1 1 5DEDBE22
+P 1450 10250
+F 0 "#PWR018" H 1450 10000 50  0001 C CNN
+F 1 "GND" H 1455 10077 50  0000 C CNN
+F 2 "" H 1450 10250 50  0001 C CNN
+F 3 "" H 1450 10250 50  0001 C CNN
+	1    1450 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:LED-Device D3
+U 1 1 5DEDBE1C
+P 1450 10050
+F 0 "D3" V 1488 9933 50  0000 R CNN
+F 1 "LED" V 1397 9933 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1450 10050 50  0001 C CNN
+F 3 "~" H 1450 10050 50  0001 C CNN
+	1    1450 10050
+	0    -1   -1   0   
+$EndComp
+Text Label 3700 9150 0    50   ~ 0
+12V_Fan
+Wire Wire Line
+	3700 9250 3700 9150
+Text Label 11600 1450 0    50   ~ 0
+12V_Fan
+Text Label 11600 2450 0    50   ~ 0
+12V_Fan
+Text Label 11600 3700 0    50   ~ 0
+12V_Fan
+Wire Wire Line
+	1450 9050 1450 9600
+NoConn ~ 2100 9350
+NoConn ~ 2100 9150
+$Comp
+L Control_board-rescue:+12V-power #PWR016
+U 1 1 5E6967CF
+P 4200 8950
+F 0 "#PWR016" H 4200 8800 50  0001 C CNN
+F 1 "+12V-power" H 4215 9123 50  0000 C CNN
+F 2 "" H 4200 8950 50  0001 C CNN
+F 3 "" H 4200 8950 50  0001 C CNN
+	1    4200 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 8950 4200 9050
+Wire Wire Line
+	4200 9050 3700 9050
+Wire Wire Line
+	3700 9350 4200 9350
+Wire Wire Line
+	4200 9350 4200 9050
+Connection ~ 4200 9050
+$Comp
+L Control_board-rescue:R-Device R23
+U 1 1 5E6B63E4
+P 1700 9050
+F 0 "R23" H 1770 9096 50  0000 L CNN
+F 1 "15k" H 1770 9005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 9050 50  0001 C CNN
+F 3 "~" H 1700 9050 50  0001 C CNN
+	1    1700 9050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 9050 1450 9050
+Wire Wire Line
+	1850 9050 2100 9050
+$Comp
+L SamacSys_Parts:PSSI2021SAY,115 IC3
+U 1 1 5E5FB5FD
+P 5850 10000
+F 0 "IC3" H 6400 10265 50  0000 C CNN
+F 1 "PSSI2021SAY,115" H 6400 10174 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT65P210X100-5N" H 6800 10100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/PSSI2021SAY,115.pdf" H 6800 10000 50  0001 L CNN
+F 4 "NEXPERIA - PSSI2021SAY,115 - IC, CURRENT SOURCE, 50MA, 75V,SOT353" H 6800 9900 50  0001 L CNN "Description"
+F 5 "1" H 6800 9800 50  0001 L CNN "Height"
+F 6 "Nexperia" H 6800 9700 50  0001 L CNN "Manufacturer_Name"
+F 7 "PSSI2021SAY,115" H 6800 9600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-PSSI2021SAY-T/R" H 6800 9500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PSSI2021SAY-T%2FR" H 6800 9400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "7258776P" H 6800 9300 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7258776P" H 6800 9200 50  0001 L CNN "RS Price/Stock"
+	1    5850 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 10100 6950 10100
+$Comp
+L Control_board-rescue:GND-power #PWR013
+U 1 1 5E61DE64
+P 5550 10600
+F 0 "#PWR013" H 5550 10350 50  0001 C CNN
+F 1 "GND" H 5555 10427 50  0000 C CNN
+F 2 "" H 5550 10600 50  0001 C CNN
+F 3 "" H 5550 10600 50  0001 C CNN
+	1    5550 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 10600 5550 10200
+Wire Wire Line
+	5550 10200 5850 10200
+$Comp
+L Device:R R24
+U 1 1 5E62E5E8
+P 4900 10400
+F 0 "R24" H 4970 10446 50  0000 L CNN
+F 1 "39k" H 4970 10355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 10400 50  0001 C CNN
+F 3 "~" H 4900 10400 50  0001 C CNN
+	1    4900 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 10250 4900 10100
+Wire Wire Line
+	4900 10100 5850 10100
+Wire Wire Line
+	4900 10550 4900 10600
+Wire Wire Line
+	4900 10600 5550 10600
+Connection ~ 5550 10600
+$Comp
+L Device:Q_NMOS_GSD Q1
+U 1 1 5E664D9D
+P 8550 9250
+F 0 "Q1" H 8756 9296 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8756 9205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 9350 50  0001 C CNN
+F 3 "~" H 8550 9250 50  0001 C CNN
+F 4 "DN3135K1-G" H 8550 9250 50  0001 C CNN "Manufacturer_Part_Number"
+	1    8550 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 9450 8650 9750
+Wire Wire Line
+	8650 9750 9450 9750
+$Comp
+L Device:R R25
+U 1 1 5E68A62C
+P 7950 9700
+F 0 "R25" H 8020 9746 50  0000 L CNN
+F 1 "10k" H 8020 9655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 9700 50  0001 C CNN
+F 3 "~" H 7950 9700 50  0001 C CNN
+	1    7950 9700
+	1    0    0    -1  
+$EndComp
+Text Notes 9350 9500 0    50   ~ 0
+obsolete?
+Wire Wire Line
+	8650 9050 8650 8850
+Wire Wire Line
+	4900 10100 4900 9250
+Wire Wire Line
+	4900 9250 8350 9250
+Connection ~ 4900 10100
+Wire Wire Line
+	7300 8850 7300 10100
+Wire Wire Line
+	7300 8850 7950 8850
+Wire Wire Line
+	7950 10000 7950 9850
+Wire Wire Line
+	6950 10000 7950 10000
+Wire Wire Line
+	7950 9550 7950 8850
+Connection ~ 7950 8850
+Wire Wire Line
+	7950 8850 8650 8850
+Text Notes 5000 11000 0    50   ~ 0
+Protection circuit for 1-wire interface:\nhttps://www.maximintegrated.com/en/design/technical-documents/tutorials/5/5026.html
+Text Notes 14600 4700 2    50   ~ 0
+need heatsink/groundstitching
+$Comp
+L Regulator_Linear:NCP1117-5.0_TO252 U?
+U 1 1 5E615764
+P 15300 5250
+F 0 "U?" H 15300 5492 50  0000 C CNN
+F 1 "NCP1117-5.0_TO252" H 15300 5401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 15300 5475 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 15300 5250 50  0001 C CNN
+	1    15300 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

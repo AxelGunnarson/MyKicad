@@ -19,14 +19,14 @@ int fans = 12;
 int val = 0;  
 int NTCvalue = 0;              
 //int fanStatus = 5;            //the status of the highside driver driving the fan
-int brightness_5600K = 20;    // how bright the LED is
-int brightness_5600K_daylight = 40;
+int brightness_5600K = 100;    // how bright the LED is
+int brightness_5600K_daylight = 100;
 
 
 bool fanState;
 
 long pumpState;       
-long onTime = 1000;   // milliseconds of on-time 120000  /pump stays on for 2 minutes
+long onTime = 10000;   // milliseconds of on-time 120000  /pump stays on for 2 minutes
 long offTime = 2000; // milliseconds of off-time 10 800 000 = 3 hours
 unsigned long previousMillis;  //some global variables available anywhere in the program
 unsigned long previousMillis2;
@@ -70,7 +70,7 @@ void setup()
 
 digitalWrite(H5V_DC_Pump, pumpState);  // Update the actual Pump
 
-digitalWrite(fan, HIGH);
+
 
 }
 
@@ -102,15 +102,18 @@ void loop ()
 int brightness(){
   NTCvalue = analogRead(NTC_1);
   Serial.println(NTCvalue);
-  int setTemp = 2000;
+  int setTemp = 3300;
   if (NTCvalue > setTemp)
     {
       brightness_5600K = 15;
       return brightness_5600K;
+      digitalWrite(fan, HIGH);
+      Serial.println("Throttling down to 15");
     }
-  else if ((NTCvalue < setTemp - 100) && (NTCvalue > 50))
+  else if ((NTCvalue < setTemp - 700) && (NTCvalue > 50))
     {
       brightness_5600K = brightness_5600K_daylight;
+      digitalWrite(fan, HIGH);
       Serial.println("NTCvalue is less than 600");
     }
   else if (NTCvalue < 50)

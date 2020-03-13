@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\MyKicad\Projects\LED_DRIVER_with_fan_IS31LT3117\LED_Driver_ISSI_ALU_IS31LT3117.sch</source>
+    <date>1/31/2020 7:18:58 PM</date>
+    <tool>Eeschema (5.1.2)-2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LED_Driver_ISSI_ALU_IS31LT3117.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098661</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098709</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098737</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098774</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098FE5</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098FEC</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098FF3</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C098FFA</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0997B3</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0997F5</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>Thermistor_NTC</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="Thermistor_NTC-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7C2381</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E579924</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>6.8K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E580E1E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1/50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E56CC00</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>IS31LT3117-ZLS4-TR</value>
+      <footprint>SamacSys_Parts:SOP65P640X120-17N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Lighting Drivers 60V 350MA, 4-channel</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Integrated Silicon Solution Inc.</field>
+        <field name="Manufacturer_Part_Number">IS31LT3117-ZLS4-TR</field>
+        <field name="Mouser Part Number">870-IS31LT3117-ZLS4T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31LT3117-ZLS4T</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="IS31LT3117-ZLS4-TR" description="LED Lighting Drivers 60V 350MA, 4-channel"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E591F90</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1u/10V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A4945</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E61A47B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E61A8F7</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E61ADB2</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E61F45A</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E61FA54</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637941</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637947</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63794D</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637953</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637959</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63795F</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637965</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63796B</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637971</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637977</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63797D</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637983</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637989</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63798F</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637995</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB66</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB6C</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB72</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB78</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB7E</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB84</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB8A</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB90</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB96</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EB9C</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EBA2</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EBA8</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EBAE</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EBB4</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63EBBA</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644122</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644128</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E64412E</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644134</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E64413A</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644140</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644146</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E64414C</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644152</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644158</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E64415E</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644164</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E64416A</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644170</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>LED</value>
+      <footprint>Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E644176</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>43045-0809</value>
+      <footprint>SamacSys_Parts:43045-0809</footprint>
+      <datasheet>http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/molex-incorporated-43045-0809/70091332/</field>
+        <field name="Allied_Number">70091332</field>
+        <field name="Description">Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">43045-0809</field>
+        <field name="Mouser Part Number">538-43045-0809</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0809</field>
+        <field name="RS Part Number">6701954P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/6701954P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="43045-0809" description="Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E678007</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E68C8B1</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6A4158</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6A7FBC</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6ACF56</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6AD558</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6AE670</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6AED5D</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6AF843</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>CREE_LED</value>
+      <footprint>footprints:CREE_XP-C_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6ADC7A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6D216F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>33u/VE-330M1HTR-0607</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://www.mouser.com/Search/Refine.aspx?Keyword=140-VE330M1HTR0607</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6E91C3</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E37414B</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E374F11</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3752BD</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E375570</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>throughHole</value>
+      <footprint>MountingHole:MountingHole_8.4mm_M8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E378AA7</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u 50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/865080642006.pdf</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E323314</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="LED-Device-LED_Driver_ISSI_ALU-rescue">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device-LED_Driver_ISSI_ALU-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED_Driver_ISSI_ALU_IS31LT3117-rescue" part="Thermistor_NTC-Device-LED_Driver_ISSI_ALU-rescue">
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC-Device-LED_Driver_ISSI_ALU-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="43045-0809">
+      <description>Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</description>
+      <docs>http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">43045-0809</field>
+        <field name="Footprint">43045-0809</field>
+        <field name="Datasheet">http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf</field>
+        <field name="Description">Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">43045-0809</field>
+        <field name="Mouser Part Number">538-43045-0809</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0809</field>
+        <field name="RS Part Number">6701954P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/6701954P</field>
+        <field name="Allied_Number">70091332</field>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/molex-incorporated-43045-0809/70091332/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+        <pin num="5" name="5" type="unspc"/>
+        <pin num="6" name="6" type="unspc"/>
+        <pin num="7" name="7" type="unspc"/>
+        <pin num="8" name="8" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="IS31LT3117-ZLS4-TR">
+      <description>LED Lighting Drivers 60V 350MA, 4-channel</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">IS31LT3117-ZLS4-TR</field>
+        <field name="Footprint">SOP65P640X120-17N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf</field>
+        <field name="Description">LED Lighting Drivers 60V 350MA, 4-channel</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Integrated Silicon Solution Inc.</field>
+        <field name="Manufacturer_Part_Number">IS31LT3117-ZLS4-TR</field>
+        <field name="Mouser Part Number">870-IS31LT3117-ZLS4T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31LT3117-ZLS4T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWM" type="unspc"/>
+        <pin num="2" name="PGND_1" type="unspc"/>
+        <pin num="3" name="VCC" type="unspc"/>
+        <pin num="4" name="NC_1" type="unspc"/>
+        <pin num="5" name="PGND_2" type="unspc"/>
+        <pin num="6" name="GND" type="unspc"/>
+        <pin num="7" name="NC_2" type="unspc"/>
+        <pin num="8" name="ISET" type="unspc"/>
+        <pin num="9" name="VREF" type="unspc"/>
+        <pin num="10" name="VLED4" type="unspc"/>
+        <pin num="11" name="NC_3" type="unspc"/>
+        <pin num="12" name="VLED3" type="unspc"/>
+        <pin num="13" name="NC_4" type="unspc"/>
+        <pin num="14" name="VLED2" type="unspc"/>
+        <pin num="15" name="NC_5" type="unspc"/>
+        <pin num="16" name="VLED1" type="unspc"/>
+        <pin num="17" name="EP" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="LED_Driver_ISSI_ALU_IS31LT3117-rescue">
+      <uri>C:\MyKicad\Projects\LED_DRIVER_with_fan_IS31LT3117/LED_Driver_ISSI_ALU_IS31LT3117-rescue.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/MyKicad/libraries/lib_sch/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC1" pin="17"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D60-Pad1)">
+      <node ref="IC1" pin="10"/>
+      <node ref="D60" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D45-Pad1)">
+      <node ref="D45" pin="1"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="4" name="Net-(D30-Pad1)">
+      <node ref="D30" pin="1"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="5" name="Net-(D59-Pad1)">
+      <node ref="D60" pin="2"/>
+      <node ref="D59" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D58-Pad1)">
+      <node ref="D58" pin="1"/>
+      <node ref="D59" pin="2"/>
+    </net>
+    <net code="7" name="/48V_Fan">
+      <node ref="J1" pin="5"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="/3.3V">
+      <node ref="TH1" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="11" name="/NTC">
+      <node ref="TH1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="12" name="/ADJ_LED">
+      <node ref="IC1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="13" name="/+48V">
+      <node ref="D31" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D16" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D43-Pad1)">
+      <node ref="D43" pin="1"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D51-Pad1)">
+      <node ref="D51" pin="1"/>
+      <node ref="D52" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D49-Pad1)">
+      <node ref="D49" pin="1"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D68" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D50-Pad1)">
+      <node ref="D51" pin="2"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D68" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D48-Pad1)">
+      <node ref="D48" pin="1"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D47-Pad1)">
+      <node ref="D47" pin="1"/>
+      <node ref="D48" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D44-Pad1)">
+      <node ref="D44" pin="1"/>
+      <node ref="D45" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D42-Pad1)">
+      <node ref="D43" pin="2"/>
+      <node ref="D42" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D31-Pad1)">
+      <node ref="D31" pin="1"/>
+      <node ref="D32" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D32-Pad1)">
+      <node ref="D32" pin="1"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D41-Pad1)">
+      <node ref="D41" pin="1"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D66" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D56-Pad1)">
+      <node ref="D56" pin="1"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D67" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D57-Pad1)">
+      <node ref="D58" pin="2"/>
+      <node ref="D57" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D46-Pad1)">
+      <node ref="D46" pin="1"/>
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D55-Pad1)">
+      <node ref="D56" pin="2"/>
+      <node ref="D67" pin="2"/>
+      <node ref="D55" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D54-Pad1)">
+      <node ref="D55" pin="2"/>
+      <node ref="D54" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D53-Pad1)">
+      <node ref="D54" pin="2"/>
+      <node ref="D53" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D52-Pad1)">
+      <node ref="D53" pin="2"/>
+      <node ref="D52" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D35-Pad1)">
+      <node ref="D65" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D34-Pad1)">
+      <node ref="D35" pin="2"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D65" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D40-Pad1)">
+      <node ref="D40" pin="1"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D66" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D26-Pad1)">
+      <node ref="D64" pin="1"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D25-Pad1)">
+      <node ref="D64" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D25" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D10-Pad1)">
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D61" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D11-Pad1)">
+      <node ref="D12" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D61" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D20-Pad1)">
+      <node ref="D21" pin="2"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D63" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D19-Pad1)">
+      <node ref="D20" pin="2"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D63" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D62" pin="1"/>
+    </net>
+    <net code="43" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="44" name="Net-(D15-Pad1)">
+      <node ref="IC1" pin="16"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="46" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="48" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="50" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D10-Pad2)">
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D7-Pad1)">
+      <node ref="D8" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="54" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D3-Pad1)">
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D2-Pad1)">
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="57" name="Net-(D27-Pad1)">
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D28-Pad1)">
+      <node ref="D29" pin="2"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D29-Pad1)">
+      <node ref="D29" pin="1"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D17-Pad1)">
+      <node ref="D18" pin="2"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="62" name="Net-(D24-Pad1)">
+      <node ref="D24" pin="1"/>
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D22-Pad1)">
+      <node ref="D23" pin="2"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="65" name="Net-(D21-Pad1)">
+      <node ref="D22" pin="2"/>
+      <node ref="D21" pin="1"/>
+    </net>
+    <net code="66" name="Net-(D39-Pad1)">
+      <node ref="D40" pin="2"/>
+      <node ref="D39" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D38-Pad1)">
+      <node ref="D38" pin="1"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D37-Pad1)">
+      <node ref="D38" pin="2"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D36-Pad1)">
+      <node ref="D37" pin="2"/>
+      <node ref="D36" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D33-Pad1)">
+      <node ref="D34" pin="2"/>
+      <node ref="D33" pin="1"/>
+    </net>
+    <net code="71" name="Net-(D1-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D14-Pad1)">
+      <node ref="D15" pin="2"/>
+      <node ref="D14" pin="1"/>
+    </net>
+  </nets>
+</export>

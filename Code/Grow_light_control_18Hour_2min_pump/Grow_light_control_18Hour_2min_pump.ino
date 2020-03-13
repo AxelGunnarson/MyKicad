@@ -79,7 +79,7 @@ void setup()
    Serial.println("Couldn't find RTC");
    while (1);
  }
- if ( !rtc.isrunning()) {  
+ if ( rtc.isrunning()) {  
    Serial.println("RTC is NOT running!");
    // following line sets the RTC to the date & time this sketch was compiled
    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));

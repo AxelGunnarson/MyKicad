@@ -56,21 +56,6 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Control_board-rescue_+24V-power
-#
-DEF Control_board-rescue_+24V-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Control_board-rescue_+24V-power" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +24V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Control_board-rescue_+3.3V-power
 #
 DEF Control_board-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
@@ -140,6 +125,40 @@ X IN 1 0 0 200 R 50 50 0 0 B
 X DRAIN_1 2 0 -100 200 R 50 50 0 0 B
 X SOURCE 3 1400 0 200 L 50 50 0 0 B
 X DRAIN_2 4 1400 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Control_board-rescue_BSS138-Transistor_FET
+#
+DEF Control_board-rescue_BSS138-Transistor_FET Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Control_board-rescue_BSS138-Transistor_FET" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -390,6 +409,38 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Q_NMOS_GSD
+#
+DEF Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 200 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -518,6 +569,25 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Regulator_Linear_NCP1117-5.0_TO252
+#
+DEF Regulator_Linear_NCP1117-5.0_TO252 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "Regulator_Linear_NCP1117-5.0_TO252" 0 125 50 H V L CNN
+F2 "Package_TO_SOT_SMD:TO-252-2" 0 225 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS NCP1117-1.5_TO252 NCP1117-1.8_TO252 NCP1117-1.9_TO252 NCP1117-2.0_TO252 NCP1117-2.5_TO252 NCP1117-2.85_TO252 NCP1117-3.3_TO252 NCP1117-5.0_TO252
+$FPLIST
+ TO?252*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # SamacSys_Parts_43045-0200
 #
 DEF SamacSys_Parts_43045-0200 J 0 30 Y Y 1 F N
@@ -536,83 +606,80 @@ X 2 2 800 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_43045-0609
+# SamacSys_Parts_66200621022
 #
-DEF SamacSys_Parts_43045-0609 J 0 30 Y Y 1 F N
+DEF SamacSys_Parts_66200621022 J 0 30 Y Y 1 F N
 F0 "J" 650 300 50 H V L CNN
-F1 "SamacSys_Parts_43045-0609" 650 200 50 H V L CNN
-F2 "430450609" 650 100 50 H I L CNN
-F3 "http://www.molex.com/pdm_docs/sd/430450609_sd.pdf" 650 0 50 H I L CNN
-F4 "Header 3.00mm, SMT, dual row, RA, 6w Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 6 Way 2 Row Shrouded Right Angle PCB Header, Surface Mount" 650 -100 50 H I L CNN "Description"
-F5 "8" 650 -200 50 H I L CNN "Height"
-F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "43045-0609" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "538-43045-0609" 650 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0609" 650 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "6701939" 650 -700 50 H I L CNN "RS Part Number"
-F11 "http://uk.rs-online.com/web/p/products/6701939" 650 -800 50 H I L CNN "RS Price/Stock"
-F12 "70090791" 650 -900 50 H I L CNN "Allied_Number"
-F13 "https://www.alliedelec.com/molex-incorporated-43045-0609/70090791/" 650 -1000 50 H I L CNN "Allied Price/Stock"
+F1 "SamacSys_Parts_66200621022" 650 200 50 H V L CNN
+F2 "66200621022" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/66200621022.pdf" 650 0 50 H I L CNN
+F4 "Wurth Elektronik WR-MPC3 Series, Series Number 6620, 3mm Pitch 6 Way 2 Row Right Angle PCB Header, Solder Termination" 650 -100 50 H I L CNN "Description"
+F5 "10.05" 650 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "66200621022" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-66200621022" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-66200621022" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "8286025P" 650 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/8286025P" 650 -800 50 H I L CNN "RS Price/Stock"
 DRAW
-P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
 X 1 1 0 0 200 R 50 50 0 0 U
 X 2 2 0 -100 200 R 50 50 0 0 U
 X 3 3 0 -200 200 R 50 50 0 0 U
-X 4 4 0 -300 200 R 50 50 0 0 U
-X 5 5 800 0 200 L 50 50 0 0 U
-X 6 6 800 -100 200 L 50 50 0 0 U
-X 7 7 800 -200 200 L 50 50 0 0 U
-X 8 8 800 -300 200 L 50 50 0 0 U
+X 4 4 800 0 200 L 50 50 0 0 U
+X 5 5 800 -100 200 L 50 50 0 0 U
+X 6 6 800 -200 200 L 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_505567-0681
+# SamacSys_Parts_PSSI2021SAY,115
 #
-DEF SamacSys_Parts_505567-0681 J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "SamacSys_Parts_505567-0681" 650 200 50 H V L CNN
-F2 "5055670681" 650 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/505567-0681.pdf" 650 0 50 H I L CNN
-F4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 6P BLK GLD" 650 -100 50 H I L CNN "Description"
-F5 "4" 650 -200 50 H I L CNN "Height"
-F6 "538-505567-0681" 650 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-505567-0681" 650 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
-F9 "505567-0681" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DEF SamacSys_Parts_PSSI2021SAY,115 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_PSSI2021SAY,115" 950 200 50 H V L CNN
+F2 "SOT65P210X100-5N" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/PSSI2021SAY,115.pdf" 950 0 50 H I L CNN
+F4 "NEXPERIA - PSSI2021SAY,115 - IC, CURRENT SOURCE, 50MA, 75V,SOT353" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "Nexperia" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PSSI2021SAY,115" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-PSSI2021SAY-T/R" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PSSI2021SAY-T%2FR" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "7258776P" 950 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7258776P" 950 -800 50 H I L CNN "RS Price/Stock"
 DRAW
-P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 B
-X 2 2 800 0 200 L 50 50 0 0 B
-X 3 3 0 -100 200 R 50 50 0 0 B
-X 4 4 800 -100 200 L 50 50 0 0 B
-X 5 5 0 -200 200 R 50 50 0 0 B
-X 6 6 800 -200 200 L 50 50 0 0 B
-X 7 7 0 -300 200 R 50 50 0 0 B
-X 8 8 800 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X ~ 1 0 0 200 R 50 50 0 0 N
+X ~ 2 0 -100 200 R 50 50 0 0 O
+X ~ 3 0 -200 200 R 50 50 0 0 W
+X ~ 4 1100 0 200 L 50 50 0 0 I
+X ~ 5 1100 -100 200 L 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_BSP75N
+# SamacSys_Parts_VN7050ASTR
 #
-DEF SamacSys_Parts_BSP75N Q 0 30 Y Y 1 F N
-F0 "Q" 1250 300 50 H V L CNN
-F1 "SamacSys_Parts_BSP75N" 1250 200 50 H V L CNN
-F2 "SOT230P700X180-4N" 1250 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/2/BSP75N.pdf" 1250 0 50 H I L CNN
-F4 "700mA Smart Low-Side Power Switch SOT223 Infineon BSP75N Intelligent Power Switch, Low Side, 0.7A, 60V, 3+Tab-Pin, SOT-223" 1250 -100 50 H I L CNN "Description"
-F5 "1.8" 1250 -200 50 H I L CNN "Height"
-F6 "Infineon" 1250 -300 50 H I L CNN "Manufacturer_Name"
-F7 "BSP75N" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "726-BSP75N" 1250 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BSP75N" 1250 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "8259351P" 1250 -700 50 H I L CNN "RS Part Number"
-F11 "http://uk.rs-online.com/web/p/products/8259351P" 1250 -800 50 H I L CNN "RS Price/Stock"
+DEF SamacSys_Parts_VN7050ASTR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "SamacSys_Parts_VN7050ASTR" 1450 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1450 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/vn7050aj.pdf" 1450 0 50 H I L CNN
+F4 "STMICROELECTRONICS - VN7050ASTR - Power Load Distribution Switch, High Side, Active High, 13V, 1 Output, 30A, 0.05ohm, SOIC-8" 1450 -100 50 H I L CNN "Description"
+F5 "1.75" 1450 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "VN7050ASTR" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-VN7050ASTR" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VN7050ASTR" 1450 -600 50 H I L CNN "Mouser Price/Stock"
 DRAW
-P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
-X IN 1 0 0 200 R 50 50 0 0 I
-X DRAIN 2 0 -100 200 R 50 50 0 0 U
-X SOURCE_1 3 1400 0 200 L 50 50 0 0 U
-X SOURCE_2 4 1400 -100 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 1400 100 1400 -400 200 -400 200 100 N
+X INPUT 1 0 0 200 R 50 50 0 0 U
+X SEN 2 0 -100 200 R 50 50 0 0 U
+X GND 3 0 -200 200 R 50 50 0 0 U
+X MULTISENSE 4 0 -300 200 R 50 50 0 0 U
+X VCC_1 5 1600 -300 200 L 50 50 0 0 U
+X OUTPUT_1 6 1600 -200 200 L 50 50 0 0 U
+X OUTPUT_2 7 1600 -100 200 L 50 50 0 0 U
+X VCC_2 8 1600 0 200 L 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #

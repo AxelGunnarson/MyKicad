@@ -1,0 +1,174 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_1210B225K101CT
+#
+DEF SamacSys_Parts_1210B225K101CT C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_1210B225K101CT" 350 150 50 H V L CNN
+F2 "CAPC3225X280N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/1210B225K101CT.pdf" 350 -50 50 H I L CNN
+F4 "WALSIN - 1210B225K101CT - CAPACITOR, MLCC, X7R, 2.2UF, 100V, 1210" 350 -150 50 H I L CNN "Description"
+F5 "2.8" 350 -250 50 H I L CNN "Height"
+F6 "Walsin Technology Corporation" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "1210B225K101CT" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "791-1210B225K101CT" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=791-1210B225K101CT" 350 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_B560C-13-F
+#
+DEF SamacSys_Parts_B560C-13-F D 0 30 Y Y 1 F N
+F0 "D" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_B560C-13-F" 950 200 50 H V L CNN
+F2 "DIOM7959X250N" 950 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/13e3/0900766b813e3f21.pdf" 950 0 50 H I L CNN
+F4 "Diodes Inc B560C-13-F, SMT Schottky Diode, 60V 5A, 2-pin SMC" 950 -100 50 H I L CNN "Description"
+F5 "2.5" 950 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "B560C-13-F" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-B560C-F" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-B560C-F" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "7513301P" 950 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7513301P" 950 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_EMK325BJ226KM-P
+#
+DEF SamacSys_Parts_EMK325BJ226KM-P C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_EMK325BJ226KM-P" 350 150 50 H V L CNN
+F2 "CAPC3225X270N" 350 50 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1721587" 350 -50 50 H I L CNN
+F4 "Taiyo Yuden EMK325BJ226KM-P 22pF MLCC 16V dc +/-10% Tolerance SMD" 350 -150 50 H I L CNN "Description"
+F5 "2.7" 350 -250 50 H I L CNN "Height"
+F6 "TAIYO YUDEN" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "EMK325BJ226KM-P" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "963-EMK325BJ226KM-P" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=963-EMK325BJ226KM-P" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "1721587P" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1721587P" 350 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_PA4343.133NLT
+#
+DEF SamacSys_Parts_PA4343.133NLT L 0 30 Y Y 1 F N
+F0 "L" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_PA4343.133NLT" 650 200 50 H V L CNN
+F2 "INDPM140128X650N" 650 100 50 H I L CNN
+F3 "https://productfinder.pulseeng.com/products/datasheets/P770.pdf" 650 0 50 H I L CNN
+F4 "Fixed Inductors 13uH 9A 6.5mm 20% Low Prof" 650 -100 50 H I L CNN "Description"
+F5 "6.5" 650 -200 50 H I L CNN "Height"
+F6 "Pulse" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PA4343.133NLT" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "673-PA4343.133NLT" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=673-PA4343.133NLT" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TPS54560BDDAR
+#
+DEF SamacSys_Parts_TPS54560BDDAR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "SamacSys_Parts_TPS54560BDDAR" 1250 200 50 H V L CNN
+F2 "SOIC127P600X170-9N" 1250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/TPS54560B" 1250 0 50 H I L CNN
+F4 "4.5-V to 60-V input, 5-A, step-down DC-DC converter with Eco-mode" 1250 -100 50 H I L CNN "Description"
+F5 "1.7" 1250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS54560BDDAR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS54560BDDAR" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS54560BDDAR" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -800 200 -800 200 100 N
+X BOOT 1 0 0 200 R 50 50 0 0 U
+X VIN 2 0 -100 200 R 50 50 0 0 U
+X EN 3 0 -200 200 R 50 50 0 0 U
+X RT/CLK 4 0 -300 200 R 50 50 0 0 U
+X FB 5 1400 -300 200 L 50 50 0 0 U
+X COMP 6 1400 -200 200 L 50 50 0 0 U
+X GND_1 7 1400 -100 200 L 50 50 0 0 U
+X SW 8 1400 0 200 L 50 50 0 0 U
+X GND_2 9 700 -1000 200 U 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

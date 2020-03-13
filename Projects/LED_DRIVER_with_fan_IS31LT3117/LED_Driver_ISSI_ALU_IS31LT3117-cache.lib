@@ -178,35 +178,6 @@ X 8 8 800 -300 200 L 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_EDK106M063A9GAA
-#
-DEF SamacSys_Parts_EDK106M063A9GAA C 0 30 Y Y 1 F N
-F0 "C" 350 250 50 H V L CNN
-F1 "SamacSys_Parts_EDK106M063A9GAA" 350 150 50 H V L CNN
-F2 "CAPAE660X565N" 350 50 50 H I L CNN
-F3 "https://api.kemet.com/component-edge/download/specsheet/EDK106M063A9GAA.pdf" 350 -50 50 H I L CNN
-F4 "KEMET Aluminium Electrolytic Capacitor 10uF 63V dc 6.3mm Can - SMD, Radial EDK Series Aluminium Electrolytic" 350 -150 50 H I L CNN "Description"
-F5 "5.65" 350 -250 50 H I L CNN "Height"
-F6 "Kemet" 350 -350 50 H I L CNN "Manufacturer_Name"
-F7 "EDK106M063A9GAA" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
-F8 "80-EDK106M063A9GAA" 350 -550 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=80-EDK106M063A9GAA" 350 -650 50 H I L CNN "Mouser Price/Stock"
-F10 "8707336" 350 -750 50 H I L CNN "RS Part Number"
-F11 "http://uk.rs-online.com/web/p/products/8707336" 350 -850 50 H I L CNN "RS Price/Stock"
-F12 "70097575" 350 -950 50 H I L CNN "Allied_Number"
-F13 "https://www.alliedelec.com/kemet-edk106m063a9gaa/70097575/" 350 -1050 50 H I L CNN "Allied Price/Stock"
-DRAW
-P 2 0 1 6 100 0 200 0 N
-P 2 0 1 6 160 70 160 30 N
-P 2 0 1 6 180 50 140 50 N
-P 2 0 1 6 300 0 400 0 N
-P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
-P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
-X ~ 1 0 0 100 R 50 50 0 0 P
-X ~ 2 500 0 100 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # SamacSys_Parts_IS31LT3117-ZLS4-TR
 #
 DEF SamacSys_Parts_IS31LT3117-ZLS4-TR IC 0 30 Y Y 1 F N
