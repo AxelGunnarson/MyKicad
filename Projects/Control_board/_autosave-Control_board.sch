@@ -2428,4 +2428,37 @@ Wire Wire Line
 	10300 -600 10550 -600
 Wire Wire Line
 	9050 -600 9850 -600
+$Comp
+L Device:R_POT RV?
+U 1 1 5E6F370B
+P 3950 -1150
+F 0 "RV?" H 3881 -1104 50  0000 R CNN
+F 1 "R_POT" H 3881 -1195 50  0000 R CNN
+F 2 "" H 3950 -1150 50  0001 C CNN
+F 3 "~" H 3950 -1150 50  0001 C CNN
+	1    3950 -1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E6F5168
+P 3100 -1100
+F 0 "SW?" H 3100 -815 50  0000 C CNN
+F 1 "SW_Push" H 3100 -906 50  0000 C CNN
+F 2 "" H 3100 -900 50  0001 C CNN
+F 3 "~" H 3100 -900 50  0001 C CNN
+	1    3100 -1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E6F550C
+P 2450 -1100
+F 0 "SW?" H 2450 -815 50  0000 C CNN
+F 1 "SW_Push" H 2450 -906 50  0000 C CNN
+F 2 "" H 2450 -900 50  0001 C CNN
+F 3 "~" H 2450 -900 50  0001 C CNN
+	1    2450 -1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
