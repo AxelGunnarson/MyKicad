@@ -294,22 +294,6 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Control_board-rescue_DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue
-#
-DEF Control_board-rescue_DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "Control_board-rescue_DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -300 -50 300 -450 0 1 0 N
-X IN+ 1 -400 -100 100 R 50 50 1 1 I
-X IN- 2 -400 -400 100 R 50 50 1 1 I
-X OUT- 3 400 -400 100 L 50 50 1 1 I
-X OUT+ 4 400 -100 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Control_board-rescue_ESP32-DEVKITC-32D-ESP32-DEVKITC-32D
 #
 DEF Control_board-rescue_ESP32-DEVKITC-32D-ESP32-DEVKITC-32D U 0 40 Y Y 1 L N
@@ -439,24 +423,6 @@ $FPLIST
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# Control_board-rescue_NCP1117-5.0_SOT223-Regulator_Linear
-#
-DEF Control_board-rescue_NCP1117-5.0_SOT223-Regulator_Linear U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Control_board-rescue_NCP1117-5.0_SOT223-Regulator_Linear" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
-F3 "" 100 -250 50 H I C CNN
-$FPLIST
- SOT?223*TabPin2*
-$ENDFPLIST
-DRAW
-S -200 -200 200 75 0 1 10 f
-X GND 1 0 -300 100 U 50 50 1 1 W
-X VO 2 300 0 100 L 50 50 1 1 w
-X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -678,28 +644,6 @@ X VCC_2 8 1600 0 200 L 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
-# Device_D_Zener
-#
-DEF Device_D_Zener D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Zener" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Polyfuse
 #
 DEF Device_Polyfuse F 0 0 N Y 1 F N
@@ -795,6 +739,74 @@ P 4 0 1 0 75 50 75 -50 150 0 75 50 N
 X ~ 1 -300 0 150 R 50 50 1 1 P
 X ~ 2 300 0 150 L 50 50 1 1 P
 X ~ 3 0 -200 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_D_Zener_ALT_PELLE
+#
+DEF SamacSys_Parts_D_Zener_ALT_PELLE D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "SamacSys_Parts_D_Zener_ALT_PELLE" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+X A 1 150 0 100 L 50 50 1 1 P
+X K 3 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_FSM8JRT
+#
+DEF SamacSys_Parts_FSM8JRT S 0 30 Y Y 1 F N
+F0 "S" 450 150 50 H V L CNN
+F1 "SamacSys_Parts_FSM8JRT" 300 -100 50 H V C CNN
+F2 "FSM8JRT" 300 -200 50 H I C CNN
+F3 "https://componentsearchengine.com/Datasheets/1/FSM8JRT.pdf" 300 -300 50 H I C CNN
+F4 "Tactile switch,PCB,SPST,raised actuator" 300 -400 50 H I C CNN "Description"
+F5 "9.5" 300 -500 50 H I C CNN "Height"
+F6 "506-FSM8JRT" 300 -600 50 H I C CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=506-FSM8JRT" 300 -700 50 H I C CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 300 -800 50 H I C CNN "Manufacturer_Name"
+F9 "FSM8JRT" 300 -900 50 H I C CNN "Manufacturer_Part_Number"
+DRAW
+C 220 0 20 0 1 10 N
+C 380 0 20 0 1 10 N
+P 2 0 1 6 200 50 400 50 N
+P 2 0 1 6 300 50 300 100 N
+X ~ 1 0 0 200 R 50 50 0 0 U
+X ~ 2 600 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# my_library_NID35-12_meanwell
+#
+DEF my_library_NID35-12_meanwell U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "my_library_NID35-12_meanwell" 0 450 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -500 300 1650 -200 0 1 0 N
+X Vout+ 1 -300 -300 100 U 50 50 0 0 w
+X TRIM_ 10 1350 -300 100 U 50 50 0 0 P
+X R.C. 11 1500 -300 100 U 50 50 0 0 P
+X Vout+ 2 -150 -300 100 U 50 50 0 0 P
+X Vout+ 3 0 -300 100 U 50 50 0 0 P
+X Vout+ 4 150 -300 100 U 50 50 0 0 P
+X COM 5 300 -300 100 U 50 50 0 0 P
+X COM 6 750 -300 100 U 50 50 0 0 P
+X +Vin 7 900 -300 100 U 50 50 0 0 W
+X +Vin 8 1050 -300 100 U 50 50 0 0 W
+X N.C. 9 1200 -300 100 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

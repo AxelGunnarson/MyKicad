@@ -43,55 +43,14 @@ Connection ~ 8900 4050
 $Comp
 L Control_board-rescue:GND-power #PWR0114
 U 1 1 5C5EC745
-P 700 3400
-F 0 "#PWR0114" H 700 3150 50  0001 C CNN
-F 1 "GND" H 705 3227 50  0000 C CNN
-F 2 "" H 700 3400 50  0001 C CNN
-F 3 "" H 700 3400 50  0001 C CNN
-	1    700  3400
+P 1050 4150
+F 0 "#PWR0114" H 1050 3900 50  0001 C CNN
+F 1 "GND" H 1055 3977 50  0000 C CNN
+F 2 "" H 1050 4150 50  0001 C CNN
+F 3 "" H 1050 4150 50  0001 C CNN
+	1    1050 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Control_board-rescue:DCDC_lm2596-my_library2-Control_board-rescue-Control_board-rescue U4
-U 1 1 5C641A9A
-P 14150 3100
-F 0 "U4" H 14150 3225 50  0000 C CNN
-F 1 "DCDC_lm2596" H 14150 3134 50  0000 C CNN
-F 2 "Kicad_mylib:LM2596_module" H 14150 3100 50  0001 C CNN
-F 3 "" H 14150 3100 50  0001 C CNN
-	1    14150 3100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	14550 3200 15000 3200
-Wire Wire Line
-	15000 3200 15000 3100
-$Comp
-L Control_board-rescue:GND-power #PWR0125
-U 1 1 5C66CC0E
-P 14700 3600
-F 0 "#PWR0125" H 14700 3350 50  0001 C CNN
-F 1 "GND" H 14705 3427 50  0000 C CNN
-F 2 "" H 14700 3600 50  0001 C CNN
-F 3 "" H 14700 3600 50  0001 C CNN
-	1    14700 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14700 3600 14700 3500
-Wire Wire Line
-	14700 3500 14550 3500
-Wire Wire Line
-	13750 3500 13650 3500
-Wire Wire Line
-	13650 3500 13650 3600
-Wire Wire Line
-	13650 3600 14700 3600
-Connection ~ 14700 3600
-Wire Wire Line
-	13450 3150 13450 3200
-Wire Wire Line
-	13450 3200 13750 3200
 $Comp
 L Control_board-rescue:+5V-power #PWR0128
 U 1 1 5C69B5D6
@@ -106,12 +65,12 @@ $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR0134
 U 1 1 5C7104FE
-P 1900 9900
-F 0 "#PWR0134" H 1900 9650 50  0001 C CNN
-F 1 "GND" H 1905 9727 50  0000 C CNN
-F 2 "" H 1900 9900 50  0001 C CNN
-F 3 "" H 1900 9900 50  0001 C CNN
-	1    1900 9900
+P 1350 10400
+F 0 "#PWR0134" H 1350 10150 50  0001 C CNN
+F 1 "GND" H 1355 10227 50  0000 C CNN
+F 2 "" H 1350 10400 50  0001 C CNN
+F 3 "" H 1350 10400 50  0001 C CNN
+	1    1350 10400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -129,93 +88,74 @@ NoConn ~ 11150 9750
 $Comp
 L Control_board-rescue:PS1240P02BT-SamacSys_Parts-Control_board-rescue-Control_board-rescue LS1
 U 1 1 5C78C261
-P 700 2200
-F 0 "LS1" V 1054 2328 50  0000 L CNN
-F 1 "PS1240P02BT" V 1145 2328 50  0000 L CNN
-F 2 "SamacSys_Parts:PS1240P02BT" H 1350 2300 50  0001 L CNN
-F 3 "http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" H 1350 2200 50  0001 L CNN
-F 4 "Audio Indicators & Alerts Round 12.2mmx6.5mm 4kHz Vin=3V" H 1350 2100 50  0001 L CNN "Description"
-F 5 "" H 1350 2000 50  0001 L CNN "Height"
-F 6 "810-PS1240P02BT" H 1350 1900 50  0001 L CNN "Mouser Part Number"
-F 7 "TDK" H 1350 1800 50  0001 L CNN "Manufacturer_Name"
-F 8 "PS1240P02BT" H 1350 1700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    700  2200
+P 1050 2950
+F 0 "LS1" V 1404 3078 50  0000 L CNN
+F 1 "PS1240P02BT" V 1495 3078 50  0000 L CNN
+F 2 "SamacSys_Parts:PS1240P02BT" H 1700 3050 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" H 1700 2950 50  0001 L CNN
+F 4 "Audio Indicators & Alerts Round 12.2mmx6.5mm 4kHz Vin=3V" H 1700 2850 50  0001 L CNN "Description"
+F 5 "" H 1700 2750 50  0001 L CNN "Height"
+F 6 "810-PS1240P02BT" H 1700 2650 50  0001 L CNN "Mouser Part Number"
+F 7 "TDK" H 1700 2550 50  0001 L CNN "Manufacturer_Name"
+F 8 "PS1240P02BT" H 1700 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1050 2950
 	0    1    1    0   
 $EndComp
-Text Label 3550 5200 0    50   ~ 0
+Text Label 3200 5800 0    50   ~ 0
 pump
-$Comp
-L Control_board-rescue:GND-power #PWR06
-U 1 1 5C74D064
-P 14050 1850
-F 0 "#PWR06" H 14050 1600 50  0001 C CNN
-F 1 "GND" H 14055 1677 50  0000 C CNN
-F 2 "" H 14050 1850 50  0001 C CNN
-F 3 "" H 14050 1850 50  0001 C CNN
-	1    14050 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Control_board-rescue:Conn_01x02-Connector_Generic J8
 U 1 1 5C74D39C
-P 14600 1600
-F 0 "J8" H 14680 1592 50  0000 L CNN
-F 1 "Conn_01x02" H 14680 1501 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm" H 14600 1600 50  0001 C CNN
-F 3 "~" H 14600 1600 50  0001 C CNN
-	1    14600 1600
+P 13400 800
+F 0 "J8" H 13480 792 50  0000 L CNN
+F 1 "Conn_01x02" H 13480 701 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm" H 13400 800 50  0001 C CNN
+F 3 "~" H 13400 800 50  0001 C CNN
+	1    13400 800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14400 1700 14050 1700
-Wire Wire Line
-	14050 1700 14050 1850
-Wire Wire Line
-	14400 1600 14050 1600
-Wire Wire Line
-	14050 1600 14050 1450
 $Comp
 L Control_board-rescue:GND-power #PWR012
 U 1 1 5C8B4B5C
-P 9100 2000
-F 0 "#PWR012" H 9100 1750 50  0001 C CNN
-F 1 "GND" H 9105 1827 50  0000 C CNN
-F 2 "" H 9100 2000 50  0001 C CNN
-F 3 "" H 9100 2000 50  0001 C CNN
-	1    9100 2000
+P 9450 2200
+F 0 "#PWR012" H 9450 1950 50  0001 C CNN
+F 1 "GND" H 9455 2027 50  0000 C CNN
+F 2 "" H 9450 2200 50  0001 C CNN
+F 3 "" H 9450 2200 50  0001 C CNN
+	1    9450 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:LDR03-Sensor_Optical R4
 U 1 1 5C995AC8
-P 9100 1450
-F 0 "R4" H 9170 1496 50  0000 L CNN
-F 1 "LDR03" H 9170 1405 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 9275 1450 50  0001 C CNN
-F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 9100 1400 50  0001 C CNN
-	1    9100 1450
+P 9450 1650
+F 0 "R4" H 9520 1696 50  0000 L CNN
+F 1 "LDR03" H 9520 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 9625 1650 50  0001 C CNN
+F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 9450 1600 50  0001 C CNN
+	1    9450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:R-Device R6
 U 1 1 5C8B4B55
-P 9100 1850
-F 0 "R6" H 9170 1896 50  0000 L CNN
-F 1 "100K" H 9170 1805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 1850 50  0001 C CNN
-F 3 "~" H 9100 1850 50  0001 C CNN
-	1    9100 1850
+P 9450 2050
+F 0 "R6" H 9520 2096 50  0000 L CNN
+F 1 "100K" H 9520 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 2050 50  0001 C CNN
+F 3 "~" H 9450 2050 50  0001 C CNN
+	1    9450 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:+3.3V-power #PWR011
 U 1 1 5C99E048
-P 9100 1300
-F 0 "#PWR011" H 9100 1150 50  0001 C CNN
-F 1 "+3.3V" H 9115 1473 50  0000 C CNN
-F 2 "" H 9100 1300 50  0001 C CNN
-F 3 "" H 9100 1300 50  0001 C CNN
-	1    9100 1300
+P 9450 1400
+F 0 "#PWR011" H 9450 1250 50  0001 C CNN
+F 1 "+3.3V" H 9465 1573 50  0000 C CNN
+F 2 "" H 9450 1400 50  0001 C CNN
+F 3 "" H 9450 1400 50  0001 C CNN
+	1    9450 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -258,177 +198,172 @@ Wire Wire Line
 $Comp
 L Control_board-rescue:BSP76_E6433-SamacSys_Parts Q5
 U 1 1 5C998A0E
-P 3550 7500
-F 0 "Q5" H 4250 7135 50  0000 C CNN
-F 1 "BSP76_E6433" H 4250 7226 50  0000 C CNN
-F 2 "SamacSys_Parts:SOT230P700X180-4N" H 4800 7600 50  0001 L CNN
-F 3 "https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf" H 4800 7500 50  0001 L CNN
-F 4 "Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR" H 4800 7400 50  0001 L CNN "Description"
-F 5 "1.7" H 4800 7300 50  0001 L CNN "Height"
-F 6 "Infineon" H 4800 7000 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSP76 E6433" H 4800 6900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3550 7500
+P 3200 8100
+F 0 "Q5" H 3900 7735 50  0000 C CNN
+F 1 "BSP76_E6433" H 3900 7826 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT230P700X180-4N" H 4450 8200 50  0001 L CNN
+F 3 "https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf" H 4450 8100 50  0001 L CNN
+F 4 "Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR" H 4450 8000 50  0001 L CNN "Description"
+F 5 "1.7" H 4450 7900 50  0001 L CNN "Height"
+F 6 "Infineon" H 4450 7600 50  0001 L CNN "Manufacturer_Name"
+F 7 "BSP76 E6433" H 4450 7500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3200 8100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1400 7150 1400 7400
+	1050 7750 1050 8000
 Wire Wire Line
-	1400 7400 2100 7400
+	1050 8000 1750 8000
 $Comp
 L Control_board-rescue:GND-power #PWR04
 U 1 1 5C9C341E
-P 1950 7900
-F 0 "#PWR04" H 1950 7650 50  0001 C CNN
-F 1 "GND" H 1955 7727 50  0000 C CNN
-F 2 "" H 1950 7900 50  0001 C CNN
-F 3 "" H 1950 7900 50  0001 C CNN
-	1    1950 7900
+P 1600 8500
+F 0 "#PWR04" H 1600 8250 50  0001 C CNN
+F 1 "GND" H 1605 8327 50  0000 C CNN
+F 2 "" H 1600 8500 50  0001 C CNN
+F 3 "" H 1600 8500 50  0001 C CNN
+	1    1600 8500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 7500 1950 7500
+	1800 8100 1600 8100
 Wire Wire Line
-	1950 7500 1950 7900
+	1600 8100 1600 8500
 Wire Wire Line
-	3550 7400 3700 7400
+	3200 8000 3350 8000
 Wire Wire Line
-	3700 7400 3700 7000
+	3350 8000 3350 7600
 Wire Wire Line
-	3700 7000 2100 7000
+	3350 7600 1750 7600
 Wire Wire Line
-	2100 7000 2100 7400
-Connection ~ 2100 7400
+	1750 7600 1750 8000
+Connection ~ 1750 8000
 Wire Wire Line
-	2100 7400 2150 7400
-Text Label 3550 7500 0    50   ~ 0
+	1750 8000 1800 8000
+Text Label 3200 8100 0    50   ~ 0
 airstone_pump
 $Comp
 L Control_board-rescue:BSP76_E6433-SamacSys_Parts Q3
 U 1 1 5C9FBBD9
-P 3550 5200
-F 0 "Q3" H 4250 4835 50  0000 C CNN
-F 1 "BSP76_E6433" H 4250 4926 50  0000 C CNN
-F 2 "SamacSys_Parts:SOT230P700X180-4N" H 4800 5300 50  0001 L CNN
-F 3 "https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf" H 4800 5200 50  0001 L CNN
-F 4 "Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR" H 4800 5100 50  0001 L CNN "Description"
-F 5 "1.7" H 4800 5000 50  0001 L CNN "Height"
-F 6 "" H 4800 4900 50  0001 L CNN "Mouser Part Number"
-F 7 "" H 4800 4800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Infineon" H 4800 4700 50  0001 L CNN "Manufacturer_Name"
-F 9 "BSP76 E6433" H 4800 4600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3550 5200
+P 3200 5800
+F 0 "Q3" H 3900 5435 50  0000 C CNN
+F 1 "BSP76_E6433" H 3900 5526 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT230P700X180-4N" H 4450 5900 50  0001 L CNN
+F 3 "https://mouser.componentsearchengine.com/Datasheets/1/BSP76 E6433.pdf" H 4450 5800 50  0001 L CNN
+F 4 "Power Switch ICs - Power Distribution NPN Silicon AF TRANSISTOR" H 4450 5700 50  0001 L CNN "Description"
+F 5 "1.7" H 4450 5600 50  0001 L CNN "Height"
+F 6 "" H 4450 5500 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 4450 5400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Infineon" H 4450 5300 50  0001 L CNN "Manufacturer_Name"
+F 9 "BSP76 E6433" H 4450 5200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3200 5800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1400 4850 1400 5100
-Wire Wire Line
-	1400 5100 2100 5100
 $Comp
 L Control_board-rescue:GND-power #PWR03
 U 1 1 5C9FBBEE
-P 1950 5600
-F 0 "#PWR03" H 1950 5350 50  0001 C CNN
-F 1 "GND" H 1955 5427 50  0000 C CNN
-F 2 "" H 1950 5600 50  0001 C CNN
-F 3 "" H 1950 5600 50  0001 C CNN
-	1    1950 5600
+P 1600 6200
+F 0 "#PWR03" H 1600 5950 50  0001 C CNN
+F 1 "GND" H 1605 6027 50  0000 C CNN
+F 2 "" H 1600 6200 50  0001 C CNN
+F 3 "" H 1600 6200 50  0001 C CNN
+	1    1600 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 5200 1950 5200
+	1800 5800 1600 5800
 Wire Wire Line
-	1950 5200 1950 5600
+	1600 5800 1600 6200
 Wire Wire Line
-	3550 5100 3700 5100
+	3200 5700 3350 5700
 Wire Wire Line
-	3700 5100 3700 4700
+	3350 5700 3350 5300
 Wire Wire Line
-	3700 4700 2100 4700
+	3350 5300 1750 5300
 Wire Wire Line
-	2100 4700 2100 5100
-Connection ~ 2100 5100
+	1750 5300 1750 5700
 Wire Wire Line
-	2100 5100 2150 5100
+	1750 5700 1800 5700
 $Comp
 L Control_board-rescue:LED-Device D2
 U 1 1 5CA78362
-P 3800 5800
-F 0 "D2" V 3838 5683 50  0000 R CNN
-F 1 "LED" V 3747 5683 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3800 5800 50  0001 C CNN
-F 3 "~" H 3800 5800 50  0001 C CNN
-	1    3800 5800
+P 3450 6400
+F 0 "D2" V 3488 6283 50  0000 R CNN
+F 1 "LED" V 3397 6283 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3450 6400 50  0001 C CNN
+F 3 "~" H 3450 6400 50  0001 C CNN
+	1    3450 6400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR010
 U 1 1 5CA78561
-P 3800 6150
-F 0 "#PWR010" H 3800 5900 50  0001 C CNN
-F 1 "GND" H 3805 5977 50  0000 C CNN
-F 2 "" H 3800 6150 50  0001 C CNN
-F 3 "" H 3800 6150 50  0001 C CNN
-	1    3800 6150
+P 3450 6750
+F 0 "#PWR010" H 3450 6500 50  0001 C CNN
+F 1 "GND" H 3455 6577 50  0000 C CNN
+F 2 "" H 3450 6750 50  0001 C CNN
+F 3 "" H 3450 6750 50  0001 C CNN
+	1    3450 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 6150 3800 5950
+	3450 6750 3450 6550
 $Comp
 L Control_board-rescue:R-Device R12
 U 1 1 5CA7F073
-P 3800 5450
-F 0 "R12" H 3870 5496 50  0000 L CNN
-F 1 "1k" H 3870 5405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5450 50  0001 C CNN
-F 3 "~" H 3800 5450 50  0001 C CNN
-	1    3800 5450
+P 3450 6050
+F 0 "R12" H 3520 6096 50  0000 L CNN
+F 1 "1k" H 3520 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 6050 50  0001 C CNN
+F 3 "~" H 3450 6050 50  0001 C CNN
+	1    3450 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 5300 3800 5200
+	3450 5900 3450 5800
 Wire Wire Line
-	3800 5200 3550 5200
+	3450 5800 3200 5800
 Wire Wire Line
-	3800 5600 3800 5650
+	3450 6200 3450 6250
 $Comp
 L Control_board-rescue:LED-Device D1
 U 1 1 5CA93A5B
-P 3650 8050
-F 0 "D1" V 3688 7933 50  0000 R CNN
-F 1 "LED" V 3597 7933 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3650 8050 50  0001 C CNN
-F 3 "~" H 3650 8050 50  0001 C CNN
-	1    3650 8050
+P 3300 8650
+F 0 "D1" V 3338 8533 50  0000 R CNN
+F 1 "LED" V 3247 8533 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3300 8650 50  0001 C CNN
+F 3 "~" H 3300 8650 50  0001 C CNN
+	1    3300 8650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR09
 U 1 1 5CA93A62
-P 3650 8250
-F 0 "#PWR09" H 3650 8000 50  0001 C CNN
-F 1 "GND" H 3655 8077 50  0000 C CNN
-F 2 "" H 3650 8250 50  0001 C CNN
-F 3 "" H 3650 8250 50  0001 C CNN
-	1    3650 8250
+P 3300 8850
+F 0 "#PWR09" H 3300 8600 50  0001 C CNN
+F 1 "GND" H 3305 8677 50  0000 C CNN
+F 2 "" H 3300 8850 50  0001 C CNN
+F 3 "" H 3300 8850 50  0001 C CNN
+	1    3300 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 8250 3650 8200
+	3300 8850 3300 8800
 $Comp
 L Control_board-rescue:R-Device R11
 U 1 1 5CA93A69
-P 3650 7750
-F 0 "R11" H 3720 7796 50  0000 L CNN
-F 1 "1k" H 3720 7705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 7750 50  0001 C CNN
-F 3 "~" H 3650 7750 50  0001 C CNN
-	1    3650 7750
+P 3300 8350
+F 0 "R11" H 3370 8396 50  0000 L CNN
+F 1 "1k" H 3370 8305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 8350 50  0001 C CNN
+F 3 "~" H 3300 8350 50  0001 C CNN
+	1    3300 8350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 7600 3650 7500
+	3300 8200 3300 8100
 Wire Wire Line
-	3650 7500 3550 7500
+	3300 8100 3200 8100
 $Comp
 L Control_board-rescue:43045-0401-SamacSys_Parts J5
 U 1 1 5CFE9C0C
@@ -445,7 +380,7 @@ F 8 "43045-0401" H 11000 9150 50  0001 L CNN "Manufacturer_Part_Number"
 	1    10350 9650
 	1    0    0    -1  
 $EndComp
-Text Notes 900  2850 0    50   ~ 0
+Text Notes 1250 3600 0    50   ~ 0
 Buzzer
 $Comp
 L Control_board-rescue:+3.3V-power #PWR0101
@@ -812,12 +747,12 @@ Text Notes 10250 8950 0    50   ~ 0
 $Comp
 L Control_board-rescue:+12V-power #PWR0103
 U 1 1 5DBF3115
-P 13450 3150
-F 0 "#PWR0103" H 13450 3000 50  0001 C CNN
-F 1 "+12V-power" H 13465 3323 50  0000 C CNN
-F 2 "" H 13450 3150 50  0001 C CNN
-F 3 "" H 13450 3150 50  0001 C CNN
-	1    13450 3150
+P 12750 3350
+F 0 "#PWR0103" H 12750 3200 50  0001 C CNN
+F 1 "+12V-power" H 12765 3523 50  0000 C CNN
+F 2 "" H 12750 3350 50  0001 C CNN
+F 3 "" H 12750 3350 50  0001 C CNN
+	1    12750 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -831,27 +766,11 @@ F 3 "" H 14350 5100 50  0001 C CNN
 	1    14350 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Control_board-rescue:ESP32-DEVKITC-32D-ESP32-DEVKITC-32D U1
-U 1 1 5DD39E38
-P 4250 2050
-F 0 "U1" H 4250 3217 50  0000 C CNN
-F 1 "ESP32-DEVKITC-32D" H 4250 3126 50  0000 C CNN
-F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D" H 4250 2050 50  0001 L BNN
-F 3 "" H 4250 2050 50  0001 L BNN
-F 4 "ESP32-DEVKITC-32D" H 4250 2050 50  0001 L BNN "Field4"
-F 5 "None" H 4250 2050 50  0001 L BNN "Field5"
-F 6 "EVAL BOARD FOR ESP-WROOM-32" H 4250 2050 50  0001 L BNN "Field6"
-F 7 "None" H 4250 2050 50  0001 L BNN "Field7"
-F 8 "Espressif Systems" H 4250 2050 50  0001 L BNN "Field8"
-	1    4250 2050
-	1    0    0    -1  
-$EndComp
 Text Label 3450 2150 2    50   ~ 0
 EN
 Text Label 5050 2050 0    50   ~ 0
 airstone_pump
-Text Label 6950 1850 0    50   ~ 0
+Text Label 7300 2100 0    50   ~ 0
 NTC_1
 Text Label 5050 2450 0    50   ~ 0
 LDR
@@ -889,28 +808,6 @@ F 3 "" H 5700 750 50  0001 C CNN
 $EndComp
 Text Label 3450 2350 2    50   ~ 0
 buzzer
-$Comp
-L Control_board-rescue:+48V-power #PWR0146
-U 1 1 5DD6D6C8
-P 14050 1450
-F 0 "#PWR0146" H 14050 1300 50  0001 C CNN
-F 1 "+48V" H 14065 1623 50  0000 C CNN
-F 2 "" H 14050 1450 50  0001 C CNN
-F 3 "" H 14050 1450 50  0001 C CNN
-	1    14050 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Control_board-rescue:+48V-power #PWR0147
-U 1 1 5DD6D997
-P 15000 3100
-F 0 "#PWR0147" H 15000 2950 50  0001 C CNN
-F 1 "+48V" H 15015 3273 50  0000 C CNN
-F 2 "" H 15000 3100 50  0001 C CNN
-F 3 "" H 15000 3100 50  0001 C CNN
-	1    15000 3100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Control_board-rescue:+5V-power #PWR0150
 U 1 1 5DD6E9C7
@@ -1128,16 +1025,16 @@ $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR030
 U 1 1 5DE4CB2D
-P 6400 2800
-F 0 "#PWR030" H 6400 2550 50  0001 C CNN
-F 1 "GND" H 6405 2627 50  0000 C CNN
-F 2 "" H 6400 2800 50  0001 C CNN
-F 3 "" H 6400 2800 50  0001 C CNN
-	1    6400 2800
+P 6450 2900
+F 0 "#PWR030" H 6450 2650 50  0001 C CNN
+F 1 "GND" H 6455 2727 50  0000 C CNN
+F 2 "" H 6450 2900 50  0001 C CNN
+F 3 "" H 6450 2900 50  0001 C CNN
+	1    6450 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 1850 6400 2500
+	6450 2100 6450 2450
 Text Label 3450 1950 2    50   ~ 0
 fan
 Wire Wire Line
@@ -1171,7 +1068,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 2350 5350 2350
 Wire Wire Line
-	2100 9250 1900 9250
+	1550 9750 1350 9750
 $Comp
 L Control_board-rescue:+3.3V-power #PWR0104
 U 1 1 5E02BCF4
@@ -1199,18 +1096,17 @@ NoConn ~ 5050 2750
 NoConn ~ 3450 2650
 NoConn ~ 3450 2750
 NoConn ~ 3450 2850
-NoConn ~ 3450 2250
 Text Label 3450 2050 2    50   ~ 0
 1-Wire
 $Comp
 L Control_board-rescue:+12V-power #PWR0106
 U 1 1 5E1223D0
-P 1400 4050
-F 0 "#PWR0106" H 1400 3900 50  0001 C CNN
-F 1 "+12V-power" H 1415 4223 50  0000 C CNN
-F 2 "" H 1400 4050 50  0001 C CNN
-F 3 "" H 1400 4050 50  0001 C CNN
-	1    1400 4050
+P 1050 4850
+F 0 "#PWR0106" H 1050 4700 50  0001 C CNN
+F 1 "+12V-power" H 1065 5023 50  0000 C CNN
+F 2 "" H 1050 4850 50  0001 C CNN
+F 3 "" H 1050 4850 50  0001 C CNN
+	1    1050 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1234,35 +1130,34 @@ Max 600 mA
 Text Notes 3350 3300 0    50   ~ 0
 The board has its own voltage regulator: \nAMS1117-3.3
 NoConn ~ 5050 2250
-NoConn ~ 3450 1650
 $Comp
 L Control_board-rescue:43045-0200-SamacSys_Parts J4
 U 1 1 5DDE2D34
-P 1400 6350
-F 0 "J4" V 1754 6478 50  0000 L CNN
-F 1 "43045-0200" V 1845 6478 50  0000 L CNN
-F 2 "footprints:43045-0200" H 2050 6450 50  0001 L CNN
-F 3 "" H 2050 6350 50  0001 L CNN
-F 4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 2050 6250 50  0001 L CNN "Description"
-F 5 "538-43045-0200" H 2050 6050 50  0001 L CNN "Mouser Part Number"
-F 6 "Molex" H 2050 5950 50  0001 L CNN "Manufacturer_Name"
-F 7 "43045-0200" H 2050 5850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1400 6350
+P 1050 6950
+F 0 "J4" V 1404 7078 50  0000 L CNN
+F 1 "43045-0200" V 1495 7078 50  0000 L CNN
+F 2 "footprints:43045-0200" H 1700 7050 50  0001 L CNN
+F 3 "" H 1700 6950 50  0001 L CNN
+F 4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 1700 6850 50  0001 L CNN "Description"
+F 5 "538-43045-0200" H 1700 6650 50  0001 L CNN "Mouser Part Number"
+F 6 "Molex" H 1700 6550 50  0001 L CNN "Manufacturer_Name"
+F 7 "43045-0200" H 1700 6450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1050 6950
 	0    1    1    0   
 $EndComp
 $Comp
 L Control_board-rescue:43045-0200-SamacSys_Parts J3
 U 1 1 5DDE1561
-P 1400 4050
-F 0 "J3" V 1754 4178 50  0000 L CNN
-F 1 "43045-0200" V 1845 4178 50  0000 L CNN
-F 2 "footprints:43045-0200" H 2050 4150 50  0001 L CNN
-F 3 "" H 2050 4050 50  0001 L CNN
-F 4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 2050 3950 50  0001 L CNN "Description"
-F 5 "538-43045-0200" H 2050 3750 50  0001 L CNN "Mouser Part Number"
-F 6 "Molex" H 2050 3650 50  0001 L CNN "Manufacturer_Name"
-F 7 "43045-0200" H 2050 3550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1400 4050
+P 1050 4850
+F 0 "J3" V 1404 4978 50  0000 L CNN
+F 1 "43045-0200" V 1495 4978 50  0000 L CNN
+F 2 "footprints:43045-0200" H 1700 4950 50  0001 L CNN
+F 3 "" H 1700 4850 50  0001 L CNN
+F 4 "2 way 2 row right angle header,3mm pitch Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 2 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" H 1700 4750 50  0001 L CNN "Description"
+F 5 "538-43045-0200" H 1700 4550 50  0001 L CNN "Mouser Part Number"
+F 6 "Molex" H 1700 4450 50  0001 L CNN "Manufacturer_Name"
+F 7 "43045-0200" H 1700 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1050 4850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1309,110 +1204,47 @@ F 3 "~" H 5350 8800 50  0001 C CNN
 	1    5350 8800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Control_board-rescue:NCP1117-5.0_SOT223-Regulator_Linear U2
-U 1 1 5E1B92E2
-P 13950 5250
-F 0 "U2" H 13950 5492 50  0000 C CNN
-F 1 "NCP1117-5.0_SOT223" H 13950 5401 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 13950 5450 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 14050 5000 50  0001 C CNN
-	1    13950 5250
-	-1   0    0    -1  
-$EndComp
-Connection ~ 13950 5550
-Text Label 7150 5150 0    50   ~ 0
+Text Label 6750 5050 0    50   ~ 0
 ADJ_LED2
-Text Label 7150 6350 0    50   ~ 0
+Text Label 7100 6500 0    50   ~ 0
 ADJ_LED3
 Text Label 3450 2550 2    50   ~ 0
 pump
-Text Notes 2400 5500 0    50   ~ 0
+Text Notes 2050 6100 0    50   ~ 0
 1,4 A load current MAX
-$Comp
-L Control_board-rescue:1.5KExxA-Diode D8
-U 1 1 5E2EB0C3
-P 7150 5450
-F 0 "D8" V 7104 5529 50  0000 L CNN
-F 1 "SMF5.0A" V 7195 5529 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 7150 5250 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 7100 5450 50  0001 C CNN
-	1    7150 5450
-	0    1    1    0   
-$EndComp
 $Comp
 L Control_board-rescue:R-Device R14
 U 1 1 5E2F4C58
-P 5950 5150
-F 0 "R14" V 5743 5150 50  0000 C CNN
-F 1 "100" V 5834 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 5150 50  0001 C CNN
-F 3 "~" H 5950 5150 50  0001 C CNN
-	1    5950 5150
+P 6600 5050
+F 0 "R14" V 6393 5050 50  0000 C CNN
+F 1 "1k" V 6484 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 5050 50  0001 C CNN
+F 3 "~" H 6600 5050 50  0001 C CNN
+	1    6600 5050
 	0    1    1    0   
 $EndComp
-$Comp
-L Control_board-rescue:C-Device C2
-U 1 1 5E2F5EDA
-P 6300 5450
-F 0 "C2" H 6415 5496 50  0000 L CNN
-F 1 "100nF" H 6415 5405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 5300 50  0001 C CNN
-F 3 "~" H 6300 5450 50  0001 C CNN
-	1    6300 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 5150 6300 5150
-Wire Wire Line
-	6300 5150 6300 5300
-Connection ~ 6300 5150
-Wire Wire Line
-	7150 5150 7150 5300
-Text Label 1400 1850 2    50   ~ 0
+Text Label 1200 1700 2    50   ~ 0
 NTC_2
 $Comp
 L Control_board-rescue:R-Device R15
 U 1 1 5D1C5EA6
-P 1900 2000
-F 0 "R15" H 1970 2046 50  0000 L CNN
-F 1 "10K" H 1970 1955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1830 2000 50  0001 C CNN
-F 3 "~" H 1900 2000 50  0001 C CNN
-	1    1900 2000
+P 1950 2200
+F 0 "R15" H 2020 2246 50  0000 L CNN
+F 1 "10K" H 2020 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 2200 50  0001 C CNN
+F 3 "~" H 1950 2200 50  0001 C CNN
+	1    1950 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:GND-power #PWR0116
 U 1 1 5D1C5EA0
-P 1900 2150
-F 0 "#PWR0116" H 1900 1900 50  0001 C CNN
-F 1 "GND" H 1905 1977 50  0000 C CNN
-F 2 "" H 1900 2150 50  0001 C CNN
-F 3 "" H 1900 2150 50  0001 C CNN
-	1    1900 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Control_board-rescue:R-Device R13
-U 1 1 5DE41599
-P 1900 1250
-F 0 "R13" H 1970 1296 50  0000 L CNN
-F 1 "10K" H 1970 1205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1830 1250 50  0001 C CNN
-F 3 "~" H 1900 1250 50  0001 C CNN
-	1    1900 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Control_board-rescue:GND-power #PWR029
-U 1 1 5DE41593
-P 1900 1400
-F 0 "#PWR029" H 1900 1150 50  0001 C CNN
-F 1 "GND" H 1905 1227 50  0000 C CNN
-F 2 "" H 1900 1400 50  0001 C CNN
-F 3 "" H 1900 1400 50  0001 C CNN
-	1    1900 1400
+P 1950 2350
+F 0 "#PWR0116" H 1950 2100 50  0001 C CNN
+F 1 "GND" H 1955 2177 50  0000 C CNN
+F 2 "" H 1950 2350 50  0001 C CNN
+F 3 "" H 1950 2350 50  0001 C CNN
+	1    1950 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1426,149 +1258,44 @@ Wire Wire Line
 $Comp
 L Control_board-rescue:GND-power #PWR05
 U 1 1 5E4A1E88
-P 6300 5800
-F 0 "#PWR05" H 6300 5550 50  0001 C CNN
-F 1 "GND" H 6305 5627 50  0000 C CNN
-F 2 "" H 6300 5800 50  0001 C CNN
-F 3 "" H 6300 5800 50  0001 C CNN
-	1    6300 5800
+P 7000 5950
+F 0 "#PWR05" H 7000 5700 50  0001 C CNN
+F 1 "GND" H 7005 5777 50  0000 C CNN
+F 2 "" H 7000 5950 50  0001 C CNN
+F 3 "" H 7000 5950 50  0001 C CNN
+	1    7000 5950
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 5800 6300 5700
-Connection ~ 6300 5700
-Wire Wire Line
-	6300 5700 6300 5600
-Wire Wire Line
-	7150 5600 7150 5700
-$Comp
-L Control_board-rescue:1.5KExxA-Diode D9
-U 1 1 5E4CD8A0
-P 7150 6650
-F 0 "D9" V 7104 6729 50  0000 L CNN
-F 1 "SMF5.0A" V 7195 6729 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 7150 6450 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 7100 6650 50  0001 C CNN
-	1    7150 6650
-	0    1    1    0   
 $EndComp
 $Comp
 L Control_board-rescue:R-Device R20
 U 1 1 5E4CD8AC
-P 5950 6350
-F 0 "R20" V 5743 6350 50  0000 C CNN
-F 1 "100" V 5834 6350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 6350 50  0001 C CNN
-F 3 "~" H 5950 6350 50  0001 C CNN
-	1    5950 6350
+P 6700 6500
+F 0 "R20" V 6493 6500 50  0000 C CNN
+F 1 "1k" V 6584 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 6500 50  0001 C CNN
+F 3 "~" H 6700 6500 50  0001 C CNN
+	1    6700 6500
 	0    1    1    0   
 $EndComp
-$Comp
-L Control_board-rescue:C-Device C6
-U 1 1 5E4CD8B2
-P 6300 6650
-F 0 "C6" H 6415 6696 50  0000 L CNN
-F 1 "100nF" H 6415 6605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 6500 50  0001 C CNN
-F 3 "~" H 6300 6650 50  0001 C CNN
-	1    6300 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 6350 6300 6350
-Wire Wire Line
-	6300 6350 6300 6500
-Connection ~ 6300 6350
-Wire Wire Line
-	7150 6350 7150 6500
-$Comp
-L Control_board-rescue:GND-power #PWR08
-U 1 1 5E4CD8C0
-P 6300 7000
-F 0 "#PWR08" H 6300 6750 50  0001 C CNN
-F 1 "GND" H 6305 6827 50  0000 C CNN
-F 2 "" H 6300 7000 50  0001 C CNN
-F 3 "" H 6300 7000 50  0001 C CNN
-	1    6300 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 7000 6300 6900
-Connection ~ 6300 6900
-Wire Wire Line
-	6300 6900 6300 6800
-Wire Wire Line
-	7150 6800 7150 6900
 Wire Wire Line
 	5400 2650 5050 2650
-Text Label 7150 4000 0    50   ~ 0
+Text Label 6800 3450 0    50   ~ 0
 ADJ_LED1
-$Comp
-L Control_board-rescue:1.5KExxA-Diode D7
-U 1 1 5E50C693
-P 6950 4300
-F 0 "D7" V 6904 4379 50  0000 L CNN
-F 1 "SMF5.0A" V 6995 4379 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 6950 4100 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 6900 4300 50  0001 C CNN
-	1    6950 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Control_board-rescue:R-Device R8
-U 1 1 5E50C69F
-P 5950 4000
-F 0 "R8" V 5743 4000 50  0000 C CNN
-F 1 "100" V 5834 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 4000 50  0001 C CNN
-F 3 "~" H 5950 4000 50  0001 C CNN
-	1    5950 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Control_board-rescue:C-Device C1
-U 1 1 5E50C6A5
-P 6300 4300
-F 0 "C1" H 6415 4346 50  0000 L CNN
-F 1 "100nF" H 6415 4255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 4150 50  0001 C CNN
-F 3 "~" H 6300 4300 50  0001 C CNN
-	1    6300 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 4000 6300 4000
-Wire Wire Line
-	6300 4000 6300 4150
 $Comp
 L Control_board-rescue:GND-power #PWR02
 U 1 1 5E50C6B3
-P 6300 4650
-F 0 "#PWR02" H 6300 4400 50  0001 C CNN
-F 1 "GND" H 6305 4477 50  0000 C CNN
-F 2 "" H 6300 4650 50  0001 C CNN
-F 3 "" H 6300 4650 50  0001 C CNN
-	1    6300 4650
+P 7000 4600
+F 0 "#PWR02" H 7000 4350 50  0001 C CNN
+F 1 "GND" H 7005 4427 50  0000 C CNN
+F 2 "" H 7000 4600 50  0001 C CNN
+F 3 "" H 7000 4600 50  0001 C CNN
+	1    7000 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 4450 6950 4550
-Wire Wire Line
-	5800 4000 5700 4000
-Wire Wire Line
 	5700 1950 5050 1950
 Wire Wire Line
-	5700 1950 5700 4000
-Wire Wire Line
-	5550 5150 5550 2550
-Wire Wire Line
-	5550 5150 5800 5150
-Wire Wire Line
 	5550 2550 5050 2550
-Wire Wire Line
-	5400 2650 5400 6350
-Wire Wire Line
-	5400 6350 5800 6350
 Wire Wire Line
 	10150 1450 10150 1350
 Wire Wire Line
@@ -1611,116 +1338,68 @@ Text Label 10800 3700 2    50   ~ 0
 ADJ_LED3
 Text Label 10800 3800 2    50   ~ 0
 NTC_3
-Wire Wire Line
-	6300 4450 6300 4550
-Wire Wire Line
-	6950 4550 6300 4550
-Connection ~ 6300 4550
-Wire Wire Line
-	6300 4550 6300 4650
-Wire Wire Line
-	6950 4000 6950 4150
-Wire Wire Line
-	6300 4000 6950 4000
-Connection ~ 6950 4000
-Connection ~ 6300 4000
-Text Notes 3500 8800 0    50   ~ 0
+Text Notes 2950 9300 0    50   ~ 0
 700 mA
-Text Notes 900  4450 0    50   ~ 0
+Text Notes 550  5250 0    50   ~ 0
 1.8 A
-Text Notes 900  6750 0    50   ~ 0
+Text Notes 550  7350 0    50   ~ 0
 1.8 A
-Wire Wire Line
-	6300 5150 7150 5150
-Wire Wire Line
-	6300 5700 7150 5700
-Wire Wire Line
-	6300 6350 7150 6350
-Wire Wire Line
-	6300 6900 7150 6900
-Wire Wire Line
-	6950 4000 7150 4000
 $Comp
 L Control_board-rescue:R-Device R21
 U 1 1 5E42D992
-P 8250 1650
-F 0 "R21" V 8043 1650 50  0000 C CNN
-F 1 "100" V 8134 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 1650 50  0001 C CNN
-F 3 "~" H 8250 1650 50  0001 C CNN
-	1    8250 1650
+P 8600 1850
+F 0 "R21" V 8393 1850 50  0000 C CNN
+F 1 "100" V 8484 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 1850 50  0001 C CNN
+F 3 "~" H 8600 1850 50  0001 C CNN
+	1    8600 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L Control_board-rescue:C-Device C7
 U 1 1 5E42D998
-P 8600 1950
-F 0 "C7" H 8715 1996 50  0000 L CNN
-F 1 "100nF" H 8715 1905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8638 1800 50  0001 C CNN
-F 3 "~" H 8600 1950 50  0001 C CNN
-	1    8600 1950
+P 8950 2150
+F 0 "C7" H 9065 2196 50  0000 L CNN
+F 1 "100nF" H 9065 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 2000 50  0001 C CNN
+F 3 "~" H 8950 2150 50  0001 C CNN
+	1    8950 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 1650 8600 1650
+	8750 1850 8950 1850
 Wire Wire Line
-	8600 1650 8600 1800
+	8950 1850 8950 2000
 Wire Wire Line
-	9100 1600 9100 1650
+	9450 1800 9450 1850
 Wire Wire Line
-	8600 1650 9100 1650
-Connection ~ 8600 1650
-Connection ~ 9100 1650
+	8950 1850 9450 1850
+Connection ~ 8950 1850
+Connection ~ 9450 1850
 Wire Wire Line
-	9100 1650 9100 1700
+	9450 1850 9450 1900
 $Comp
 L Control_board-rescue:GND-power #PWR014
 U 1 1 5E46A083
-P 8600 2100
-F 0 "#PWR014" H 8600 1850 50  0001 C CNN
-F 1 "GND" H 8605 1927 50  0000 C CNN
-F 2 "" H 8600 2100 50  0001 C CNN
-F 3 "" H 8600 2100 50  0001 C CNN
-	1    8600 2100
+P 8950 2300
+F 0 "#PWR014" H 8950 2050 50  0001 C CNN
+F 1 "GND" H 8955 2127 50  0000 C CNN
+F 2 "" H 8950 2300 50  0001 C CNN
+F 3 "" H 8950 2300 50  0001 C CNN
+	1    8950 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:R-Device R19
 U 1 1 5DE4CB33
-P 6400 2650
-F 0 "R19" H 6470 2696 50  0000 L CNN
-F 1 "10K" H 6470 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 2650 50  0001 C CNN
-F 3 "~" H 6400 2650 50  0001 C CNN
-	1    6400 2650
+P 6450 2600
+F 0 "R19" H 6520 2646 50  0000 L CNN
+F 1 "10K" H 6520 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 2600 50  0001 C CNN
+F 3 "~" H 6450 2600 50  0001 C CNN
+	1    6450 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Control_board-rescue:1.5KExxA-Diode D6
-U 1 1 5E4CFF05
-P 6950 2250
-F 0 "D6" V 6904 2329 50  0000 L CNN
-F 1 "SMF5.0A" V 6995 2329 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 6950 2050 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 6900 2250 50  0001 C CNN
-	1    6950 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6950 2400 6950 2800
-Wire Wire Line
-	6950 2800 6400 2800
-Connection ~ 6400 2800
-Wire Wire Line
-	6950 2100 6950 1850
-Wire Wire Line
-	5050 1850 6400 1850
-Connection ~ 6400 1850
-Wire Wire Line
-	6400 1850 6950 1850
-Wire Wire Line
-	10350 9750 9950 9750
 $Comp
 L Control_board-rescue:R-Device R22
 U 1 1 5E4FCEF6
@@ -1742,105 +1421,52 @@ Wire Wire Line
 Connection ~ 10150 9250
 Wire Wire Line
 	10150 9250 10150 9650
-Wire Wire Line
-	10350 10750 9950 10750
-Wire Wire Line
-	9950 10750 9950 9750
-Connection ~ 9950 9750
-Wire Wire Line
-	9950 9750 9450 9750
 $Comp
 L Control_board-rescue:BSS138-Transistor_FET Q2
 U 1 1 5E558C31
-P 800 3200
-F 0 "Q2" H 1005 3246 50  0000 L CNN
-F 1 "BSS138-Transistor_FET" H 1005 3155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1000 3125 50  0001 L CIN
-F 3 "" H 800 3200 50  0001 L CNN
-	1    800  3200
+P 1150 3950
+F 0 "Q2" H 1355 3996 50  0000 L CNN
+F 1 "BSS138-Transistor_FET" H 1355 3905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1350 3875 50  0001 L CIN
+F 3 "" H 1150 3950 50  0001 L CNN
+	1    1150 3950
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 3200 1650 3200
-Wire Wire Line
-	2350 2350 2350 3200
 $Comp
 L Control_board-rescue:R-Device R2
 U 1 1 5E5B9114
-P 1800 3200
-F 0 "R2" H 1870 3246 50  0000 L CNN
-F 1 "10K" H 1870 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 3200 50  0001 C CNN
-F 3 "~" H 1800 3200 50  0001 C CNN
-	1    1800 3200
+P 1800 3950
+F 0 "R2" H 1870 3996 50  0000 L CNN
+F 1 "10K" H 1870 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 3950 50  0001 C CNN
+F 3 "~" H 1800 3950 50  0001 C CNN
+	1    1800 3950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1950 3200 2350 3200
+	1950 3950 2350 3950
 $Comp
 L Control_board-rescue:+3.3V-power #PWR01
 U 1 1 5E5B9592
-P 700 2200
-F 0 "#PWR01" H 700 2050 50  0001 C CNN
-F 1 "+3.3V" H 715 2373 50  0000 C CNN
-F 2 "" H 700 2200 50  0001 C CNN
-F 3 "" H 700 2200 50  0001 C CNN
-	1    700  2200
+P 1050 2950
+F 0 "#PWR01" H 1050 2800 50  0001 C CNN
+F 1 "+3.3V" H 1065 3123 50  0000 C CNN
+F 2 "" H 1050 2950 50  0001 C CNN
+F 3 "" H 1050 2950 50  0001 C CNN
+	1    1050 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Control_board-rescue:1.5KExxA-Diode D4
-U 1 1 5E5BA5DA
-P 1400 1250
-F 0 "D4" V 1354 1329 50  0000 L CNN
-F 1 "SMF5.0A" V 1445 1329 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 1400 1050 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 1350 1250 50  0001 C CNN
-	1    1400 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L Control_board-rescue:1.5KExxA-Diode D5
-U 1 1 5E5F947B
-P 1400 2000
-F 0 "D5" V 1354 2079 50  0000 L CNN
-F 1 "SMF5.0A" V 1445 2079 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 1400 1800 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 1350 2000 50  0001 C CNN
-	1    1400 2000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1400 2150 1900 2150
-Connection ~ 1900 2150
-Wire Wire Line
-	1900 1850 3450 1850
-Wire Wire Line
-	1900 1850 1400 1850
-Connection ~ 1900 1850
-Wire Wire Line
-	1400 1100 1900 1100
-Wire Wire Line
-	2350 1750 3450 1750
-Connection ~ 1900 1100
-Wire Wire Line
-	1400 1400 1900 1400
-Connection ~ 1900 1400
-Text Label 1400 1100 2    50   ~ 0
-NTC_3
-Wire Wire Line
-	1900 1100 2350 1100
-Wire Wire Line
-	2350 1100 2350 1750
+	2100 1750 3450 1750
 $Comp
 L Control_board-rescue:+12V-power #PWR0105
 U 1 1 5E6E9962
-P 1400 6350
-F 0 "#PWR0105" H 1400 6200 50  0001 C CNN
-F 1 "+12V-power" H 1415 6523 50  0000 C CNN
-F 2 "" H 1400 6350 50  0001 C CNN
-F 3 "" H 1400 6350 50  0001 C CNN
-	1    1400 6350
+P 1050 6950
+F 0 "#PWR0105" H 1050 6800 50  0001 C CNN
+F 1 "+12V-power" H 1065 7123 50  0000 C CNN
+F 2 "" H 1050 6950 50  0001 C CNN
+F 3 "" H 1050 6950 50  0001 C CNN
+	1    1050 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1996,73 +1622,69 @@ Wire Wire Line
 	12000 2550 11600 2550
 NoConn ~ 5050 2150
 Wire Wire Line
-	8100 1650 8000 1650
-Wire Wire Line
-	8000 1650 8000 2450
-Wire Wire Line
-	8000 2450 5050 2450
+	8450 1850 8350 1850
 $Comp
 L Control_board-rescue:VN7050ASTR-SamacSys_Parts IC1
 U 1 1 5E607BF3
-P 2100 9050
-F 0 "IC1" H 2900 9315 50  0000 C CNN
-F 1 "VN7050ASTR" H 2900 9224 50  0000 C CNN
-F 2 "SamacSys_Parts:SOIC127P600X175-8N" H 3550 9150 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/vn7050aj.pdf" H 3550 9050 50  0001 L CNN
-F 4 "STMICROELECTRONICS - VN7050ASTR - Power Load Distribution Switch, High Side, Active High, 13V, 1 Output, 30A, 0.05ohm, SOIC-8" H 3550 8950 50  0001 L CNN "Description"
-F 5 "1.75" H 3550 8850 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 3550 8750 50  0001 L CNN "Manufacturer_Name"
-F 7 "VN7050ASTR" H 3550 8650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "511-VN7050ASTR" H 3550 8550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VN7050ASTR" H 3550 8450 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 3550 8350 50  0001 L CNN "RS Part Number"
-F 11 "" H 3550 8250 50  0001 L CNN "RS Price/Stock"
-	1    2100 9050
+P 1550 9550
+F 0 "IC1" H 2350 9815 50  0000 C CNN
+F 1 "VN7050ASTR" H 2350 9724 50  0000 C CNN
+F 2 "SamacSys_Parts:SOIC127P600X175-8N" H 3000 9650 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/vn7050aj.pdf" H 3000 9550 50  0001 L CNN
+F 4 "STMICROELECTRONICS - VN7050ASTR - Power Load Distribution Switch, High Side, Active High, 13V, 1 Output, 30A, 0.05ohm, SOIC-8" H 3000 9450 50  0001 L CNN "Description"
+F 5 "1.75" H 3000 9350 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 3000 9250 50  0001 L CNN "Manufacturer_Name"
+F 7 "VN7050ASTR" H 3000 9150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-VN7050ASTR" H 3000 9050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VN7050ASTR" H 3000 8950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3000 8850 50  0001 L CNN "RS Part Number"
+F 11 "" H 3000 8750 50  0001 L CNN "RS Price/Stock"
+	1    1550 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 9250 1900 9900
-Text Label 1450 9050 2    50   ~ 0
+	1350 9750 1350 10400
+Text Label 900  9550 2    50   ~ 0
 fan
 $Comp
 L Control_board-rescue:R-Device R1
 U 1 1 5DEDBE29
-P 1450 9750
-F 0 "R1" H 1520 9796 50  0000 L CNN
-F 1 "1k" H 1520 9705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 9750 50  0001 C CNN
-F 3 "~" H 1450 9750 50  0001 C CNN
-	1    1450 9750
+P 900 10250
+F 0 "R1" H 970 10296 50  0000 L CNN
+F 1 "1k" H 970 10205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 830 10250 50  0001 C CNN
+F 3 "~" H 900 10250 50  0001 C CNN
+	1    900  10250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 10250 1450 10200
+	900  10750 900  10700
 $Comp
 L Control_board-rescue:GND-power #PWR018
 U 1 1 5DEDBE22
-P 1450 10250
-F 0 "#PWR018" H 1450 10000 50  0001 C CNN
-F 1 "GND" H 1455 10077 50  0000 C CNN
-F 2 "" H 1450 10250 50  0001 C CNN
-F 3 "" H 1450 10250 50  0001 C CNN
-	1    1450 10250
+P 900 10750
+F 0 "#PWR018" H 900 10500 50  0001 C CNN
+F 1 "GND" H 905 10577 50  0000 C CNN
+F 2 "" H 900 10750 50  0001 C CNN
+F 3 "" H 900 10750 50  0001 C CNN
+	1    900  10750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Control_board-rescue:LED-Device D3
 U 1 1 5DEDBE1C
-P 1450 10050
-F 0 "D3" V 1488 9933 50  0000 R CNN
-F 1 "LED" V 1397 9933 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 1450 10050 50  0001 C CNN
-F 3 "~" H 1450 10050 50  0001 C CNN
-	1    1450 10050
+P 900 10550
+F 0 "D3" V 938 10433 50  0000 R CNN
+F 1 "LED" V 847 10433 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 900 10550 50  0001 C CNN
+F 3 "~" H 900 10550 50  0001 C CNN
+	1    900  10550
 	0    -1   -1   0   
 $EndComp
-Text Label 3700 9150 0    50   ~ 0
+Text Label 3150 9650 0    50   ~ 0
 12V_Fan
 Wire Wire Line
-	3700 9250 3700 9150
+	3150 9750 3150 9650
 Text Label 11600 1450 0    50   ~ 0
 12V_Fan
 Text Label 11600 2450 0    50   ~ 0
@@ -2070,44 +1692,44 @@ Text Label 11600 2450 0    50   ~ 0
 Text Label 11600 3700 0    50   ~ 0
 12V_Fan
 Wire Wire Line
-	1450 9050 1450 9600
-NoConn ~ 2100 9350
-NoConn ~ 2100 9150
+	900  9550 900  10100
+NoConn ~ 1550 9850
+NoConn ~ 1550 9650
 $Comp
 L Control_board-rescue:+12V-power #PWR016
 U 1 1 5E6967CF
-P 4200 8950
-F 0 "#PWR016" H 4200 8800 50  0001 C CNN
-F 1 "+12V-power" H 4215 9123 50  0000 C CNN
-F 2 "" H 4200 8950 50  0001 C CNN
-F 3 "" H 4200 8950 50  0001 C CNN
-	1    4200 8950
+P 3650 9450
+F 0 "#PWR016" H 3650 9300 50  0001 C CNN
+F 1 "+12V-power" H 3665 9623 50  0000 C CNN
+F 2 "" H 3650 9450 50  0001 C CNN
+F 3 "" H 3650 9450 50  0001 C CNN
+	1    3650 9450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 8950 4200 9050
+	3650 9450 3650 9550
 Wire Wire Line
-	4200 9050 3700 9050
+	3650 9550 3150 9550
 Wire Wire Line
-	3700 9350 4200 9350
+	3150 9850 3650 9850
 Wire Wire Line
-	4200 9350 4200 9050
-Connection ~ 4200 9050
+	3650 9850 3650 9550
+Connection ~ 3650 9550
 $Comp
 L Control_board-rescue:R-Device R23
 U 1 1 5E6B63E4
-P 1700 9050
-F 0 "R23" H 1770 9096 50  0000 L CNN
-F 1 "15k" H 1770 9005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 9050 50  0001 C CNN
-F 3 "~" H 1700 9050 50  0001 C CNN
-	1    1700 9050
+P 1150 9550
+F 0 "R23" H 1220 9596 50  0000 L CNN
+F 1 "15k" H 1220 9505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1080 9550 50  0001 C CNN
+F 3 "~" H 1150 9550 50  0001 C CNN
+	1    1150 9550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 9050 1450 9050
+	1000 9550 900  9550
 Wire Wire Line
-	1850 9050 2100 9050
+	1300 9550 1550 9550
 $Comp
 L Control_board-rescue:PSSI2021SAY,115-SamacSys_Parts IC3
 U 1 1 5E5FB5FD
@@ -2218,214 +1840,934 @@ Protection circuit for 1-wire interface:\nhttps://www.maximintegrated.com/en/des
 Text Notes 14600 4700 2    50   ~ 0
 need heatsink/groundstitching
 $Comp
-L Control_board-rescue:NCP1117-5.0_TO252-Regulator_Linear U?
+L Control_board-rescue:NCP1117-5.0_TO252-Regulator_Linear U2
 U 1 1 5E615764
-P 15300 5250
-F 0 "U?" H 15300 5492 50  0000 C CNN
-F 1 "NCP1117-5.0_TO252" H 15300 5401 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 15300 5475 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 15300 5250 50  0001 C CNN
-	1    15300 5250
+P 13950 5250
+F 0 "U2" H 13950 5492 50  0000 C CNN
+F 1 "NCP1117-5.0_TO252" H 13950 5401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 13950 5475 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 13950 5250 50  0001 C CNN
+	1    13950 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GDS Q4
+U 1 1 5E6E04C0
+P 14100 1650
+F 0 "Q4" V 14533 1650 50  0000 C CNN
+F 1 "Q_PMOS_GDS" V 14442 1650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 14300 1750 50  0001 C CNN
+F 3 "~" H 14100 1650 50  0001 C CNN
+F 4 "DMP6023LEQ" V 14351 1650 50  0000 C CNN "Manufacturer_Part_Number"
+	1    14100 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14450 1700 14450 1550
+Wire Wire Line
+	14450 1550 14300 1550
+$Comp
+L Device:R R31
+U 1 1 5E6F4C79
+P 14100 2000
+F 0 "R31" H 14170 2046 50  0000 L CNN
+F 1 "100k" H 14170 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14030 2000 50  0001 C CNN
+F 3 "~" H 14100 2000 50  0001 C CNN
+	1    14100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 2000 14450 2200
+Wire Wire Line
+	14450 2200 14100 2200
+Wire Wire Line
+	14100 2200 14100 2150
+Wire Wire Line
+	13050 1550 13300 1550
+$Comp
+L Control_board-rescue:+48V-power #PWR0126
+U 1 1 5E71BDFE
+P 14900 1450
+F 0 "#PWR0126" H 14900 1300 50  0001 C CNN
+F 1 "+48V" H 14915 1623 50  0000 C CNN
+F 2 "" H 14900 1450 50  0001 C CNN
+F 3 "" H 14900 1450 50  0001 C CNN
+	1    14900 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_GDS Q?
-U 1 1 5E6E04C0
-P 6400 -1050
-F 0 "Q?" V 6833 -1050 50  0000 C CNN
-F 1 "Q_PMOS_GDS" V 6742 -1050 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6600 -950 50  0001 C CNN
-F 3 "~" H 6400 -1050 50  0001 C CNN
-F 4 "DMP6023LEQ" V 6651 -1050 50  0000 C CNN "Manufacturer_Part_Number"
-	1    6400 -1050
+L power:VCC #PWR0127
+U 1 1 5E71C234
+P 13000 750
+F 0 "#PWR0127" H 13000 600 50  0001 C CNN
+F 1 "VCC" H 13017 923 50  0000 C CNN
+F 2 "" H 13000 750 50  0001 C CNN
+F 3 "" H 13000 750 50  0001 C CNN
+	1    13000 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 1550 14900 1550
+Wire Wire Line
+	14900 1550 14900 1450
+Connection ~ 14450 1550
+Text Notes 12550 900  0    50   ~ 0
+15-60V DC
+$Comp
+L Control_board-rescue:GND-power #PWR0129
+U 1 1 5E7313B2
+P 14100 2250
+F 0 "#PWR0129" H 14100 2000 50  0001 C CNN
+F 1 "GND" H 14105 2077 50  0000 C CNN
+F 2 "" H 14100 2250 50  0001 C CNN
+F 3 "" H 14100 2250 50  0001 C CNN
+	1    14100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 2250 14100 2200
+Connection ~ 14100 2200
+Text Notes 14600 2050 0    50   ~ 0
+Zener to limit Gate to Source voltage
+Text Notes 13700 650  0    50   ~ 0
+Reverse polarity protection
+$Comp
+L Device:Polyfuse F1
+U 1 1 5E77298C
+P 13450 1550
+F 0 "F1" V 13225 1550 50  0000 C CNN
+F 1 "Polyfuse" V 13316 1550 50  0000 C CNN
+F 2 "Fuse:Fuse_Bourns_MF-RHT1100" H 13500 1350 50  0001 L CNN
+F 3 "~" H 13450 1550 50  0001 C CNN
+F 4 "0ZRP0400FF1A" V 13450 1550 50  0001 C CNN "Manufacturer_Part_Number"
+	1    13450 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13600 1550 13650 1550
+Text Notes 14750 1200 0    50   ~ 0
+15-60V DC\nprotected side\n (optimized for 48V)
+Text Notes 13350 1250 0    50   ~ 0
+4A slow blow\nfuse
+$Comp
+L Control_board-rescue:1.5KExxA-Diode D10
+U 1 1 5E77673A
+P 13650 2000
+F 0 "D10" V 13604 2079 50  0000 L CNN
+F 1 "SMF60A" V 13695 2079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 13650 1800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 13600 2000 50  0001 C CNN
+	1    13650 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13650 1850 13650 1550
+Connection ~ 13650 1550
+Wire Wire Line
+	13650 1550 13900 1550
+Wire Wire Line
+	14100 2200 13650 2200
+Wire Wire Line
+	13650 2200 13650 2150
+$Comp
+L Control_board-rescue:GND-power #PWR0131
+U 1 1 5E73F98E
+P 7300 1500
+F 0 "#PWR0131" H 7300 1250 50  0001 C CNN
+F 1 "GND" H 7305 1327 50  0000 C CNN
+F 2 "" H 7300 1500 50  0001 C CNN
+F 3 "" H 7300 1500 50  0001 C CNN
+	1    7300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1500 7050 1500
+Wire Wire Line
+	7050 1500 7050 1650
+$Comp
+L Control_board-rescue:R-Device R29
+U 1 1 5E755CEF
+P 6300 900
+F 0 "R29" H 6370 946 50  0000 L CNN
+F 1 "10K" H 6370 855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 900 50  0001 C CNN
+F 3 "~" H 6300 900 50  0001 C CNN
+	1    6300 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1650 6300 1650
+Wire Wire Line
+	6300 1050 6300 1650
+$Comp
+L Control_board-rescue:+3.3V-power #PWR0132
+U 1 1 5E798356
+P 6300 700
+F 0 "#PWR0132" H 6300 550 50  0001 C CNN
+F 1 "+3.3V" H 6315 873 50  0000 C CNN
+F 2 "" H 6300 700 50  0001 C CNN
+F 3 "" H 6300 700 50  0001 C CNN
+	1    6300 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 700  6300 750 
+$Comp
+L SamacSys_Parts:FSM8JRT S2
+U 1 1 5E7C8369
+P 6300 1650
+F 0 "S2" H 6600 1915 50  0000 C CNN
+F 1 "FSM8JRT" H 6600 1824 50  0000 C CNN
+F 2 "SamacSys_Parts:FSM8JRT" H 6600 1450 50  0001 C CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/FSM8JRT.pdf" H 6600 1350 50  0001 C CNN
+F 4 "Tactile switch,PCB,SPST,raised actuator" H 6600 1250 50  0001 C CNN "Description"
+F 5 "9.5" H 6600 1150 50  0001 C CNN "Height"
+F 6 "506-FSM8JRT" H 6600 1050 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=506-FSM8JRT" H 6600 950 50  0001 C CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 6600 850 50  0001 C CNN "Manufacturer_Name"
+F 9 "FSM8JRT" H 6600 750 50  0001 C CNN "Manufacturer_Part_Number"
+	1    6300 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 1650
+Wire Wire Line
+	6900 1650 7050 1650
+$Comp
+L SamacSys_Parts:FSM8JRT S1
+U 1 1 5E7DFCD9
+P 2550 1650
+F 0 "S1" H 2850 1915 50  0000 C CNN
+F 1 "FSM8JRT" H 2850 1824 50  0000 C CNN
+F 2 "SamacSys_Parts:FSM8JRT" H 2850 1450 50  0001 C CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/FSM8JRT.pdf" H 2850 1350 50  0001 C CNN
+F 4 "Tactile switch,PCB,SPST,raised actuator" H 2850 1250 50  0001 C CNN "Description"
+F 5 "9.5" H 2850 1150 50  0001 C CNN "Height"
+F 6 "506-FSM8JRT" H 2850 1050 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=506-FSM8JRT" H 2850 950 50  0001 C CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 2850 850 50  0001 C CNN "Manufacturer_Name"
+F 9 "FSM8JRT" H 2850 750 50  0001 C CNN "Manufacturer_Part_Number"
+	1    2550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:R-Device R28
+U 1 1 5E7E0F2D
+P 3150 1400
+F 0 "R28" H 3220 1446 50  0000 L CNN
+F 1 "10K" H 3220 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 1400 50  0001 C CNN
+F 3 "~" H 3150 1400 50  0001 C CNN
+	1    3150 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1250 3150 1150
+Wire Wire Line
+	3150 1550 3150 1650
+Wire Wire Line
+	3450 1650 3150 1650
+Connection ~ 3150 1650
+Wire Wire Line
+	6850 6500 7100 6500
+$Comp
+L Control_board-rescue:R-Device R8
+U 1 1 5E50C69F
+P 6650 3450
+F 0 "R8" V 6443 3450 50  0000 C CNN
+F 1 "1k" V 6534 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 3450 50  0001 C CNN
+F 3 "~" H 6650 3450 50  0001 C CNN
+	1    6650 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 1100 2100 1750
+Text Label 1150 500  2    50   ~ 0
+NTC_3
+$Comp
+L Control_board-rescue:GND-power #PWR029
+U 1 1 5DE41593
+P 1500 1400
+F 0 "#PWR029" H 1500 1150 50  0001 C CNN
+F 1 "GND" H 1505 1227 50  0000 C CNN
+F 2 "" H 1500 1400 50  0001 C CNN
+F 3 "" H 1500 1400 50  0001 C CNN
+	1    1500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:R-Device R13
+U 1 1 5DE41599
+P 1500 1250
+F 0 "R13" H 1570 1296 50  0000 L CNN
+F 1 "10K" H 1570 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 1250 50  0001 C CNN
+F 3 "~" H 1500 1250 50  0001 C CNN
+	1    1500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54S D4
+U 1 1 5E904D08
+P 850 1100
+F 0 "D4" H 850 1325 50  0000 C CNN
+F 1 "BAT54S" H 850 1234 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 925 1225 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 730 1100 50  0001 C CNN
+	1    850  1100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Zener D?
-U 1 1 5E6E1FBE
-P 6750 -850
-F 0 "D?" V 6704 -771 50  0000 L CNN
-F 1 "BZX84C8V2L" V 6795 -771 50  0000 L CNN
-F 2 "" H 6750 -850 50  0001 C CNN
-F 3 "~" H 6750 -850 50  0001 C CNN
-F 4 "BZX84C8V2L" V 6750 -850 50  0001 C CNN "Manufacturer_Part_Number"
-	1    6750 -850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6750 -1000 6750 -1150
-Wire Wire Line
-	6750 -1150 6600 -1150
-$Comp
-L Device:R R?
-U 1 1 5E6F4C79
-P 6400 -700
-F 0 "R?" H 6470 -654 50  0000 L CNN
-F 1 "100k" H 6470 -745 50  0000 L CNN
-F 2 "" V 6330 -700 50  0001 C CNN
-F 3 "~" H 6400 -700 50  0001 C CNN
-	1    6400 -700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 -700 6750 -500
-Wire Wire Line
-	6750 -500 6400 -500
-Wire Wire Line
-	6400 -500 6400 -550
-Wire Wire Line
-	5350 -1300 5350 -1150
-Wire Wire Line
-	5350 -1150 5600 -1150
-$Comp
-L Control_board-rescue:+48V-power #PWR?
-U 1 1 5E71BDFE
-P 7200 -1250
-F 0 "#PWR?" H 7200 -1400 50  0001 C CNN
-F 1 "+48V" H 7215 -1077 50  0000 C CNN
-F 2 "" H 7200 -1250 50  0001 C CNN
-F 3 "" H 7200 -1250 50  0001 C CNN
-	1    7200 -1250
+L Control_board-rescue:GND-power #PWR0133
+U 1 1 5E9200C0
+P 850 1400
+F 0 "#PWR0133" H 850 1150 50  0001 C CNN
+F 1 "GND" H 855 1227 50  0000 C CNN
+F 2 "" H 850 1400 50  0001 C CNN
+F 3 "" H 850 1400 50  0001 C CNN
+	1    850  1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
-U 1 1 5E71C234
-P 5350 -1300
-F 0 "#PWR?" H 5350 -1450 50  0001 C CNN
-F 1 "VCC" H 5367 -1127 50  0000 C CNN
-F 2 "" H 5350 -1300 50  0001 C CNN
-F 3 "" H 5350 -1300 50  0001 C CNN
-	1    5350 -1300
+L Control_board-rescue:+3.3V-power #PWR0136
+U 1 1 5E9205B2
+P 850 800
+F 0 "#PWR0136" H 850 650 50  0001 C CNN
+F 1 "+3.3V" H 865 973 50  0000 C CNN
+F 2 "" H 850 800 50  0001 C CNN
+F 3 "" H 850 800 50  0001 C CNN
+	1    850  800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 -1150 7200 -1150
-Wire Wire Line
-	7200 -1150 7200 -1250
-Connection ~ 6750 -1150
-Text Notes 5200 -1550 0    50   ~ 0
-15-60V DC
 $Comp
-L Control_board-rescue:GND-power #PWR?
-U 1 1 5E7313B2
-P 6400 -450
-F 0 "#PWR?" H 6400 -700 50  0001 C CNN
-F 1 "GND" H 6405 -623 50  0000 C CNN
-F 2 "" H 6400 -450 50  0001 C CNN
-F 3 "" H 6400 -450 50  0001 C CNN
-	1    6400 -450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 -450 6400 -500
-Connection ~ 6400 -500
-Text Notes 6900 -650 0    50   ~ 0
-Zener to limit Gate to Source voltage
-Text Label 10550 -600 0    50   ~ 0
-ADJ_LED1
-$Comp
-L Control_board-rescue:R-Device R?
-U 1 1 5E75D2E5
-P 10150 -600
-F 0 "R?" V 9943 -600 50  0000 C CNN
-F 1 "100" V 10034 -600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10080 -600 50  0001 C CNN
-F 3 "~" H 10150 -600 50  0001 C CNN
-	1    10150 -600
+L Control_board-rescue:R-Device R26
+U 1 1 5E9209C9
+P 1300 500
+F 0 "R26" H 1370 546 50  0000 L CNN
+F 1 "1k" H 1370 455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1230 500 50  0001 C CNN
+F 3 "~" H 1300 500 50  0001 C CNN
+	1    1300 500 
 	0    1    1    0   
 $EndComp
 $Comp
-L Control_board-rescue:GND-power #PWR?
-U 1 1 5E75D2F3
-P 9400 -1150
-F 0 "#PWR?" H 9400 -1400 50  0001 C CNN
-F 1 "GND" H 9405 -1323 50  0000 C CNN
-F 2 "" H 9400 -1150 50  0001 C CNN
-F 3 "" H 9400 -1150 50  0001 C CNN
-	1    9400 -1150
+L Diode:BAT54S D5
+U 1 1 5E9246EF
+P 850 2250
+F 0 "D5" H 850 2475 50  0000 C CNN
+F 1 "BAT54S" H 850 2384 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 925 2375 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 730 2250 50  0001 C CNN
+	1    850  2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR0137
+U 1 1 5E9246F6
+P 850 2550
+F 0 "#PWR0137" H 850 2300 50  0001 C CNN
+F 1 "GND" H 855 2377 50  0000 C CNN
+F 2 "" H 850 2550 50  0001 C CNN
+F 3 "" H 850 2550 50  0001 C CNN
+	1    850  2550
 	1    0    0    -1  
 $EndComp
-Text Notes 5750 -1650 0    50   ~ 0
-Reverse polarity protection
 $Comp
-L Device:Polyfuse F?
-U 1 1 5E77298C
-P 5750 -1150
-F 0 "F?" V 5525 -1150 50  0000 C CNN
-F 1 "Polyfuse" V 5616 -1150 50  0000 C CNN
-F 2 "" H 5800 -1350 50  0001 L CNN
-F 3 "~" H 5750 -1150 50  0001 C CNN
-	1    5750 -1150
+L Control_board-rescue:+3.3V-power #PWR0138
+U 1 1 5E9246FC
+P 850 1950
+F 0 "#PWR0138" H 850 1800 50  0001 C CNN
+F 1 "+3.3V" H 865 2123 50  0000 C CNN
+F 2 "" H 850 1950 50  0001 C CNN
+F 3 "" H 850 1950 50  0001 C CNN
+	1    850  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:R-Device R27
+U 1 1 5E99DA5D
+P 1350 1700
+F 0 "R27" H 1420 1746 50  0000 L CNN
+F 1 "1k" H 1420 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1280 1700 50  0001 C CNN
+F 3 "~" H 1350 1700 50  0001 C CNN
+	1    1350 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5900 -1150 5950 -1150
-Text Notes 7050 -1500 0    50   ~ 0
-15-60V DC\nprotected side\n (optimized for 48V)
-Text Notes 5250 -850 0    50   ~ 0
-4A slow blow\nfuse
-Text Notes 8650 -400 0    50   ~ 0
-3.3V IO\nPWM source (1 kHz)
+	1950 1850 3450 1850
+Wire Wire Line
+	1650 3950 1350 3950
+Wire Wire Line
+	1750 5700 1050 5700
+Wire Wire Line
+	1050 5700 1050 5650
+Connection ~ 1750 5700
+Wire Wire Line
+	2350 2350 2350 3950
 $Comp
-L Control_board-rescue:1.5KExxA-Diode D?
-U 1 1 5E77673A
-P 5950 -700
-F 0 "D?" V 5904 -621 50  0000 L CNN
-F 1 "SMF60A" V 5995 -621 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 5950 -900 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5900 -700 50  0001 C CNN
-	1    5950 -700
+L Diode:BAT54S D6
+U 1 1 5EB5CB17
+P 7000 4150
+F 0 "D6" H 7000 4375 50  0000 C CNN
+F 1 "BAT54S" H 7000 4284 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7075 4275 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 6880 4150 50  0001 C CNN
+	1    7000 4150
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7000 4450 7000 4600
+$Comp
+L Control_board-rescue:+3.3V-power #PWR0139
+U 1 1 5EBB92BB
+P 7000 3850
+F 0 "#PWR0139" H 7000 3700 50  0001 C CNN
+F 1 "+3.3V" H 7015 4023 50  0000 C CNN
+F 2 "" H 7000 3850 50  0001 C CNN
+F 3 "" H 7000 3850 50  0001 C CNN
+	1    7000 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 13950 5550
+Wire Wire Line
+	6500 3450 6150 3450
+Wire Wire Line
+	6150 3450 6150 4150
+Wire Wire Line
+	5700 4150 6150 4150
+Connection ~ 6150 4150
+Wire Wire Line
+	6150 4150 6800 4150
+$Comp
+L Diode:BAT54S D7
+U 1 1 5E7AFCB2
+P 7000 5650
+F 0 "D7" H 7000 5875 50  0000 C CNN
+F 1 "BAT54S" H 7000 5784 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7075 5775 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 6880 5650 50  0001 C CNN
+	1    7000 5650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6800 5650 6200 5650
+$Comp
+L Control_board-rescue:+3.3V-power #PWR0140
+U 1 1 5E7C7DDE
+P 7000 5350
+F 0 "#PWR0140" H 7000 5200 50  0001 C CNN
+F 1 "+3.3V" H 7015 5523 50  0000 C CNN
+F 2 "" H 7000 5350 50  0001 C CNN
+F 3 "" H 7000 5350 50  0001 C CNN
+	1    7000 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5050 6200 5050
+Wire Wire Line
+	6200 5050 6200 5650
+Connection ~ 6200 5650
+Wire Wire Line
+	6200 5650 5550 5650
+$Comp
+L Control_board-rescue:GND-power #PWR0141
+U 1 1 5E82166A
+P 7000 7550
+F 0 "#PWR0141" H 7000 7300 50  0001 C CNN
+F 1 "GND" H 7005 7377 50  0000 C CNN
+F 2 "" H 7000 7550 50  0001 C CNN
+F 3 "" H 7000 7550 50  0001 C CNN
+	1    7000 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54S D8
+U 1 1 5E821670
+P 7000 7200
+F 0 "D8" H 7000 7425 50  0000 C CNN
+F 1 "BAT54S" H 7000 7334 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7075 7325 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 6880 7200 50  0001 C CNN
+	1    7000 7200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Control_board-rescue:+3.3V-power #PWR0142
+U 1 1 5E821676
+P 7000 6900
+F 0 "#PWR0142" H 7000 6750 50  0001 C CNN
+F 1 "+3.3V" H 7015 7073 50  0000 C CNN
+F 2 "" H 7000 6900 50  0001 C CNN
+F 3 "" H 7000 6900 50  0001 C CNN
+	1    7000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 7200 6250 7200
+Wire Wire Line
+	5400 2650 5400 7200
+Wire Wire Line
+	6550 6500 6250 6500
+Wire Wire Line
+	6250 6500 6250 7200
+Connection ~ 6250 7200
+Wire Wire Line
+	6250 7200 5400 7200
+$Comp
+L Control_board-rescue:C_Small-Device C1
+U 1 1 5E862B88
+P 6150 4400
+F 0 "C1" H 6242 4446 50  0000 L CNN
+F 1 "0.1uF" H 6242 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 4400 50  0001 C CNN
+F 3 "~" H 6150 4400 50  0001 C CNN
+	1    6150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR0145
+U 1 1 5E863A65
+P 6150 4500
+F 0 "#PWR0145" H 6150 4250 50  0001 C CNN
+F 1 "GND" H 6155 4327 50  0000 C CNN
+F 2 "" H 6150 4500 50  0001 C CNN
+F 3 "" H 6150 4500 50  0001 C CNN
+	1    6150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4300 6150 4150
+$Comp
+L Control_board-rescue:C_Small-Device C2
+U 1 1 5E890AD1
+P 6200 5900
+F 0 "C2" H 6292 5946 50  0000 L CNN
+F 1 "0.1uF" H 6292 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 5900 50  0001 C CNN
+F 3 "~" H 6200 5900 50  0001 C CNN
+	1    6200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR0146
+U 1 1 5E890AD7
+P 6200 6000
+F 0 "#PWR0146" H 6200 5750 50  0001 C CNN
+F 1 "GND" H 6205 5827 50  0000 C CNN
+F 2 "" H 6200 6000 50  0001 C CNN
+F 3 "" H 6200 6000 50  0001 C CNN
+	1    6200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5800 6200 5650
+$Comp
+L Control_board-rescue:C_Small-Device C6
+U 1 1 5E8A6EE1
+P 6250 7450
+F 0 "C6" H 6342 7496 50  0000 L CNN
+F 1 "0.1uF" H 6342 7405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 7450 50  0001 C CNN
+F 3 "~" H 6250 7450 50  0001 C CNN
+	1    6250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR0148
+U 1 1 5E8A6EE7
+P 6250 7550
+F 0 "#PWR0148" H 6250 7300 50  0001 C CNN
+F 1 "GND" H 6255 7377 50  0000 C CNN
+F 2 "" H 6250 7550 50  0001 C CNN
+F 3 "" H 6250 7550 50  0001 C CNN
+	1    6250 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 7350 6250 7200
+$Comp
+L Diode:BAT54S D9
+U 1 1 5E795190
+P 7450 2800
+F 0 "D9" H 7450 3025 50  0000 C CNN
+F 1 "BAT54S" H 7450 2934 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7525 2925 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7330 2800 50  0001 C CNN
+	1    7450 2800
+	0    1    -1   0   
+$EndComp
+Text Label 8350 1850 2    50   ~ 0
+LDR
+$Comp
+L Control_board-rescue:R-Device R30
+U 1 1 5E7AE700
+P 7150 2100
+F 0 "R30" H 7220 2146 50  0000 L CNN
+F 1 "1k" H 7220 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 2100 50  0001 C CNN
+F 3 "~" H 7150 2100 50  0001 C CNN
+	1    7150 2100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5950 -850 5950 -1150
-Connection ~ 5950 -1150
+	6450 2750 6450 2900
 Wire Wire Line
-	5950 -1150 6200 -1150
-Wire Wire Line
-	6400 -500 5950 -500
-Wire Wire Line
-	5950 -500 5950 -550
+	6450 2100 6850 2100
 $Comp
-L Diode:BAT54S D?
-U 1 1 5E7FD14A
-P 9850 -1250
-F 0 "D?" H 9850 -1025 50  0000 C CNN
-F 1 "BAT54S" H 9850 -1116 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9925 -1125 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 9730 -1250 50  0001 C CNN
-	1    9850 -1250
+L Control_board-rescue:+3.3V-power #PWR0149
+U 1 1 5E838A7C
+P 7450 2500
+F 0 "#PWR0149" H 7450 2350 50  0001 C CNN
+F 1 "+3.3V" H 7465 2673 50  0000 C CNN
+F 2 "" H 7450 2500 50  0001 C CNN
+F 3 "" H 7450 2500 50  0001 C CNN
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR0151
+U 1 1 5E84F5F3
+P 7450 3100
+F 0 "#PWR0151" H 7450 2850 50  0001 C CNN
+F 1 "GND" H 7455 2927 50  0000 C CNN
+F 2 "" H 7450 3100 50  0001 C CNN
+F 3 "" H 7450 3100 50  0001 C CNN
+	1    7450 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 -600 9850 -1050
+	5700 1950 5700 4150
 Wire Wire Line
-	9850 -600 10000 -600
-Connection ~ 9850 -600
+	5550 2550 5550 5650
 Wire Wire Line
-	9400 -1150 9400 -1250
+	7250 2800 6850 2800
 Wire Wire Line
-	9400 -1250 9550 -1250
+	6850 2800 6850 2100
+Connection ~ 6850 2100
+Wire Wire Line
+	6850 2100 7000 2100
+Wire Wire Line
+	6450 2100 6450 1850
+Wire Wire Line
+	6450 1850 5050 1850
+Connection ~ 6450 2100
+Wire Wire Line
+	1550 2250 1550 1700
+Wire Wire Line
+	1550 1700 1500 1700
+Wire Wire Line
+	1050 2250 1550 2250
+Wire Wire Line
+	1950 1850 1950 2050
+Wire Wire Line
+	1950 1850 1950 1700
+Wire Wire Line
+	1950 1700 1550 1700
+Connection ~ 1950 1850
+Connection ~ 1550 1700
+Wire Wire Line
+	1450 500  1500 500 
+Wire Wire Line
+	1500 500  1500 1100
+Wire Wire Line
+	1050 1100 1500 1100
+Connection ~ 1500 1100
 $Comp
-L Control_board-rescue:+3.3V-power #PWR?
-U 1 1 5E90E204
-P 10400 -1400
-F 0 "#PWR?" H 10400 -1550 50  0001 C CNN
-F 1 "+3.3V" H 10415 -1227 50  0000 C CNN
-F 2 "" H 10400 -1400 50  0001 C CNN
-F 3 "" H 10400 -1400 50  0001 C CNN
-	1    10400 -1400
+L Control_board-rescue:GND-power #PWR0152
+U 1 1 5E93582C
+P 2350 1350
+F 0 "#PWR0152" H 2350 1100 50  0001 C CNN
+F 1 "GND" H 2355 1177 50  0000 C CNN
+F 2 "" H 2350 1350 50  0001 C CNN
+F 3 "" H 2350 1350 50  0001 C CNN
+	1    2350 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10400 -1400 10400 -1250
+	2350 1350 2550 1350
 Wire Wire Line
-	10400 -1250 10150 -1250
-Text Notes 10600 -450 0    50   ~ 0
-To light module, this pin could potentially get +48V DC
+	2550 1350 2550 1650
 Wire Wire Line
-	10300 -600 10550 -600
+	1500 1100 2100 1100
 Wire Wire Line
-	9050 -600 9850 -600
+	13000 750  13000 800 
+Wire Wire Line
+	13000 800  13050 800 
+Wire Wire Line
+	13050 800  13050 1550
+Connection ~ 13050 800 
+Wire Wire Line
+	13050 800  13200 800 
+$Comp
+L Control_board-rescue:GND-power #PWR0153
+U 1 1 5EA4BCE0
+P 13200 900
+F 0 "#PWR0153" H 13200 650 50  0001 C CNN
+F 1 "GND" H 13205 727 50  0000 C CNN
+F 2 "" H 13200 900 50  0001 C CNN
+F 3 "" H 13200 900 50  0001 C CNN
+	1    13200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:PWR_FLAG-power #FLG0103
+U 1 1 5EA633F1
+P 12700 700
+F 0 "#FLG0103" H 12700 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 12700 873 50  0000 C CNN
+F 2 "" H 12700 700 50  0001 C CNN
+F 3 "~" H 12700 700 50  0001 C CNN
+	1    12700 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 800  13000 800 
+Wire Wire Line
+	12700 700  12700 800 
+Connection ~ 13000 800 
+$Comp
+L Control_board-rescue:PWR_FLAG-power #FLG0104
+U 1 1 5EA7952D
+P 9150 1300
+F 0 "#FLG0104" H 9150 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9150 1473 50  0000 C CNN
+F 2 "" H 9150 1300 50  0001 C CNN
+F 3 "~" H 9150 1300 50  0001 C CNN
+	1    9150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1500 9450 1500
+Wire Wire Line
+	9150 1300 9150 1500
+Wire Wire Line
+	9450 1400 9450 1500
+Connection ~ 9450 1500
+Wire Wire Line
+	7000 7550 7000 7500
+$Comp
+L SamacSys_Parts:D_Zener_ALT_PELLE Z11
+U 1 1 5E7ADA24
+P 14450 1850
+F 0 "Z11" V 14404 1929 50  0000 L CNN
+F 1 "BZX84C8V2LT1G" V 14495 1929 50  0000 L CNN
+F 2 "SamacSys_Parts:SOT95P237X111-3N" H 15600 1950 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF" H 15600 1850 50  0001 L CNN
+F 4 "250 mW 8.2 V +/-5% Zener Diode Voltage Regulator" H 15600 1750 50  0001 L CNN "Description"
+F 5 "1.11" H 15600 1650 50  0001 L CNN "Height"
+F 6 "863-BZX84C8V2LT1G" H 15600 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-BZX84C8V2LT1G" H 15600 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 15600 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "BZX84C8V2LT1G" H 15600 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14450 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L my_library:NID35-12_meanwell U3
+U 1 1 5E7AB02D
+P 14000 3250
+F 0 "U3" H 14575 3715 50  0000 C CNN
+F 1 "NID35-12_meanwell" H 14575 3624 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_MeanWell_NID30_THT" H 14000 3250 50  0001 C CNN
+F 3 "" H 14000 3250 50  0001 C CNN
+	1    14000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 3550 13700 3650
+Wire Wire Line
+	13700 3650 13850 3650
+Wire Wire Line
+	13850 3650 13850 3550
+Wire Wire Line
+	13850 3650 14000 3650
+Wire Wire Line
+	14000 3650 14000 3550
+Connection ~ 13850 3650
+Wire Wire Line
+	14000 3650 14150 3650
+Wire Wire Line
+	14150 3650 14150 3550
+Connection ~ 14000 3650
+Wire Wire Line
+	12750 3650 13150 3650
+Wire Wire Line
+	14300 3550 14300 3650
+Wire Wire Line
+	14300 3650 14750 3650
+Wire Wire Line
+	14750 3650 14750 3550
+$Comp
+L Control_board-rescue:GND-power #PWR0125
+U 1 1 5E81ECF1
+P 14300 3750
+F 0 "#PWR0125" H 14300 3500 50  0001 C CNN
+F 1 "GND" H 14305 3577 50  0000 C CNN
+F 2 "" H 14300 3750 50  0001 C CNN
+F 3 "" H 14300 3750 50  0001 C CNN
+	1    14300 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14300 3750 14300 3650
+Connection ~ 14300 3650
+$Comp
+L Control_board-rescue:+48V-power #PWR0147
+U 1 1 5E83667B
+P 15850 3250
+F 0 "#PWR0147" H 15850 3100 50  0001 C CNN
+F 1 "+48V" H 15865 3423 50  0000 C CNN
+F 2 "" H 15850 3250 50  0001 C CNN
+F 3 "" H 15850 3250 50  0001 C CNN
+	1    15850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15850 3250 15850 3850
+Wire Wire Line
+	15850 3850 15050 3850
+Wire Wire Line
+	14900 3850 14900 3550
+Wire Wire Line
+	15050 3550 15050 3850
+Connection ~ 15050 3850
+Wire Wire Line
+	15050 3850 14900 3850
+NoConn ~ 15200 3550
+NoConn ~ 15350 3550
+NoConn ~ 15500 3550
+$Comp
+L Control_board-rescue:PWR_FLAG-power #FLG0105
+U 1 1 5E8C48B6
+P 13150 3050
+F 0 "#FLG0105" H 13150 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 13150 3223 50  0000 C CNN
+F 2 "" H 13150 3050 50  0001 C CNN
+F 3 "~" H 13150 3050 50  0001 C CNN
+	1    13150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 3350 12750 3650
+Wire Wire Line
+	13150 3050 13150 3650
+Connection ~ 13150 3650
+Connection ~ 13700 3650
+Wire Wire Line
+	13150 3650 13700 3650
+$Comp
+L Control_board-rescue:R-Device R34
+U 1 1 5E9AFCB7
+P 9150 10500
+F 0 "R34" H 9220 10546 50  0000 L CNN
+F 1 "DNP" H 9220 10455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9080 10500 50  0001 C CNN
+F 3 "~" H 9150 10500 50  0001 C CNN
+	1    9150 10500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9450 9750 9850 9750
+$Comp
+L Control_board-rescue:R-Device R35
+U 1 1 5E9C72FA
+P 9850 10450
+F 0 "R35" H 9920 10496 50  0000 L CNN
+F 1 "DNP" H 9920 10405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9780 10450 50  0001 C CNN
+F 3 "~" H 9850 10450 50  0001 C CNN
+	1    9850 10450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 10600 9850 10750
+Connection ~ 9850 10750
+Wire Wire Line
+	9850 10750 10350 10750
+Wire Wire Line
+	9850 10300 9850 9750
+Connection ~ 9850 9750
+Wire Wire Line
+	9850 9750 10350 9750
+Wire Wire Line
+	9500 10750 9850 10750
+$Comp
+L Control_board-rescue:ESP32-DEVKITC-32D-ESP32-DEVKITC-32D U1
+U 1 1 5DD39E38
+P 4250 2050
+F 0 "U1" H 4250 3217 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 4250 3126 50  0000 C CNN
+F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D" H 4250 2050 50  0001 L BNN
+F 3 "" H 4250 2050 50  0001 L BNN
+F 4 "ESP32-DEVKITC-32D" H 4250 2050 50  0001 L BNN "Field4"
+F 5 "None" H 4250 2050 50  0001 L BNN "Field5"
+F 6 "EVAL BOARD FOR ESP-WROOM-32" H 4250 2050 50  0001 L BNN "Field6"
+F 7 "None" H 4250 2050 50  0001 L BNN "Field7"
+F 8 "Espressif Systems" H 4250 2050 50  0001 L BNN "Field8"
+	1    4250 2050
+	1    0    0    -1  
+$EndComp
+Text Label 3450 2250 2    50   ~ 0
+Spare
+Text Label 8750 10500 2    50   ~ 0
+Spare
+Wire Wire Line
+	9000 10500 8850 10500
+Wire Wire Line
+	9300 10500 9500 10500
+Wire Wire Line
+	9500 10500 9500 10750
+$Comp
+L Control_board-rescue:R-Device R32
+U 1 1 5EA67BB4
+P 8850 10200
+F 0 "R32" H 8920 10246 50  0000 L CNN
+F 1 "DNP" H 8920 10155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8780 10200 50  0001 C CNN
+F 3 "~" H 8850 10200 50  0001 C CNN
+	1    8850 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:R-Device R33
+U 1 1 5EA67FC0
+P 8850 10800
+F 0 "R33" H 8920 10846 50  0000 L CNN
+F 1 "DNP" H 8920 10755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8780 10800 50  0001 C CNN
+F 3 "~" H 8850 10800 50  0001 C CNN
+	1    8850 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control_board-rescue:GND-power #PWR08
+U 1 1 5EA68563
+P 8850 10950
+F 0 "#PWR08" H 8850 10700 50  0001 C CNN
+F 1 "GND" H 8855 10777 50  0000 C CNN
+F 2 "" H 8850 10950 50  0001 C CNN
+F 3 "" H 8850 10950 50  0001 C CNN
+	1    8850 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 10650 8850 10500
+Connection ~ 8850 10500
+Wire Wire Line
+	8850 10500 8750 10500
+Wire Wire Line
+	8850 10350 8850 10500
+$Comp
+L Control_board-rescue:+3.3V-power #PWR06
+U 1 1 5EA976C5
+P 8850 10050
+F 0 "#PWR06" H 8850 9900 50  0001 C CNN
+F 1 "+3.3V" H 8865 10223 50  0000 C CNN
+F 2 "" H 8850 10050 50  0001 C CNN
+F 3 "" H 8850 10050 50  0001 C CNN
+	1    8850 10050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

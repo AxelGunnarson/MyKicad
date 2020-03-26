@@ -1,117 +1,114 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NE555DR
-D Single Precision Timer
-K
-F http://www.ti.com/lit/ds/symlink/ne555.pdf
-$ENDCMP
-#
-$CMP BSP75N
-D 700mA Smart Low-Side Power Switch SOT223 Infineon BSP75N Intelligent Power Switch, Low Side, 0.7A, 60V, 3+Tab-Pin, SOT-223
-K
-F https://componentsearchengine.com/Datasheets/2/BSP75N.pdf
-$ENDCMP
-#
-$CMP 43045-0609
-D Header 3.00mm, SMT, dual row, RA, 6w Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 6 Way 2 Row Shrouded Right Angle PCB Header, Surface Mount
-K
-F http://www.molex.com/pdm_docs/sd/430450609_sd.pdf
-$ENDCMP
-#
-$CMP IS31LT3117-ZLS4-TR
-D LED Lighting Drivers 60V 350MA, 4-channel
-K
-F https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf
-$ENDCMP
-#
-$CMP EDK106M063A9GAA
-D KEMET Aluminium Electrolytic Capacitor 10uF 63V dc 6.3mm Can - SMD, Radial EDK Series Aluminium Electrolytic
-K
-F https://api.kemet.com/component-edge/download/specsheet/EDK106M063A9GAA.pdf
-$ENDCMP
-#
-$CMP UCD1J330MNL1GS
-D Nichicon Aluminium Electrolytic Capacitor 33uF 63V dc 8mm CD Series, Surface Mount Electrolytic, +/-20% 8 (Dia.) x 10mm
-K
-F http://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf
-$ENDCMP
-#
-$CMP VE-330M1HTR-0607
-D Aluminum Electrolytic Capacitors - SMD 50 Volts 33uF 20% 6.3x7.7
-K
-F https://datasheet.lcsc.com/szlcsc/1810171024_Lelon-VE-330M1HTR-0607_C182393.pdf
-$ENDCMP
-#
-$CMP 43045-0809
-D Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A
-K
-F http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf
+$CMP 1210B225K101CT
+D WALSIN - 1210B225K101CT - CAPACITOR, MLCC, X7R, 2.2UF, 100V, 1210
+F https://componentsearchengine.com/Datasheets/2/1210B225K101CT.pdf
 $ENDCMP
 #
 $CMP 43045-0601
 D Header 3.00mm, WTB, dual row, RA,6w Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 6 Way 2 Row Shrouded Right Angle PCB Header, Through Hole
-K
 F http://www.molex.com/pdm_docs/sd/430450601_sd.pdf
+$ENDCMP
+#
+$CMP 43045-0609
+D Header 3.00mm, SMT, dual row, RA, 6w Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 6 Way 2 Row Shrouded Right Angle PCB Header, Surface Mount
+F http://www.molex.com/pdm_docs/sd/430450609_sd.pdf
+$ENDCMP
+#
+$CMP 43045-0809
+D Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A
+F http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf
 $ENDCMP
 #
 $CMP 66200621022
 D Wurth Elektronik WR-MPC3 Series, Series Number 6620, 3mm Pitch 6 Way 2 Row Right Angle PCB Header, Solder Termination
-K
 F https://componentsearchengine.com/Datasheets/1/66200621022.pdf
 $ENDCMP
 #
-$CMP TPS54360BDDAR
-D 60-V input, 3.5-A, step-down DC/DC converter with Eco-Mode
-K
-F http://www.ti.com/lit/gpn/TPS54360B
+$CMP B560C-13-F
+D Diodes Inc B560C-13-F, SMT Schottky Diode, 60V 5A, 2-pin SMC
+F http://docs-emea.rs-online.com/webdocs/13e3/0900766b813e3f21.pdf
 $ENDCMP
 #
-$CMP TPS54560BDDAR
-D 4.5-V to 60-V input, 5-A, step-down DC-DC converter with Eco-mode
-K
-F http://www.ti.com/lit/gpn/TPS54560B
+$CMP BSP75N
+D 700mA Smart Low-Side Power Switch SOT223 Infineon BSP75N Intelligent Power Switch, Low Side, 0.7A, 60V, 3+Tab-Pin, SOT-223
+F https://componentsearchengine.com/Datasheets/2/BSP75N.pdf
 $ENDCMP
 #
-$CMP 1210B225K101CT
-D WALSIN - 1210B225K101CT - CAPACITOR, MLCC, X7R, 2.2UF, 100V, 1210
-K
-F https://componentsearchengine.com/Datasheets/2/1210B225K101CT.pdf
+$CMP BZX84C8V2LT1G
+D 250 mW 8.2 V +/-5% Zener Diode Voltage Regulator
+F http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF
+$ENDCMP
+#
+$CMP D_Zener_ALT_PELLE
+D Zener diode, filled shape
+K diode
+F ~
+$ENDCMP
+#
+$CMP EDK106M063A9GAA
+D KEMET Aluminium Electrolytic Capacitor 10uF 63V dc 6.3mm Can - SMD, Radial EDK Series Aluminium Electrolytic
+F https://api.kemet.com/component-edge/download/specsheet/EDK106M063A9GAA.pdf
 $ENDCMP
 #
 $CMP EMK325ABJ476KMHP
 D Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 16VDC 47uF 10% X5R AEC-Q200
-K
 F https://componentsearchengine.com/Datasheets/1/EMK325ABJ476KMHP.pdf
 $ENDCMP
 #
 $CMP EMK325BJ226KM-P
 D Taiyo Yuden EMK325BJ226KM-P 22pF MLCC 16V dc +/-10% Tolerance SMD
-K
 F http://uk.rs-online.com/web/p/products/1721587
+$ENDCMP
+#
+$CMP FSM8JRT
+D Tactile switch,PCB,SPST,raised actuator
+F https://componentsearchengine.com/Datasheets/1/FSM8JRT.pdf
+$ENDCMP
+#
+$CMP IS31LT3117-ZLS4-TR
+D LED Lighting Drivers 60V 350MA, 4-channel
+F https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 $CMP PA4343.133NLT
 D Fixed Inductors 13uH 9A 6.5mm 20% Low Prof
-K
 F https://productfinder.pulseeng.com/products/datasheets/P770.pdf
-$ENDCMP
-#
-$CMP B560C-13-F
-D Diodes Inc B560C-13-F, SMT Schottky Diode, 60V 5A, 2-pin SMC
-K
-F http://docs-emea.rs-online.com/webdocs/13e3/0900766b813e3f21.pdf
-$ENDCMP
-#
-$CMP VN7050ASTR
-D STMICROELECTRONICS - VN7050ASTR - Power Load Distribution Switch, High Side, Active High, 13V, 1 Output, 30A, 0.05ohm, SOIC-8
-K
-F https://www.st.com/resource/en/datasheet/vn7050aj.pdf
 $ENDCMP
 #
 $CMP PSSI2021SAY,115
 D NEXPERIA - PSSI2021SAY,115 - IC, CURRENT SOURCE, 50MA, 75V,SOT353
-K
 F https://componentsearchengine.com/Datasheets/2/PSSI2021SAY,115.pdf
+$ENDCMP
+#
+$CMP TPS54360BDDAR
+D 60-V input, 3.5-A, step-down DC/DC converter with Eco-Mode
+F http://www.ti.com/lit/gpn/TPS54360B
+$ENDCMP
+#
+$CMP TPS54560BDDAR
+D 4.5-V to 60-V input, 5-A, step-down DC-DC converter with Eco-mode
+F http://www.ti.com/lit/gpn/TPS54560B
+$ENDCMP
+#
+$CMP UCD1J330MNL1GS
+D Nichicon Aluminium Electrolytic Capacitor 33uF 63V dc 8mm CD Series, Surface Mount Electrolytic, +/-20% 8 (Dia.) x 10mm
+F http://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf
+$ENDCMP
+#
+$CMP VE-330M1HTR-0607
+D Aluminum Electrolytic Capacitors - SMD 50 Volts 33uF 20% 6.3x7.7
+F https://datasheet.lcsc.com/szlcsc/1810171024_Lelon-VE-330M1HTR-0607_C182393.pdf
+$ENDCMP
+#
+$CMP VN7050ASTR
+D STMICROELECTRONICS - VN7050ASTR - Power Load Distribution Switch, High Side, Active High, 13V, 1 Output, 30A, 0.05ohm, SOIC-8
+F https://www.st.com/resource/en/datasheet/vn7050aj.pdf
 $ENDCMP
 #
 #End Doc Library

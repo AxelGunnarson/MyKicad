@@ -33,8 +33,8 @@ int brightness_5600K_daylight = 255;   //Full daylight brightness 0-255
 int my_hour;                  //figure 0-24 hours used to set when light shall go on/off
 
 long pumpState;       
-long onTime = 40000;   // milliseconds of on-time 120000  /pump stays on for 2 minutes
-long offTime = 1000; // milliseconds of off-time 10 800 000 = 3 hours
+long onTime = 240000;   // milliseconds of on-time 120000  /pump stays on for 2 minutes
+long offTime = 240000; // milliseconds of off-time 10 800 000 = 3 hours
 unsigned long previousMillis;  //some global variables available anywhere in the program
 unsigned long previousMillis2;
 unsigned long currentMillis;
@@ -105,13 +105,13 @@ void loop()
  
   if((pumpState == HIGH) && (currentMillis - previousMillis >= onTime))
   {
-    pumpState = HIGH;  // Turn it on
+    pumpState = LOW;  // Turn it off
     previousMillis = currentMillis;  // Remember the time
     digitalWrite(H5V_DC_Pump, pumpState);  // Update the actual Pump
   }
   else if ((pumpState == LOW) && (currentMillis - previousMillis >= offTime))
   {
-    pumpState = LOW;  // turn it on  Changed to low to save power 4/3
+    pumpState = HIGH;  // turn it on  Changed to low to save power 4/3
     previousMillis = currentMillis;   // Remember the time
     digitalWrite(H5V_DC_Pump, pumpState);    // Update the actual Pump
   }
@@ -129,7 +129,7 @@ int brightness(){
   Serial.println(NTCvalue2);
 
   
-  int setTemp = 3000;  //3000 is ~65 deg C and is considered max allowed temperature.
+  int setTemp = 3200;  //3000 is ~65 deg C and is considered max allowed temperature.
   if (NTCvalue2 > setTemp)
     {
       brightness_5600K = 15;
@@ -148,38 +148,38 @@ int brightness(){
     {
       Serial.print("brightness is: ");
       Serial.println(brightness_5600K);  
-      brightness_5600K = 40;
+      brightness_5600K = 105;
       digitalWrite(fan, HIGH);
       return brightness_5600K;
     }
-    else if (flowerHour >= 8 && flowerHour <= 16)
+    else if (flowerHour > 7 && flowerHour <= 16)
     {
       Serial.print("brightness is: ");
       Serial.println(brightness_5600K);  
-      brightness_5600K = 105;
+      brightness_5600K = 170;
       digitalWrite(fan, HIGH);
       return brightness_5600K; 
     }
-    else if (flowerHour >= 17 && flowerHour <= 22)
+    else if (flowerHour >= 19 && flowerHour <= 20)
     {
-      Serial.print("17-20 brightness is: ");  
-      brightness_5600K = 100;
+      Serial.print("19-20 brightness is: ");  
+      brightness_5600K = 30;
       Serial.println(brightness_5600K);
       digitalWrite(fan, HIGH);
       return brightness_5600K;
     }
-    else if (flowerHour >= 23 && flowerHour <= 24)
+    else if (flowerHour >= 21 && flowerHour <= 24)
     {
       digitalWrite(fan, LOW);
       Serial.print("21 - 22 brightness is: ");  
-      brightness_5600K = 1;
+      brightness_5600K = 0;
       Serial.println(brightness_5600K);
       return brightness_5600K;
     }
     else if (flowerHour >= 0 && flowerHour <= 5)
     {
       Serial.print("brightness is: ");  
-      brightness_5600K = 2;
+      brightness_5600K = 0;
       digitalWrite(fan, LOW);
       Serial.println(brightness_5600K);
       return brightness_5600K;
