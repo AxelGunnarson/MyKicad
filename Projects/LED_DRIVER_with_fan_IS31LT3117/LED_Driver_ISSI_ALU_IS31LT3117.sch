@@ -131,6 +131,7 @@ F 0 "TH1" H 1998 5396 50  0000 L CNN
 F 1 "Thermistor_NTC" H 1998 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 5400 50  0001 C CNN
 F 3 "~" H 1900 5400 50  0001 C CNN
+F 4 "" H 1900 5350 50  0001 C CNN "Mouser Part Number"
 	1    1900 5350
 	0    1    1    0   
 $EndComp
@@ -211,6 +212,7 @@ F 0 "C2" H 3715 7246 50  0000 L CNN
 F 1 "0.1/50V" H 3715 7155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3638 7050 50  0001 C CNN
 F 3 "~" H 3600 7200 50  0001 C CNN
+F 4 "" H 3600 7200 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3600 7200
 	1    0    0    -1  
 $EndComp
@@ -241,6 +243,7 @@ F 0 "C4" H 7015 7746 50  0000 L CNN
 F 1 "1u/10V" H 7015 7655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6938 7550 50  0001 C CNN
 F 3 "~" H 6900 7700 50  0001 C CNN
+F 4 "" H 6900 7700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6900 7700
 	1    0    0    -1  
 $EndComp
@@ -1147,6 +1150,7 @@ F 0 "C3" H 6818 5646 50  0000 L CNN
 F 1 "33u/VE-330M1HTR-0607" H 6818 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 6738 5450 50  0001 C CNN
 F 3 "https://www.mouser.com/Search/Refine.aspx?Keyword=140-VE330M1HTR0607" H 6700 5600 50  0001 C CNN
+F 4 "VE-330M1HTR-0607" H 6700 5600 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6700 5600
 	1    0    0    -1  
 $EndComp
@@ -1223,6 +1227,7 @@ F 0 "C1" H 3118 7246 50  0000 L CNN
 F 1 "10u 50V" H 3118 7155 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 3038 7050 50  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/865080642006.pdf" H 3000 7200 50  0001 C CNN
+F 4 "865080642006" H 3000 7200 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3000 7200
 	1    0    0    -1  
 $EndComp

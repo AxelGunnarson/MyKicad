@@ -97,28 +97,6 @@ X 2 2 800 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Control_board-rescue_43045-0401-SamacSys_Parts
-#
-DEF Control_board-rescue_43045-0401-SamacSys_Parts J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "Control_board-rescue_43045-0401-SamacSys_Parts" 650 200 50 H V L CNN
-F2 "430450401" 650 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/43045-0401.pdf" 650 0 50 H I L CNN
-F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
-F5 "8" 650 -200 50 H I L CNN "Height"
-F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0401" 650 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
-F9 "43045-0401" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 B
-X 2 2 800 0 200 L 50 50 0 0 B
-X 3 3 0 -100 200 R 50 50 0 0 B
-X 4 4 800 -100 200 L 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
 # Control_board-rescue_66200621022-SamacSys_Parts
 #
 DEF Control_board-rescue_66200621022-SamacSys_Parts J 0 30 Y Y 1 F N
@@ -252,25 +230,6 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Control_board-rescue_Conn_01x02-Connector_Generic
-#
-DEF Control_board-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Control_board-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Control_board-rescue_Conn_01x04-Connector_Generic
 #
 DEF Control_board-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
@@ -362,29 +321,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Control_board-rescue_LDR03-Sensor_Optical
-#
-DEF Control_board-rescue_LDR03-Sensor_Optical R 0 0 N Y 1 F N
-F0 "R" -200 0 50 V V C CNN
-F1 "Control_board-rescue_LDR03-Sensor_Optical" 75 0 50 V V C TNN
-F2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" 175 0 50 V I C CNN
-F3 "" 0 -50 50 H I C CNN
-$FPLIST
- R*LDR*10x8.5mm*P7.6mm*
-$ENDFPLIST
-DRAW
-S -40 100 40 -100 0 1 10 N
-P 2 0 1 0 -60 -90 -160 10 N
-P 2 0 1 0 -60 -90 -90 -90 N
-P 2 0 1 0 -60 -90 -60 -60 N
-P 2 0 1 0 -60 -30 -160 70 N
-P 2 0 1 0 -60 -30 -90 -30 N
-P 2 0 1 0 -60 -30 -60 0 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -692,6 +628,29 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Q_Photo_NPN
+#
+DEF Device_Q_Photo_NPN Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Device_Q_Photo_NPN" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS Q_Photo_NPN_CE
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 -75 50 -100 50 N
+P 2 0 1 0 -50 100 -75 100 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 -150 125 -75 50 -75 75 N
+P 3 0 1 0 -125 175 -50 100 -50 125 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X C 1 100 200 100 D 50 50 1 1 P
+X E 2 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -742,6 +701,72 @@ X ~ 3 0 -200 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Diode_BAT54W
+#
+DEF Diode_BAT54W D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_BAT54W" 0 -100 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOT?323*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X A 1 150 0 100 L 50 50 1 1 P
+X NC 2 0 0 100 U 50 50 1 1 N N
+X K 3 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_43045-0401_2
+#
+DEF SamacSys_Parts_43045-0401_2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_43045-0401_2" 650 200 50 H V L CNN
+F2 "430450401" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/43045-0401.pdf" 650 0 50 H I L CNN
+F4 "Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "538-43045-0401" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0401" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "43045-0401" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 800 0 200 L 50 50 0 0 U
+X 4 4 800 -100 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_66200621022_0
+#
+DEF SamacSys_Parts_66200621022_0 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_66200621022_0" 650 200 50 H V L CNN
+F2 "66200621022" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/66200621022.pdf" 650 0 50 H I L CNN
+F4 "Wurth Elektronik WR-MPC3 Series, Series Number 6620, 3mm Pitch 6 Way 2 Row Right Angle PCB Header, Solder Termination" 650 -100 50 H I L CNN "Description"
+F5 "10.05" 650 -200 50 H I L CNN "Height"
+F6 "710-66200621022" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-66200621022" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "66200621022" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 800 0 200 L 50 50 0 0 U
+X 5 5 800 -100 200 L 50 50 0 0 U
+X 6 6 800 -200 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
 # SamacSys_Parts_D_Zener_ALT_PELLE
 #
 DEF SamacSys_Parts_D_Zener_ALT_PELLE D 0 40 N N 1 F N
@@ -784,6 +809,26 @@ P 2 0 1 6 200 50 400 50 N
 P 2 0 1 6 300 50 300 100 N
 X ~ 1 0 0 200 R 50 50 0 0 U
 X ~ 2 600 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TB003-500-P02BE
+#
+DEF SamacSys_Parts_TB003-500-P02BE J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_TB003-500-P02BE" 650 200 50 H V L CNN
+F2 "SHDR2W100P0X500_1X2_1000X780X1030P" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TB003-500-P02BE.pdf" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks screw type, 5.00 , horizontal, 2 poles, CUI Blue, Philip\\'s head screw, PCB mount" 650 -100 50 H I L CNN "Description"
+F5 "10.3" 650 -200 50 H I L CNN "Height"
+F6 "490-TB003-500-P02BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=490-TB003-500-P02BE" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TB003-500-P02BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #

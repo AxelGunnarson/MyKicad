@@ -1,0 +1,15 @@
+Reference; Quantity; Value; Footprint; Datasheet; Description; Height; Manufacturer_Name; Manufacturer_Part_Number; Mouser Part Number; Mouser Price/Stock; Allied Price/Stock; Allied_Number; RS Part Number; RS Price/Stock
+C1 ;1;10u 50V;Capacitor_SMD:CP_Elec_5x5.3;https://www.we-online.com/catalog/datasheet/865080642006.pdf;;;;;;;;;;
+C2 ;1;0.1/50V;Capacitor_SMD:C_0805_2012Metric;~;;;;;;;;;;
+C3 ;1;33u/VE-330M1HTR-0607;Capacitor_SMD:CP_Elec_6.3x7.7;https://www.mouser.com/Search/Refine.aspx?Keyword=140-VE330M1HTR0607;;;;;;;;;;
+C4 ;1;1u/10V;Capacitor_SMD:C_1206_3216Metric;~;;;;;;;;;;
+D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D2 D1 D13 D14 D15 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D17 D16 D28 D29 D30 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D32 D31 D43 D44 D45 D48 D49 D50 D51 D52 D53 D54 D55 D56 D57 D47 D46 D58 D59 D60 ;60;LED;Kicad_mylib:JK3030AWT-00-0000-000A0UJ465E;~;;;;;;;;;;
+D61 D62 D63 D64 D65 D68 D67 D66 ;8;CREE_LED;footprints:CREE_XP-C_LED;~;;;;;;;;;;
+H1 H2 H3 H4 ;4;MountingHole;MountingHole:MountingHole_4.3mm_M4;~;;;;;;;;;;
+H5 ;1;throughHole;MountingHole:MountingHole_8.4mm_M8;~;;;;;;;;;;
+IC1 ;1;IS31LT3117-ZLS4-TR;SamacSys_Parts:SOP65P640X120-17N;https://componentsearchengine.com/Datasheets/1/IS31LT3117-ZLS4-TR.pdf;LED Lighting Drivers 60V 350MA, 4-channel;2020-02-01;Integrated Silicon Solution Inc.;IS31LT3117-ZLS4-TR;870-IS31LT3117-ZLS4T;https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31LT3117-ZLS4T;;;;
+J1 ;1;43045-0809;SamacSys_Parts:43045-0809;http://www.molex.com/webdocs/datasheets/pdf/en-us/0430450809_PCB_HEADERS.pdf;Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 8 Way 2 Row Right Angle PCB Header, Solder Termination, 5A;;Molex;43045-0809;538-43045-0809;https://www.mouser.com/Search/Refine.aspx?Keyword=538-43045-0809;http://www.alliedelec.com/molex-incorporated-43045-0809/70091332/;70091332;6701954P;http://uk.rs-online.com/web/p/products/6701954P
+R1 ;1;22K;Resistor_SMD:R_0805_2012Metric;~;;;;;;;;;;
+R2 ;1;6.8K;Resistor_SMD:R_0805_2012Metric;~;;;;;;;;;;
+R3 R4 ;2;220;Resistor_SMD:R_0805_2012Metric;~;;;;;;;;;;
+TH1 ;1;Thermistor_NTC;Resistor_SMD:R_0603_1608Metric;~;;;;;;;;;;

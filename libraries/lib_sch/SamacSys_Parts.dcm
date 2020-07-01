@@ -22,6 +22,7 @@ $ENDCMP
 #
 $CMP 66200621022
 D Wurth Elektronik WR-MPC3 Series, Series Number 6620, 3mm Pitch 6 Way 2 Row Right Angle PCB Header, Solder Termination
+K
 F https://componentsearchengine.com/Datasheets/1/66200621022.pdf
 $ENDCMP
 #
@@ -109,6 +110,42 @@ $ENDCMP
 $CMP VN7050ASTR
 D STMICROELECTRONICS - VN7050ASTR - Power Load Distribution Switch, High Side, Active High, 13V, 1 Output, 30A, 0.05ohm, SOIC-8
 F https://www.st.com/resource/en/datasheet/vn7050aj.pdf
+$ENDCMP
+#
+$CMP TB003-500-P02BE
+D Fixed Terminal Blocks screw type, 5.00 , horizontal, 2 poles, CUI Blue, Philip's head screw, PCB mount
+K
+F https://componentsearchengine.com/Datasheets/1/TB003-500-P02BE.pdf
+$ENDCMP
+#
+$CMP 43045-0401
+D Molex MICRO-FIT 3.0 Series, Series Number 43045, 3mm Pitch 4 Way 2 Row Right Angle PCB Header, Solder Termination, 5A
+K
+F https://componentsearchengine.com/Datasheets/1/43045-0401.pdf
+$ENDCMP
+#
+$CMP BC817-40,215
+D BC817; BC817W; BC337 - 45 V, 500 mA NPN general-purpose transistors
+K
+F https://componentsearchengine.com/Datasheets/1/BC817-40,215.pdf
+$ENDCMP
+#
+$CMP MBR0520LT1G
+D MBR0520LT1G, Schottky Diode,  0.5A max, 20V, 2-Pin, SOD-123
+K
+F https://componentsearchengine.com/Datasheets/1/MBR0520LT1G.pdf
+$ENDCMP
+#
+$CMP BAT54S
+D Schottky Diodes & Rectifiers SOT23 0.2A 30V Schot tky Dblr
+K
+F https://www.rectron.com/data_sheets/bat54s.pdf
+$ENDCMP
+#
+$CMP BAT54SLT1G
+D RLBAT54SLT1G ON Semiconductor BAT54SLT1G Rectifier Diode, 0.2A, 30V, 3-Pin SOT-23
+K
+F http://www.onsemi.com/pub/Collateral/BAT54SLT1-D.PDF
 $ENDCMP
 #
 #End Doc Library
